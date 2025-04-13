@@ -1,0 +1,21 @@
+# Ignore FastF1 cache
+cache/
+*.pkl
+*.json
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+.env/
+.venv/
+
+# Ignore logs or temp files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
