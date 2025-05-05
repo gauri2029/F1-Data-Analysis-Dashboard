@@ -1,0 +1,2140 @@
+﻿season,round,driver_ref,constructor_ref,finishing_position,grid_position,status,points,fastest_lap_time,fastest_lap_number
+2020,1,bottas,mercedes,1,1,Finished,25.0,1:07.657,68.0
+2020,1,leclerc,ferrari,2,7,Finished,18.0,1:07.901,64.0
+2020,1,norris,mclaren,3,3,Finished,16.0,1:07.475,71.0
+2020,1,hamilton,mercedes,4,5,Finished,12.0,1:07.712,67.0
+2020,1,sainz,mclaren,5,8,Finished,10.0,1:07.974,63.0
+2020,1,perez,racing_point,6,6,Finished,8.0,1:08.305,63.0
+2020,1,gasly,alphatauri,7,12,Finished,6.0,1:09.025,64.0
+2020,1,ocon,renault,8,14,Finished,4.0,1:08.932,64.0
+2020,1,giovinazzi,alfa,9,18,Finished,2.0,1:08.796,70.0
+2020,1,vettel,ferrari,10,11,Finished,1.0,1:08.623,71.0
+2020,1,latifi,williams,11,20,Finished,0.0,1:09.662,63.0
+2020,1,kvyat,alphatauri,12,13,Suspension,0.0,1:09.135,50.0
+2020,1,albon,red_bull,13,4,Electronics,0.0,1:08.432,50.0
+2020,1,raikkonen,alfa,14,19,Wheel,0.0,1:09.031,48.0
+2020,1,russell,williams,15,17,Fuel pressure,0.0,1:09.317,49.0
+2020,1,grosjean,haas,16,15,Brakes,0.0,1:10.228,46.0
+2020,1,kevin_magnussen,haas,17,16,Brakes,0.0,1:10.720,23.0
+2020,1,stroll,racing_point,18,9,Engine,0.0,1:10.326,4.0
+2020,1,ricciardo,renault,19,10,Overheating,0.0,1:10.610,8.0
+2020,1,max_verstappen,red_bull,20,2,Electronics,0.0,1:09.351,5.0
+2020,2,hamilton,mercedes,1,1,Finished,25.0,1:06.719,68.0
+2020,2,bottas,mercedes,2,4,Finished,18.0,1:07.534,62.0
+2020,2,max_verstappen,red_bull,3,2,Finished,15.0,1:06.145,70.0
+2020,2,albon,red_bull,4,6,Finished,12.0,1:07.299,67.0
+2020,2,norris,mclaren,5,9,Finished,10.0,1:07.193,66.0
+2020,2,perez,racing_point,6,17,Finished,8.0,1:07.188,68.0
+2020,2,stroll,racing_point,7,12,Finished,6.0,1:07.833,65.0
+2020,2,ricciardo,renault,8,8,Finished,4.0,1:07.832,65.0
+2020,2,sainz,mclaren,9,3,+1 Lap,3.0,1:05.619,68.0
+2020,2,kvyat,alphatauri,10,13,+1 Lap,1.0,1:08.378,60.0
+2020,2,raikkonen,alfa,11,16,+1 Lap,0.0,1:08.382,57.0
+2020,2,kevin_magnussen,haas,12,15,+1 Lap,0.0,1:08.009,69.0
+2020,2,grosjean,haas,13,0,+1 Lap,0.0,1:08.047,69.0
+2020,2,giovinazzi,alfa,14,19,+1 Lap,0.0,1:08.512,54.0
+2020,2,gasly,alphatauri,15,7,+1 Lap,0.0,1:07.827,69.0
+2020,2,russell,williams,16,11,+2 Laps,0.0,1:08.601,36.0
+2020,2,latifi,williams,17,18,+2 Laps,0.0,1:08.806,68.0
+2020,2,ocon,renault,18,5,Overheating,0.0,1:09.321,22.0
+2020,2,leclerc,ferrari,19,14,Collision damage,0.0,1:35.379,3.0
+2020,2,vettel,ferrari,20,10,Collision damage,0.0,,
+2020,3,hamilton,mercedes,1,1,Finished,26.0,1:16.627,70.0
+2020,3,max_verstappen,red_bull,2,7,Finished,18.0,1:19.184,60.0
+2020,3,bottas,mercedes,3,2,Finished,15.0,1:17.665,66.0
+2020,3,stroll,racing_point,4,3,Finished,12.0,1:18.973,68.0
+2020,3,albon,red_bull,5,13,Finished,10.0,1:19.440,68.0
+2020,3,vettel,ferrari,6,5,+1 Lap,8.0,1:20.363,49.0
+2020,3,perez,racing_point,7,4,+1 Lap,6.0,1:20.090,39.0
+2020,3,ricciardo,renault,8,11,+1 Lap,4.0,1:19.532,46.0
+2020,3,sainz,mclaren,9,9,+1 Lap,2.0,1:20.477,68.0
+2020,3,kevin_magnussen,haas,10,0,+1 Lap,1.0,1:19.457,67.0
+2020,3,leclerc,ferrari,11,6,+1 Lap,0.0,1:20.821,64.0
+2020,3,kvyat,alphatauri,12,17,+1 Lap,0.0,1:20.946,51.0
+2020,3,norris,mclaren,13,8,+1 Lap,0.0,1:19.945,42.0
+2020,3,ocon,renault,14,14,+1 Lap,0.0,1:20.261,40.0
+2020,3,raikkonen,alfa,15,20,+1 Lap,0.0,1:20.889,67.0
+2020,3,grosjean,haas,16,0,+1 Lap,0.0,1:20.232,61.0
+2020,3,giovinazzi,alfa,17,19,+1 Lap,0.0,1:20.096,44.0
+2020,3,russell,williams,18,12,+1 Lap,0.0,1:19.984,67.0
+2020,3,latifi,williams,19,15,+5 Laps,0.0,1:21.198,64.0
+2020,3,gasly,alphatauri,20,10,Engine,0.0,1:23.939,10.0
+2020,4,hamilton,mercedes,1,1,Finished,25.0,1:29.238,45.0
+2020,4,max_verstappen,red_bull,2,3,Finished,19.0,1:27.097,52.0
+2020,4,leclerc,ferrari,3,4,Finished,15.0,1:29.813,49.0
+2020,4,ricciardo,renault,4,8,Finished,12.0,1:29.482,49.0
+2020,4,norris,mclaren,5,5,Finished,10.0,1:30.058,41.0
+2020,4,ocon,renault,6,9,Finished,8.0,1:29.491,50.0
+2020,4,gasly,alphatauri,7,11,Finished,6.0,1:29.603,52.0
+2020,4,albon,red_bull,8,12,Finished,4.0,1:28.689,52.0
+2020,4,stroll,racing_point,9,6,Finished,2.0,1:30.475,44.0
+2020,4,vettel,ferrari,10,10,Finished,1.0,1:30.537,44.0
+2020,4,bottas,mercedes,11,2,Finished,0.0,1:29.265,41.0
+2020,4,russell,williams,12,20,Finished,0.0,1:30.862,41.0
+2020,4,sainz,mclaren,13,7,Finished,0.0,1:29.948,47.0
+2020,4,giovinazzi,alfa,14,15,Finished,0.0,1:30.977,49.0
+2020,4,latifi,williams,15,18,Finished,0.0,1:30.501,44.0
+2020,4,grosjean,haas,16,17,Finished,0.0,1:29.782,49.0
+2020,4,raikkonen,alfa,17,16,+1 Lap,0.0,1:29.973,49.0
+2020,4,kvyat,alphatauri,18,19,Accident,0.0,1:32.443,11.0
+2020,4,kevin_magnussen,haas,19,14,Collision,0.0,,
+2020,4,hulkenberg,racing_point,20,13,Power Unit,0.0,,
+2020,5,max_verstappen,red_bull,1,4,Finished,25.0,1:29.465,46.0
+2020,5,hamilton,mercedes,2,2,Finished,19.0,1:28.451,43.0
+2020,5,bottas,mercedes,3,1,Finished,15.0,1:29.765,44.0
+2020,5,leclerc,ferrari,4,8,Finished,12.0,1:30.552,39.0
+2020,5,albon,red_bull,5,9,Finished,10.0,1:29.477,46.0
+2020,5,stroll,racing_point,6,6,Finished,8.0,1:30.877,45.0
+2020,5,hulkenberg,racing_point,7,3,Finished,6.0,1:30.087,52.0
+2020,5,ocon,renault,8,14,Finished,4.0,1:30.575,50.0
+2020,5,norris,mclaren,9,10,Finished,2.0,1:30.698,49.0
+2020,5,kvyat,alphatauri,10,16,Finished,1.0,1:30.738,52.0
+2020,5,gasly,alphatauri,11,7,Finished,0.0,1:30.092,52.0
+2020,5,vettel,ferrari,12,11,Finished,0.0,1:30.785,49.0
+2020,5,sainz,mclaren,13,12,Finished,0.0,1:30.556,49.0
+2020,5,ricciardo,renault,14,5,+1 Lap,0.0,1:31.168,39.0
+2020,5,raikkonen,alfa,15,20,+1 Lap,0.0,1:31.756,30.0
+2020,5,grosjean,haas,16,13,+1 Lap,0.0,1:30.793,51.0
+2020,5,giovinazzi,alfa,17,19,+1 Lap,0.0,1:31.826,37.0
+2020,5,russell,williams,18,15,+1 Lap,0.0,1:31.408,50.0
+2020,5,latifi,williams,19,18,+1 Lap,0.0,1:29.950,48.0
+2020,5,kevin_magnussen,haas,20,17,Retired,0.0,1:31.830,39.0
+2020,6,hamilton,mercedes,1,1,Finished,25.0,1:19.822,63.0
+2020,6,max_verstappen,red_bull,2,3,Finished,18.0,1:21.477,53.0
+2020,6,bottas,mercedes,3,2,Finished,16.0,1:18.183,66.0
+2020,6,stroll,racing_point,4,5,+1 Lap,12.0,1:22.024,56.0
+2020,6,perez,racing_point,5,4,+1 Lap,10.0,1:22.515,58.0
+2020,6,sainz,mclaren,6,7,+1 Lap,8.0,1:21.771,59.0
+2020,6,vettel,ferrari,7,11,+1 Lap,6.0,1:22.707,48.0
+2020,6,albon,red_bull,8,6,+1 Lap,4.0,1:22.194,41.0
+2020,6,gasly,alphatauri,9,10,+1 Lap,2.0,1:22.543,44.0
+2020,6,norris,mclaren,10,8,+1 Lap,1.0,1:22.392,56.0
+2020,6,ricciardo,renault,11,13,+1 Lap,0.0,1:22.464,51.0
+2020,6,kvyat,alphatauri,12,12,+1 Lap,0.0,1:22.336,47.0
+2020,6,ocon,renault,13,15,+1 Lap,0.0,1:22.174,65.0
+2020,6,raikkonen,alfa,14,14,+1 Lap,0.0,1:21.888,47.0
+2020,6,kevin_magnussen,haas,15,16,+1 Lap,0.0,1:23.474,64.0
+2020,6,giovinazzi,alfa,16,20,+1 Lap,0.0,1:21.801,47.0
+2020,6,russell,williams,17,18,+1 Lap,0.0,1:22.503,37.0
+2020,6,latifi,williams,18,19,+2 Laps,0.0,1:22.030,60.0
+2020,6,grosjean,haas,19,17,+2 Laps,0.0,1:20.409,64.0
+2020,6,leclerc,ferrari,20,9,Electronics,0.0,1:23.968,35.0
+2020,7,hamilton,mercedes,1,1,Finished,25.0,1:47.758,28.0
+2020,7,bottas,mercedes,2,2,Finished,18.0,1:47.983,27.0
+2020,7,max_verstappen,red_bull,3,3,Finished,15.0,1:48.305,27.0
+2020,7,ricciardo,renault,4,4,Finished,13.0,1:47.483,44.0
+2020,7,ocon,renault,5,6,Finished,10.0,1:48.540,44.0
+2020,7,albon,red_bull,6,5,Finished,8.0,1:48.736,27.0
+2020,7,norris,mclaren,7,10,Finished,6.0,1:48.552,39.0
+2020,7,gasly,alphatauri,8,12,Finished,4.0,1:47.839,29.0
+2020,7,stroll,racing_point,9,9,Finished,2.0,1:49.136,34.0
+2020,7,perez,racing_point,10,8,Finished,1.0,1:48.389,20.0
+2020,7,kvyat,alphatauri,11,11,Finished,0.0,1:49.832,28.0
+2020,7,raikkonen,alfa,12,16,Finished,0.0,1:49.822,28.0
+2020,7,vettel,ferrari,13,14,Finished,0.0,1:49.958,31.0
+2020,7,leclerc,ferrari,14,13,Finished,0.0,1:47.840,26.0
+2020,7,grosjean,haas,15,17,Finished,0.0,1:50.018,28.0
+2020,7,latifi,williams,16,19,Finished,0.0,1:48.048,32.0
+2020,7,kevin_magnussen,haas,17,20,Finished,0.0,1:48.083,37.0
+2020,7,giovinazzi,alfa,18,18,Accident,0.0,1:51.793,9.0
+2020,7,russell,williams,19,15,Debris,0.0,1:51.754,5.0
+2020,7,sainz,mclaren,20,7,Exhaust,0.0,,
+2020,8,gasly,alphatauri,1,10,Finished,25.0,1:24.037,34.0
+2020,8,sainz,mclaren,2,3,Finished,18.0,1:23.882,40.0
+2020,8,stroll,racing_point,3,8,Finished,15.0,1:23.897,42.0
+2020,8,norris,mclaren,4,6,Finished,12.0,1:24.232,50.0
+2020,8,bottas,mercedes,5,2,Finished,10.0,1:23.961,51.0
+2020,8,ricciardo,renault,6,7,Finished,8.0,1:23.898,38.0
+2020,8,hamilton,mercedes,7,1,Finished,7.0,1:22.746,34.0
+2020,8,ocon,renault,8,12,Finished,4.0,1:24.490,52.0
+2020,8,kvyat,alphatauri,9,11,Finished,2.0,1:24.479,44.0
+2020,8,perez,racing_point,10,4,Finished,1.0,1:24.336,50.0
+2020,8,latifi,williams,11,20,Finished,0.0,1:24.999,39.0
+2020,8,grosjean,haas,12,16,Finished,0.0,1:24.785,48.0
+2020,8,raikkonen,alfa,13,14,Finished,0.0,1:24.835,29.0
+2020,8,russell,williams,14,19,Finished,0.0,1:24.421,39.0
+2020,8,albon,red_bull,15,9,Finished,0.0,1:24.926,48.0
+2020,8,giovinazzi,alfa,16,18,Finished,0.0,1:24.856,43.0
+2020,8,max_verstappen,red_bull,17,5,Power Unit,0.0,1:25.539,10.0
+2020,8,leclerc,ferrari,18,13,Accident,0.0,1:26.026,19.0
+2020,8,kevin_magnussen,haas,19,15,Power Unit,0.0,1:25.787,10.0
+2020,8,vettel,ferrari,20,17,Brakes,0.0,1:27.107,4.0
+2020,9,hamilton,mercedes,1,1,Finished,26.0,1:18.833,58.0
+2020,9,bottas,mercedes,2,2,Finished,18.0,1:19.432,53.0
+2020,9,albon,red_bull,3,4,Finished,15.0,1:20.039,51.0
+2020,9,ricciardo,renault,4,8,Finished,12.0,1:20.426,57.0
+2020,9,perez,racing_point,5,7,Finished,10.0,1:20.632,59.0
+2020,9,norris,mclaren,6,11,Finished,8.0,1:21.198,59.0
+2020,9,kvyat,alphatauri,7,12,Finished,6.0,1:21.458,51.0
+2020,9,leclerc,ferrari,8,5,Finished,4.0,1:21.229,50.0
+2020,9,raikkonen,alfa,9,13,Finished,2.0,1:21.164,59.0
+2020,9,vettel,ferrari,10,14,Finished,1.0,1:21.202,59.0
+2020,9,russell,williams,11,18,Finished,0.0,1:21.645,58.0
+2020,9,grosjean,haas,12,15,Finished,0.0,1:22.263,59.0
+2020,9,stroll,racing_point,13,6,Puncture,0.0,1:22.068,42.0
+2020,9,ocon,renault,14,10,Brakes,0.0,2:11.793,6.0
+2020,9,latifi,williams,15,19,Collision,0.0,2:11.365,6.0
+2020,9,kevin_magnussen,haas,16,20,Collision,0.0,2:13.812,4.0
+2020,9,giovinazzi,alfa,17,17,Collision,0.0,2:13.809,4.0
+2020,9,sainz,mclaren,18,9,Collision,0.0,2:14.103,5.0
+2020,9,max_verstappen,red_bull,19,3,Collision,0.0,,
+2020,9,gasly,alphatauri,20,16,Collision,0.0,,
+2020,10,bottas,mercedes,1,3,Finished,26.0,1:37.030,51.0
+2020,10,max_verstappen,red_bull,2,2,Finished,18.0,1:37.332,53.0
+2020,10,hamilton,mercedes,3,1,Finished,15.0,1:38.075,48.0
+2020,10,perez,racing_point,4,4,Finished,12.0,1:38.141,52.0
+2020,10,ricciardo,renault,5,5,Finished,10.0,1:37.886,53.0
+2020,10,leclerc,ferrari,6,10,Finished,8.0,1:39.053,47.0
+2020,10,ocon,renault,7,7,Finished,6.0,1:39.216,48.0
+2020,10,kvyat,alphatauri,8,11,Finished,4.0,1:39.133,48.0
+2020,10,gasly,alphatauri,9,9,Finished,2.0,1:37.231,50.0
+2020,10,albon,red_bull,10,15,Finished,1.0,1:38.377,51.0
+2020,10,giovinazzi,alfa,11,17,+1 Lap,0.0,1:39.766,44.0
+2020,10,kevin_magnussen,haas,12,18,+1 Lap,0.0,1:40.380,52.0
+2020,10,vettel,ferrari,13,14,+1 Lap,0.0,1:39.588,46.0
+2020,10,raikkonen,alfa,14,19,+1 Lap,0.0,1:38.858,37.0
+2020,10,norris,mclaren,15,8,+1 Lap,0.0,1:37.377,50.0
+2020,10,latifi,williams,16,20,+1 Lap,0.0,1:41.044,47.0
+2020,10,grosjean,haas,17,16,+1 Lap,0.0,1:39.614,44.0
+2020,10,russell,williams,18,13,+1 Lap,0.0,1:37.352,52.0
+2020,10,sainz,mclaren,19,6,Accident,0.0,,
+2020,10,stroll,racing_point,20,12,Collision,0.0,,
+2020,11,hamilton,mercedes,1,2,Finished,25.0,1:28.145,58.0
+2020,11,max_verstappen,red_bull,2,3,Finished,19.0,1:28.139,60.0
+2020,11,ricciardo,renault,3,6,Finished,15.0,1:29.584,53.0
+2020,11,perez,racing_point,4,9,Finished,12.0,1:29.700,58.0
+2020,11,sainz,mclaren,5,10,Finished,10.0,1:30.129,53.0
+2020,11,gasly,alphatauri,6,12,Finished,8.0,1:30.110,53.0
+2020,11,leclerc,ferrari,7,4,Finished,6.0,1:30.712,54.0
+2020,11,hulkenberg,racing_point,8,20,Finished,4.0,1:30.733,58.0
+2020,11,grosjean,haas,9,16,Finished,2.0,1:31.562,54.0
+2020,11,giovinazzi,alfa,10,14,Finished,1.0,1:30.909,38.0
+2020,11,vettel,ferrari,11,11,Finished,0.0,1:30.408,43.0
+2020,11,raikkonen,alfa,12,19,Finished,0.0,1:30.512,54.0
+2020,11,kevin_magnussen,haas,13,15,Finished,0.0,1:30.456,37.0
+2020,11,latifi,williams,14,18,Finished,0.0,1:31.377,39.0
+2020,11,kvyat,alphatauri,15,13,Finished,0.0,1:32.214,41.0
+2020,11,norris,mclaren,16,8,Power Unit,0.0,1:32.328,40.0
+2020,11,albon,red_bull,17,5,Radiator,0.0,1:32.330,9.0
+2020,11,ocon,renault,18,7,Gearbox,0.0,1:33.189,21.0
+2020,11,bottas,mercedes,19,1,Power Unit,0.0,1:31.884,8.0
+2020,11,russell,williams,20,17,Collision,0.0,1:34.526,6.0
+2020,12,hamilton,mercedes,1,1,Finished,26.0,1:18.750,63.0
+2020,12,bottas,mercedes,2,2,Finished,18.0,1:19.345,66.0
+2020,12,max_verstappen,red_bull,3,3,Finished,15.0,1:19.854,62.0
+2020,12,leclerc,ferrari,4,4,Finished,12.0,1:20.408,66.0
+2020,12,gasly,alphatauri,5,9,+1 Lap,10.0,1:20.551,65.0
+2020,12,sainz,mclaren,6,7,+1 Lap,8.0,1:20.268,65.0
+2020,12,perez,racing_point,7,5,+1 Lap,6.0,1:20.802,49.0
+2020,12,ocon,renault,8,11,+1 Lap,4.0,1:20.859,61.0
+2020,12,ricciardo,renault,9,10,+1 Lap,2.0,1:20.906,61.0
+2020,12,vettel,ferrari,10,15,+1 Lap,1.0,1:20.731,62.0
+2020,12,raikkonen,alfa,11,16,+1 Lap,0.0,1:21.058,60.0
+2020,12,albon,red_bull,12,6,+1 Lap,0.0,1:19.890,61.0
+2020,12,norris,mclaren,13,8,+1 Lap,0.0,1:19.360,65.0
+2020,12,russell,williams,14,14,+1 Lap,0.0,1:20.882,62.0
+2020,12,giovinazzi,alfa,15,17,+1 Lap,0.0,1:21.893,46.0
+2020,12,kevin_magnussen,haas,16,19,+1 Lap,0.0,1:21.460,63.0
+2020,12,grosjean,haas,17,18,+1 Lap,0.0,1:21.664,59.0
+2020,12,latifi,williams,18,20,+2 Laps,0.0,1:21.859,53.0
+2020,12,kvyat,alphatauri,19,13,+2 Laps,0.0,1:20.449,59.0
+2020,12,stroll,racing_point,20,12,Collision damage,0.0,1:21.694,45.0
+2020,13,hamilton,mercedes,1,2,Finished,26.0,1:15.484,63.0
+2020,13,bottas,mercedes,2,1,Finished,18.0,1:15.902,63.0
+2020,13,ricciardo,renault,3,5,Finished,15.0,1:17.552,62.0
+2020,13,kvyat,alphatauri,4,8,Finished,12.0,1:17.666,62.0
+2020,13,leclerc,ferrari,5,7,Finished,10.0,1:18.173,62.0
+2020,13,perez,racing_point,6,11,Finished,8.0,1:18.084,49.0
+2020,13,sainz,mclaren,7,10,Finished,6.0,1:18.118,62.0
+2020,13,norris,mclaren,8,9,Finished,4.0,1:18.069,63.0
+2020,13,raikkonen,alfa,9,18,Finished,2.0,1:18.088,63.0
+2020,13,giovinazzi,alfa,10,20,Finished,1.0,1:18.794,61.0
+2020,13,latifi,williams,11,19,Finished,0.0,1:18.719,37.0
+2020,13,vettel,ferrari,12,14,Finished,0.0,1:17.767,44.0
+2020,13,stroll,racing_point,13,15,Finished,0.0,1:18.360,46.0
+2020,13,grosjean,haas,14,16,Finished,0.0,1:18.822,45.0
+2020,13,albon,red_bull,15,6,Finished,0.0,1:16.177,63.0
+2020,13,russell,williams,16,13,Accident,0.0,1:18.811,43.0
+2020,13,max_verstappen,red_bull,17,3,Puncture,0.0,1:17.637,44.0
+2020,13,kevin_magnussen,haas,18,17,Illness,0.0,1:19.273,45.0
+2020,13,ocon,renault,19,12,Gearbox,0.0,1:19.606,22.0
+2020,13,gasly,alphatauri,20,4,Water pressure,0.0,1:20.403,5.0
+2020,14,hamilton,mercedes,1,6,Finished,25.0,1:39.413,56.0
+2020,14,perez,racing_point,2,3,Finished,18.0,1:40.392,50.0
+2020,14,vettel,ferrari,3,11,Finished,15.0,1:39.662,53.0
+2020,14,leclerc,ferrari,4,12,Finished,12.0,1:39.961,47.0
+2020,14,sainz,mclaren,5,15,Finished,10.0,1:38.754,56.0
+2020,14,max_verstappen,red_bull,6,2,Finished,8.0,1:38.431,53.0
+2020,14,albon,red_bull,7,4,Finished,6.0,1:39.099,54.0
+2020,14,norris,mclaren,8,14,Finished,5.0,1:36.806,58.0
+2020,14,stroll,racing_point,9,1,Finished,2.0,1:39.921,55.0
+2020,14,ricciardo,renault,10,5,Finished,1.0,1:40.677,54.0
+2020,14,ocon,renault,11,7,+1 Lap,0.0,1:41.006,55.0
+2020,14,kvyat,alphatauri,12,16,+1 Lap,0.0,1:41.019,53.0
+2020,14,gasly,alphatauri,13,19,+1 Lap,0.0,1:39.586,53.0
+2020,14,bottas,mercedes,14,9,+1 Lap,0.0,1:38.193,57.0
+2020,14,raikkonen,alfa,15,8,+1 Lap,0.0,1:39.743,57.0
+2020,14,russell,williams,16,0,+1 Lap,0.0,1:40.814,51.0
+2020,14,kevin_magnussen,haas,17,13,Withdrew,0.0,1:40.948,45.0
+2020,14,grosjean,haas,18,17,Collision damage,0.0,1:43.281,38.0
+2020,14,latifi,williams,19,0,Collision damage,0.0,1:43.495,32.0
+2020,14,giovinazzi,alfa,20,10,Gearbox,0.0,1:51.122,11.0
+2020,15,hamilton,mercedes,1,1,Finished,25.0,1:32.864,38.0
+2020,15,max_verstappen,red_bull,2,3,Finished,19.0,1:32.014,48.0
+2020,15,albon,red_bull,3,4,Finished,15.0,1:33.684,41.0
+2020,15,norris,mclaren,4,9,Finished,12.0,1:33.588,53.0
+2020,15,sainz,mclaren,5,15,Finished,10.0,1:33.411,46.0
+2020,15,gasly,alphatauri,6,8,Finished,8.0,1:34.817,48.0
+2020,15,ricciardo,renault,7,6,Finished,6.0,1:32.827,38.0
+2020,15,bottas,mercedes,8,2,Finished,4.0,1:33.352,28.0
+2020,15,ocon,renault,9,7,Finished,2.0,1:34.354,37.0
+2020,15,leclerc,ferrari,10,12,+1 Lap,1.0,1:33.625,44.0
+2020,15,kvyat,alphatauri,11,10,+1 Lap,0.0,1:34.141,35.0
+2020,15,russell,williams,12,14,+1 Lap,0.0,1:35.042,47.0
+2020,15,vettel,ferrari,13,11,+1 Lap,0.0,1:33.861,41.0
+2020,15,latifi,williams,14,20,+1 Lap,0.0,1:34.591,39.0
+2020,15,raikkonen,alfa,15,17,+1 Lap,0.0,1:33.573,43.0
+2020,15,giovinazzi,alfa,16,16,+1 Lap,0.0,1:34.536,22.0
+2020,15,kevin_magnussen,haas,17,18,+1 Lap,0.0,1:35.241,29.0
+2020,15,perez,racing_point,18,5,Engine,0.0,1:33.629,40.0
+2020,15,stroll,racing_point,19,13,Collision,0.0,,
+2020,15,grosjean,haas,20,19,Collision,0.0,,
+2020,16,perez,racing_point,1,5,Finished,25.0,56.789,69.0
+2020,16,ocon,renault,2,11,Finished,18.0,57.350,75.0
+2020,16,stroll,racing_point,3,10,Finished,15.0,57.388,85.0
+2020,16,sainz,mclaren,4,8,Finished,12.0,57.165,80.0
+2020,16,ricciardo,renault,5,7,Finished,10.0,56.979,57.0
+2020,16,albon,red_bull,6,12,Finished,8.0,57.056,52.0
+2020,16,kvyat,alphatauri,7,6,Finished,6.0,57.001,80.0
+2020,16,bottas,mercedes,8,1,Finished,4.0,56.563,60.0
+2020,16,russell,mercedes,9,2,Finished,3.0,55.404,80.0
+2020,16,norris,mclaren,10,19,Finished,1.0,57.270,85.0
+2020,16,gasly,alphatauri,11,9,Finished,0.0,57.220,53.0
+2020,16,vettel,ferrari,12,13,Finished,0.0,56.905,56.0
+2020,16,giovinazzi,alfa,13,14,Finished,0.0,56.887,56.0
+2020,16,raikkonen,alfa,14,18,Finished,0.0,57.375,56.0
+2020,16,kevin_magnussen,haas,15,15,Finished,0.0,57.516,57.0
+2020,16,aitken,williams,16,17,Finished,0.0,57.392,56.0
+2020,16,pietro_fittipaldi,haas,17,20,Finished,0.0,57.742,56.0
+2020,16,latifi,williams,18,16,Engine,0.0,58.206,29.0
+2020,16,max_verstappen,red_bull,19,3,Accident,0.0,,
+2020,16,leclerc,ferrari,20,4,Collision,0.0,,
+2020,17,max_verstappen,red_bull,1,1,Finished,25.0,1:40.958,14.0
+2020,17,bottas,mercedes,2,2,Finished,18.0,1:41.131,40.0
+2020,17,hamilton,mercedes,3,3,Finished,15.0,1:41.420,37.0
+2020,17,albon,red_bull,4,5,Finished,12.0,1:41.227,42.0
+2020,17,norris,mclaren,5,4,Finished,10.0,1:41.964,53.0
+2020,17,sainz,mclaren,6,6,Finished,8.0,1:41.947,48.0
+2020,17,ricciardo,renault,7,11,Finished,7.0,1:40.926,55.0
+2020,17,gasly,alphatauri,8,9,Finished,4.0,1:42.474,53.0
+2020,17,ocon,renault,9,10,Finished,2.0,1:42.894,47.0
+2020,17,stroll,racing_point,10,8,Finished,1.0,1:41.866,41.0
+2020,17,kvyat,alphatauri,11,7,+1 Lap,0.0,1:42.704,47.0
+2020,17,raikkonen,alfa,12,15,+1 Lap,0.0,1:42.148,53.0
+2020,17,leclerc,ferrari,13,12,+1 Lap,0.0,1:41.908,24.0
+2020,17,vettel,ferrari,14,13,+1 Lap,0.0,1:41.475,37.0
+2020,17,russell,williams,15,16,+1 Lap,0.0,1:43.328,54.0
+2020,17,giovinazzi,alfa,16,14,+1 Lap,0.0,1:41.675,29.0
+2020,17,latifi,williams,17,18,+1 Lap,0.0,1:42.497,49.0
+2020,17,kevin_magnussen,haas,18,20,+1 Lap,0.0,1:41.999,50.0
+2020,17,pietro_fittipaldi,haas,19,17,+2 Laps,0.0,1:41.707,50.0
+2020,17,perez,racing_point,20,19,Transmission,0.0,1:43.263,6.0
+2021,1,hamilton,mercedes,1,2,Finished,25.0,1:34.015,44.0
+2021,1,max_verstappen,red_bull,2,1,Finished,18.0,1:33.228,41.0
+2021,1,bottas,mercedes,3,3,Finished,16.0,1:32.090,56.0
+2021,1,norris,mclaren,4,7,Finished,12.0,1:34.396,38.0
+2021,1,perez,red_bull,5,0,Finished,10.0,1:33.970,44.0
+2021,1,leclerc,ferrari,6,4,Finished,8.0,1:34.988,39.0
+2021,1,ricciardo,mclaren,7,6,Finished,6.0,1:34.932,36.0
+2021,1,sainz,ferrari,8,8,Finished,4.0,1:34.509,48.0
+2021,1,tsunoda,alphatauri,9,13,Finished,2.0,1:34.761,38.0
+2021,1,stroll,aston_martin,10,10,Finished,1.0,1:34.865,31.0
+2021,1,raikkonen,alfa,11,14,Finished,0.0,1:35.192,45.0
+2021,1,giovinazzi,alfa,12,12,+1 Lap,0.0,1:35.122,32.0
+2021,1,ocon,alpine,13,16,+1 Lap,0.0,1:35.250,33.0
+2021,1,russell,williams,14,15,+1 Lap,0.0,1:35.036,40.0
+2021,1,vettel,aston_martin,15,20,+1 Lap,0.0,1:35.566,26.0
+2021,1,mick_schumacher,haas,16,18,+1 Lap,0.0,1:36.134,38.0
+2021,1,gasly,alphatauri,17,5,Retired,0.0,1:34.090,48.0
+2021,1,latifi,williams,18,17,Retired,0.0,1:36.602,16.0
+2021,1,alonso,alpine,19,9,Brakes,0.0,1:36.063,31.0
+2021,1,mazepin,haas,20,19,Accident,0.0,,
+2021,2,max_verstappen,red_bull,1,3,Finished,25.0,1:17.524,60.0
+2021,2,hamilton,mercedes,2,1,Finished,19.0,1:16.702,60.0
+2021,2,norris,mclaren,3,7,Finished,15.0,1:18.259,63.0
+2021,2,leclerc,ferrari,4,4,Finished,12.0,1:18.379,60.0
+2021,2,sainz,ferrari,5,11,Finished,10.0,1:18.490,60.0
+2021,2,ricciardo,mclaren,6,6,Finished,8.0,1:19.341,54.0
+2021,2,gasly,alphatauri,7,5,Finished,6.0,1:18.994,52.0
+2021,2,stroll,aston_martin,8,10,Finished,4.0,1:18.782,59.0
+2021,2,ocon,alpine,9,9,Finished,2.0,1:19.422,62.0
+2021,2,alonso,alpine,10,15,Finished,1.0,1:19.417,62.0
+2021,2,perez,red_bull,11,2,Finished,0.0,1:19.396,62.0
+2021,2,tsunoda,alphatauri,12,20,Finished,0.0,1:18.334,49.0
+2021,2,raikkonen,alfa,13,16,Finished,0.0,1:18.353,62.0
+2021,2,giovinazzi,alfa,14,17,+1 Lap,0.0,1:19.470,57.0
+2021,2,vettel,aston_martin,15,0,Gearbox,0.0,1:19.074,59.0
+2021,2,mick_schumacher,haas,16,18,+2 Laps,0.0,1:19.193,58.0
+2021,2,mazepin,haas,17,19,+2 Laps,0.0,1:20.402,55.0
+2021,2,bottas,mercedes,18,8,Collision,0.0,1:28.485,30.0
+2021,2,russell,williams,19,12,Collision,0.0,1:26.543,28.0
+2021,2,latifi,williams,20,14,Collision,0.0,,
+2021,3,hamilton,mercedes,1,2,Finished,25.0,1:20.933,47.0
+2021,3,max_verstappen,red_bull,2,3,Finished,18.0,1:20.695,62.0
+2021,3,bottas,mercedes,3,1,Finished,16.0,1:19.865,65.0
+2021,3,perez,red_bull,4,4,Finished,12.0,1:20.643,55.0
+2021,3,norris,mclaren,5,7,Finished,10.0,1:21.696,55.0
+2021,3,leclerc,ferrari,6,8,Finished,8.0,1:21.496,63.0
+2021,3,ocon,alpine,7,6,Finished,6.0,1:21.886,34.0
+2021,3,alonso,alpine,8,13,Finished,4.0,1:21.032,66.0
+2021,3,ricciardo,mclaren,9,16,Finished,2.0,1:21.987,64.0
+2021,3,gasly,alphatauri,10,9,Finished,1.0,1:22.014,65.0
+2021,3,sainz,ferrari,11,5,Finished,0.0,1:22.325,60.0
+2021,3,giovinazzi,alfa,12,12,+1 Lap,0.0,1:22.167,60.0
+2021,3,vettel,aston_martin,13,10,+1 Lap,0.0,1:22.416,60.0
+2021,3,stroll,aston_martin,14,17,+1 Lap,0.0,1:21.970,59.0
+2021,3,tsunoda,alphatauri,15,14,+1 Lap,0.0,1:22.058,61.0
+2021,3,russell,williams,16,11,+1 Lap,0.0,1:22.654,60.0
+2021,3,mick_schumacher,haas,17,19,+2 Laps,0.0,1:22.755,61.0
+2021,3,latifi,williams,18,18,+2 Laps,0.0,1:23.155,60.0
+2021,3,mazepin,haas,19,20,+2 Laps,0.0,1:23.641,64.0
+2021,3,raikkonen,alfa,20,15,Collision damage,0.0,,
+2021,4,hamilton,mercedes,1,1,Finished,25.0,1:20.665,54.0
+2021,4,max_verstappen,red_bull,2,2,Finished,19.0,1:18.149,62.0
+2021,4,bottas,mercedes,3,3,Finished,15.0,1:19.430,65.0
+2021,4,leclerc,ferrari,4,4,Finished,12.0,1:20.459,64.0
+2021,4,perez,red_bull,5,8,Finished,10.0,1:19.483,60.0
+2021,4,ricciardo,mclaren,6,7,Finished,8.0,1:21.853,60.0
+2021,4,sainz,ferrari,7,6,Finished,6.0,1:21.568,53.0
+2021,4,norris,mclaren,8,9,+1 Lap,4.0,1:21.279,56.0
+2021,4,ocon,alpine,9,5,+1 Lap,2.0,1:23.311,46.0
+2021,4,gasly,alphatauri,10,12,+1 Lap,1.0,1:21.375,64.0
+2021,4,stroll,aston_martin,11,11,+1 Lap,0.0,1:22.607,47.0
+2021,4,raikkonen,alfa,12,17,+1 Lap,0.0,1:22.868,54.0
+2021,4,vettel,aston_martin,13,13,+1 Lap,0.0,1:22.820,56.0
+2021,4,russell,williams,14,15,+1 Lap,0.0,1:23.208,30.0
+2021,4,giovinazzi,alfa,15,14,+1 Lap,0.0,1:22.802,42.0
+2021,4,latifi,williams,16,19,+1 Lap,0.0,1:22.905,57.0
+2021,4,alonso,alpine,17,10,+1 Lap,0.0,1:21.182,63.0
+2021,4,mick_schumacher,haas,18,18,+2 Laps,0.0,1:22.637,54.0
+2021,4,mazepin,haas,19,20,+2 Laps,0.0,1:24.040,45.0
+2021,4,tsunoda,alphatauri,20,16,Electrical,0.0,1:24.825,5.0
+2021,5,max_verstappen,red_bull,1,2,Finished,25.0,1:14.649,58.0
+2021,5,sainz,ferrari,2,4,Finished,18.0,1:14.621,35.0
+2021,5,norris,mclaren,3,5,Finished,15.0,1:14.670,76.0
+2021,5,perez,red_bull,4,9,Finished,12.0,1:14.552,32.0
+2021,5,vettel,aston_martin,5,8,Finished,10.0,1:15.316,33.0
+2021,5,gasly,alphatauri,6,6,Finished,8.0,1:15.412,71.0
+2021,5,hamilton,mercedes,7,7,Finished,7.0,1:12.909,69.0
+2021,5,stroll,aston_martin,8,13,+1 Lap,4.0,1:14.674,74.0
+2021,5,ocon,alpine,9,11,+1 Lap,2.0,1:15.316,41.0
+2021,5,giovinazzi,alfa,10,10,+1 Lap,1.0,1:15.331,41.0
+2021,5,raikkonen,alfa,11,14,+1 Lap,0.0,1:14.971,55.0
+2021,5,ricciardo,mclaren,12,12,+1 Lap,0.0,1:14.578,43.0
+2021,5,alonso,alpine,13,17,+1 Lap,0.0,1:15.026,70.0
+2021,5,russell,williams,14,15,+1 Lap,0.0,1:15.539,59.0
+2021,5,latifi,williams,15,18,+1 Lap,0.0,1:15.573,66.0
+2021,5,tsunoda,alphatauri,16,16,+1 Lap,0.0,1:14.037,66.0
+2021,5,mazepin,haas,17,19,+3 Laps,0.0,1:16.866,64.0
+2021,5,mick_schumacher,haas,18,20,+3 Laps,0.0,1:16.425,51.0
+2021,5,bottas,mercedes,19,3,Wheel nut,0.0,1:15.706,18.0
+2021,5,leclerc,ferrari,20,1,Driveshaft,0.0,,
+2021,6,perez,red_bull,1,6,Finished,25.0,1:44.687,45.0
+2021,6,vettel,aston_martin,2,11,Finished,18.0,1:44.890,41.0
+2021,6,gasly,alphatauri,3,4,Finished,15.0,1:45.220,44.0
+2021,6,leclerc,ferrari,4,1,Finished,12.0,1:45.382,46.0
+2021,6,norris,mclaren,5,9,Finished,10.0,1:45.326,41.0
+2021,6,alonso,alpine,6,8,Finished,8.0,1:45.624,42.0
+2021,6,tsunoda,alphatauri,7,7,Finished,6.0,1:44.939,46.0
+2021,6,sainz,ferrari,8,5,Finished,4.0,1:45.700,42.0
+2021,6,ricciardo,mclaren,9,13,Finished,2.0,1:45.713,43.0
+2021,6,raikkonen,alfa,10,14,Finished,1.0,1:45.601,43.0
+2021,6,giovinazzi,alfa,11,20,Finished,0.0,1:45.575,44.0
+2021,6,bottas,mercedes,12,10,Finished,0.0,1:45.665,43.0
+2021,6,mick_schumacher,haas,13,17,Finished,0.0,1:47.624,41.0
+2021,6,mazepin,haas,14,18,Finished,0.0,1:47.747,40.0
+2021,6,hamilton,mercedes,15,2,Finished,0.0,1:44.769,43.0
+2021,6,latifi,williams,16,16,Finished,0.0,1:46.608,42.0
+2021,6,russell,williams,17,15,Gearbox,0.0,1:45.959,43.0
+2021,6,max_verstappen,red_bull,18,3,Accident,0.0,1:44.481,44.0
+2021,6,stroll,aston_martin,19,19,Accident,0.0,1:46.207,28.0
+2021,6,ocon,alpine,20,12,Turbo,0.0,1:50.850,2.0
+2021,7,max_verstappen,red_bull,1,1,Finished,26.0,1:36.404,35.0
+2021,7,hamilton,mercedes,2,2,Finished,18.0,1:37.410,44.0
+2021,7,perez,red_bull,3,4,Finished,15.0,1:36.693,53.0
+2021,7,bottas,mercedes,4,3,Finished,12.0,1:36.960,19.0
+2021,7,norris,mclaren,5,8,Finished,10.0,1:37.425,52.0
+2021,7,ricciardo,mclaren,6,10,Finished,8.0,1:38.324,45.0
+2021,7,gasly,alphatauri,7,6,Finished,6.0,1:38.103,44.0
+2021,7,alonso,alpine,8,9,Finished,4.0,1:37.646,44.0
+2021,7,vettel,aston_martin,9,12,Finished,2.0,1:37.138,52.0
+2021,7,stroll,aston_martin,10,19,Finished,1.0,1:37.828,44.0
+2021,7,sainz,ferrari,11,5,Finished,0.0,1:38.931,19.0
+2021,7,russell,williams,12,14,+1 Lap,0.0,1:38.314,52.0
+2021,7,tsunoda,alphatauri,13,0,+1 Lap,0.0,1:38.980,18.0
+2021,7,ocon,alpine,14,11,+1 Lap,0.0,1:38.645,33.0
+2021,7,giovinazzi,alfa,15,13,+1 Lap,0.0,1:38.702,36.0
+2021,7,leclerc,ferrari,16,7,+1 Lap,0.0,1:37.681,43.0
+2021,7,raikkonen,alfa,17,17,+1 Lap,0.0,1:37.992,46.0
+2021,7,latifi,williams,18,16,+1 Lap,0.0,1:38.313,50.0
+2021,7,mick_schumacher,haas,19,15,+1 Lap,0.0,1:38.847,51.0
+2021,7,mazepin,haas,20,18,+1 Lap,0.0,1:39.317,34.0
+2021,8,max_verstappen,red_bull,1,1,Finished,25.0,1:08.017,68.0
+2021,8,hamilton,mercedes,2,2,Finished,19.0,1:07.058,71.0
+2021,8,bottas,mercedes,3,5,Finished,15.0,1:08.619,43.0
+2021,8,perez,red_bull,4,4,Finished,12.0,1:07.894,57.0
+2021,8,norris,mclaren,5,3,+1 Lap,10.0,1:08.903,65.0
+2021,8,sainz,ferrari,6,12,+1 Lap,8.0,1:08.609,64.0
+2021,8,leclerc,ferrari,7,7,+1 Lap,6.0,1:08.738,64.0
+2021,8,stroll,aston_martin,8,9,+1 Lap,4.0,1:09.787,32.0
+2021,8,alonso,alpine,9,8,+1 Lap,2.0,1:09.749,61.0
+2021,8,tsunoda,alphatauri,10,11,+1 Lap,1.0,1:09.650,41.0
+2021,8,raikkonen,alfa,11,18,+1 Lap,0.0,1:09.128,57.0
+2021,8,vettel,aston_martin,12,14,+1 Lap,0.0,1:09.821,64.0
+2021,8,ricciardo,mclaren,13,13,+1 Lap,0.0,1:09.305,45.0
+2021,8,ocon,alpine,14,17,+1 Lap,0.0,1:09.576,70.0
+2021,8,giovinazzi,alfa,15,15,+1 Lap,0.0,1:09.723,39.0
+2021,8,mick_schumacher,haas,16,19,+2 Laps,0.0,1:10.005,57.0
+2021,8,latifi,williams,17,16,+3 Laps,0.0,1:10.104,34.0
+2021,8,mazepin,haas,18,20,+3 Laps,0.0,1:10.951,39.0
+2021,8,russell,williams,19,10,Engine,0.0,1:10.499,28.0
+2021,8,gasly,alphatauri,20,6,Collision,0.0,,
+2021,9,max_verstappen,red_bull,1,1,Finished,26.0,1:06.200,62.0
+2021,9,bottas,mercedes,2,5,Finished,18.0,1:08.374,52.0
+2021,9,norris,mclaren,3,2,Finished,15.0,1:08.471,62.0
+2021,9,hamilton,mercedes,4,4,Finished,12.0,1:08.126,55.0
+2021,9,sainz,ferrari,5,10,Finished,10.0,1:07.762,70.0
+2021,9,perez,red_bull,6,3,Finished,8.0,1:08.192,55.0
+2021,9,ricciardo,mclaren,7,13,Finished,6.0,1:08.820,56.0
+2021,9,leclerc,ferrari,8,12,Finished,4.0,1:08.698,55.0
+2021,9,gasly,alphatauri,9,6,Finished,2.0,1:08.146,54.0
+2021,9,alonso,alpine,10,14,+1 Lap,1.0,1:08.405,70.0
+2021,9,russell,williams,11,8,+1 Lap,0.0,1:08.900,56.0
+2021,9,tsunoda,alphatauri,12,7,+1 Lap,0.0,1:08.455,54.0
+2021,9,stroll,aston_martin,13,9,+1 Lap,0.0,1:08.659,54.0
+2021,9,giovinazzi,alfa,14,15,+1 Lap,0.0,1:09.042,55.0
+2021,9,raikkonen,alfa,15,16,+1 Lap,0.0,1:08.874,69.0
+2021,9,latifi,williams,16,18,+1 Lap,0.0,1:08.520,62.0
+2021,9,vettel,aston_martin,17,11,Collision,0.0,1:08.420,51.0
+2021,9,mick_schumacher,haas,18,19,+2 Laps,0.0,1:09.394,56.0
+2021,9,mazepin,haas,19,20,+2 Laps,0.0,1:09.757,49.0
+2021,9,ocon,alpine,20,17,Collision,0.0,,
+2021,10,hamilton,mercedes,1,2,Finished,25.0,1:29.699,45.0
+2021,10,leclerc,ferrari,2,4,Finished,18.0,1:30.569,45.0
+2021,10,bottas,mercedes,3,3,Finished,15.0,1:30.524,45.0
+2021,10,norris,mclaren,4,5,Finished,12.0,1:31.420,44.0
+2021,10,ricciardo,mclaren,5,6,Finished,10.0,1:31.284,51.0
+2021,10,sainz,ferrari,6,10,Finished,8.0,1:31.223,51.0
+2021,10,alonso,alpine,7,7,Finished,6.0,1:31.698,48.0
+2021,10,stroll,aston_martin,8,14,Finished,4.0,1:31.992,48.0
+2021,10,ocon,alpine,9,9,Finished,2.0,1:32.210,48.0
+2021,10,tsunoda,alphatauri,10,16,Finished,1.0,1:30.826,51.0
+2021,10,gasly,alphatauri,11,11,Finished,0.0,1:30.266,52.0
+2021,10,russell,williams,12,12,+1 Lap,0.0,1:32.049,49.0
+2021,10,giovinazzi,alfa,13,15,+1 Lap,0.0,1:32.346,49.0
+2021,10,latifi,williams,14,17,+1 Lap,0.0,1:32.477,51.0
+2021,10,raikkonen,alfa,15,13,+1 Lap,0.0,1:31.895,48.0
+2021,10,perez,red_bull,16,0,+1 Lap,0.0,1:28.617,50.0
+2021,10,mazepin,haas,17,19,+1 Lap,0.0,1:32.909,51.0
+2021,10,mick_schumacher,haas,18,18,+1 Lap,0.0,1:32.862,50.0
+2021,10,vettel,aston_martin,19,8,Retired,0.0,1:33.059,35.0
+2021,10,max_verstappen,red_bull,20,1,Collision,0.0,,
+2021,11,ocon,alpine,1,8,Finished,25.0,1:21.421,54.0
+2021,11,hamilton,mercedes,2,1,Finished,18.0,1:18.715,49.0
+2021,11,sainz,ferrari,3,15,Finished,15.0,1:21.423,54.0
+2021,11,alonso,alpine,4,9,Finished,12.0,1:20.359,41.0
+2021,11,gasly,alphatauri,5,5,Finished,11.0,1:18.394,70.0
+2021,11,tsunoda,alphatauri,6,16,Finished,8.0,1:22.450,43.0
+2021,11,latifi,williams,7,18,Finished,6.0,1:22.831,62.0
+2021,11,russell,williams,8,17,Finished,4.0,1:22.112,62.0
+2021,11,max_verstappen,red_bull,9,3,Finished,2.0,1:20.945,43.0
+2021,11,raikkonen,alfa,10,13,+1 Lap,1.0,1:21.518,58.0
+2021,11,ricciardo,mclaren,11,11,+1 Lap,0.0,1:22.802,58.0
+2021,11,mick_schumacher,haas,12,20,+1 Lap,0.0,1:22.711,44.0
+2021,11,giovinazzi,alfa,13,0,+1 Lap,0.0,1:22.736,44.0
+2021,11,mazepin,haas,14,19,Collision,0.0,,
+2021,11,norris,mclaren,15,6,Collision,0.0,,
+2021,11,bottas,mercedes,16,2,Collision,0.0,,
+2021,11,perez,red_bull,17,4,Collision,0.0,,
+2021,11,leclerc,ferrari,18,7,Collision,0.0,,
+2021,11,stroll,aston_martin,19,12,Collision,0.0,,
+2021,11,vettel,aston_martin,20,10,Disqualified,0.0,1:21.459,60.0
+2021,12,max_verstappen,red_bull,1,1,Finished,12.5,,
+2021,12,russell,williams,2,2,Finished,9.0,,
+2021,12,hamilton,mercedes,3,3,Finished,7.5,,
+2021,12,ricciardo,mclaren,4,4,Finished,6.0,,
+2021,12,vettel,aston_martin,5,5,Finished,5.0,,
+2021,12,gasly,alphatauri,6,6,Finished,4.0,,
+2021,12,ocon,alpine,7,8,Finished,3.0,,
+2021,12,leclerc,ferrari,8,9,Finished,2.0,,
+2021,12,latifi,williams,9,10,Finished,1.0,,
+2021,12,sainz,ferrari,10,11,Finished,0.5,,
+2021,12,alonso,alpine,11,12,Finished,0.0,,
+2021,12,bottas,mercedes,12,13,Finished,0.0,,
+2021,12,giovinazzi,alfa,13,14,Finished,0.0,,
+2021,12,norris,mclaren,14,15,Finished,0.0,,
+2021,12,tsunoda,alphatauri,15,16,Finished,0.0,,
+2021,12,mick_schumacher,haas,16,17,Finished,0.0,,
+2021,12,mazepin,haas,17,18,Finished,0.0,,
+2021,12,raikkonen,alfa,18,0,Finished,0.0,,
+2021,12,perez,red_bull,19,0,Finished,0.0,,
+2021,12,stroll,aston_martin,20,19,Finished,0.0,,
+2021,13,max_verstappen,red_bull,1,1,Finished,25.0,1:13.275,60.0
+2021,13,hamilton,mercedes,2,2,Finished,19.0,1:11.097,72.0
+2021,13,bottas,mercedes,3,3,Finished,15.0,1:12.549,69.0
+2021,13,gasly,alphatauri,4,4,+1 Lap,12.0,1:14.818,57.0
+2021,13,leclerc,ferrari,5,5,+1 Lap,10.0,1:14.780,58.0
+2021,13,alonso,alpine,6,9,+1 Lap,8.0,1:14.323,60.0
+2021,13,sainz,ferrari,7,6,+1 Lap,6.0,1:15.260,45.0
+2021,13,perez,red_bull,8,0,+1 Lap,4.0,1:13.461,59.0
+2021,13,ocon,alpine,9,8,+1 Lap,2.0,1:14.675,54.0
+2021,13,norris,mclaren,10,13,+1 Lap,1.0,1:14.236,48.0
+2021,13,ricciardo,mclaren,11,10,+1 Lap,0.0,1:14.920,59.0
+2021,13,stroll,aston_martin,12,12,+2 Laps,0.0,1:15.611,57.0
+2021,13,vettel,aston_martin,13,15,+2 Laps,0.0,1:13.958,63.0
+2021,13,giovinazzi,alfa,14,7,+2 Laps,0.0,1:15.125,66.0
+2021,13,kubica,alfa,15,16,+2 Laps,0.0,1:15.442,44.0
+2021,13,latifi,williams,16,0,+2 Laps,0.0,1:15.790,25.0
+2021,13,russell,williams,17,11,Gearbox,0.0,1:15.628,57.0
+2021,13,mick_schumacher,haas,18,17,+3 Laps,0.0,1:15.927,36.0
+2021,13,tsunoda,alphatauri,19,14,Power Unit,0.0,1:15.783,44.0
+2021,13,mazepin,haas,20,18,Hydraulics,0.0,1:16.066,35.0
+2021,14,ricciardo,mclaren,1,2,Finished,26.0,1:24.812,53.0
+2021,14,norris,mclaren,2,3,Finished,18.0,1:24.971,53.0
+2021,14,bottas,mercedes,3,19,Finished,15.0,1:24.827,34.0
+2021,14,leclerc,ferrari,4,5,Finished,12.0,1:25.319,53.0
+2021,14,perez,red_bull,5,8,Finished,10.0,1:25.156,53.0
+2021,14,sainz,ferrari,6,6,Finished,8.0,1:25.559,53.0
+2021,14,stroll,aston_martin,7,9,Finished,6.0,1:25.853,52.0
+2021,14,alonso,alpine,8,10,Finished,4.0,1:25.472,52.0
+2021,14,russell,williams,9,14,Finished,2.0,1:25.835,53.0
+2021,14,ocon,alpine,10,12,Finished,1.0,1:25.566,53.0
+2021,14,latifi,williams,11,13,Finished,0.0,1:25.953,50.0
+2021,14,vettel,aston_martin,12,11,Finished,0.0,1:25.938,50.0
+2021,14,giovinazzi,alfa,13,7,Finished,0.0,1:25.718,50.0
+2021,14,kubica,alfa,14,17,Finished,0.0,1:25.849,53.0
+2021,14,mick_schumacher,haas,15,18,Finished,0.0,1:26.707,52.0
+2021,14,mazepin,haas,16,16,Power Unit,0.0,1:27.202,41.0
+2021,14,hamilton,mercedes,17,4,Collision,0.0,1:25.870,3.0
+2021,14,max_verstappen,red_bull,18,1,Collision,0.0,1:25.173,25.0
+2021,14,gasly,alphatauri,19,0,Suspension,0.0,1:29.005,2.0
+2021,14,tsunoda,alphatauri,20,0,Brakes,0.0,,
+2021,15,hamilton,mercedes,1,4,Finished,25.0,1:37.575,43.0
+2021,15,max_verstappen,red_bull,2,20,Finished,18.0,1:38.396,28.0
+2021,15,sainz,ferrari,3,2,Finished,15.0,1:39.294,40.0
+2021,15,ricciardo,mclaren,4,5,Finished,12.0,1:39.124,24.0
+2021,15,bottas,mercedes,5,16,Finished,10.0,1:38.216,31.0
+2021,15,alonso,alpine,6,6,Finished,8.0,1:38.686,44.0
+2021,15,norris,mclaren,7,1,Finished,7.0,1:37.423,39.0
+2021,15,raikkonen,alfa,8,13,Finished,4.0,1:40.289,34.0
+2021,15,perez,red_bull,9,8,Finished,2.0,1:39.215,45.0
+2021,15,russell,williams,10,3,Finished,1.0,1:40.596,40.0
+2021,15,stroll,aston_martin,11,7,Finished,0.0,1:40.464,35.0
+2021,15,vettel,aston_martin,12,10,+1 Lap,0.0,1:39.251,44.0
+2021,15,gasly,alphatauri,13,11,+1 Lap,0.0,1:38.279,35.0
+2021,15,ocon,alpine,14,9,+1 Lap,0.0,1:40.598,34.0
+2021,15,leclerc,ferrari,15,19,+1 Lap,0.0,1:38.994,45.0
+2021,15,giovinazzi,alfa,16,17,+1 Lap,0.0,1:39.058,39.0
+2021,15,tsunoda,alphatauri,17,12,+1 Lap,0.0,1:39.960,42.0
+2021,15,mazepin,haas,18,15,+2 Laps,0.0,1:41.713,24.0
+2021,15,latifi,williams,19,18,Accident,0.0,1,42.0
+2021,15,mick_schumacher,haas,20,14,Oil leak,0.0,1:40.276,22.0
+2021,16,bottas,mercedes,1,1,Finished,26.0,1:30.432,58.0
+2021,16,max_verstappen,red_bull,2,2,Finished,18.0,1:32.759,53.0
+2021,16,perez,red_bull,3,6,Finished,15.0,1:32.459,53.0
+2021,16,leclerc,ferrari,4,3,Finished,12.0,1:32.737,57.0
+2021,16,hamilton,mercedes,5,11,Finished,10.0,1:32.763,52.0
+2021,16,gasly,alphatauri,6,4,Finished,8.0,1:32.814,50.0
+2021,16,norris,mclaren,7,7,Finished,6.0,1:32.446,50.0
+2021,16,sainz,ferrari,8,19,Finished,4.0,1:31.921,49.0
+2021,16,stroll,aston_martin,9,8,Finished,2.0,1:32.608,58.0
+2021,16,ocon,alpine,10,12,+1 Lap,1.0,1:34.584,24.0
+2021,16,giovinazzi,alfa,11,16,+1 Lap,0.0,1:32.904,57.0
+2021,16,raikkonen,alfa,12,17,+1 Lap,0.0,1:32.586,50.0
+2021,16,ricciardo,mclaren,13,20,+1 Lap,0.0,1:33.255,34.0
+2021,16,tsunoda,alphatauri,14,9,+1 Lap,0.0,1:32.844,54.0
+2021,16,russell,williams,15,13,+1 Lap,0.0,1:33.399,53.0
+2021,16,alonso,alpine,16,5,+1 Lap,0.0,1:33.252,55.0
+2021,16,latifi,williams,17,15,+1 Lap,0.0,1:33.672,48.0
+2021,16,vettel,aston_martin,18,10,+1 Lap,0.0,1:32.730,54.0
+2021,16,mick_schumacher,haas,19,14,+2 Laps,0.0,1:34.209,52.0
+2021,16,mazepin,haas,20,18,+2 Laps,0.0,1:35.438,52.0
+2021,17,max_verstappen,red_bull,1,1,Finished,25.0,1:39.096,52.0
+2021,17,hamilton,mercedes,2,2,Finished,19.0,1:38.485,41.0
+2021,17,perez,red_bull,3,3,Finished,15.0,1:39.566,32.0
+2021,17,leclerc,ferrari,4,4,Finished,12.0,1:39.303,41.0
+2021,17,ricciardo,mclaren,5,6,Finished,10.0,1:40.345,43.0
+2021,17,bottas,mercedes,6,9,Finished,8.0,1:40.147,41.0
+2021,17,sainz,ferrari,7,5,Finished,6.0,1:40.377,40.0
+2021,17,norris,mclaren,8,7,Finished,4.0,1:40.228,41.0
+2021,17,tsunoda,alphatauri,9,10,+1 Lap,2.0,1:41.151,47.0
+2021,17,vettel,aston_martin,10,18,+1 Lap,1.0,1:40.481,40.0
+2021,17,giovinazzi,alfa,11,12,+1 Lap,0.0,1:41.145,44.0
+2021,17,stroll,aston_martin,12,13,+1 Lap,0.0,1:41.189,36.0
+2021,17,raikkonen,alfa,13,15,+1 Lap,0.0,1:41.340,43.0
+2021,17,russell,williams,14,20,+1 Lap,0.0,1:41.120,36.0
+2021,17,latifi,williams,15,14,+1 Lap,0.0,1:41.818,46.0
+2021,17,mick_schumacher,haas,16,16,+2 Laps,0.0,1:41.395,36.0
+2021,17,mazepin,haas,17,17,+2 Laps,0.0,1:42.886,42.0
+2021,17,alonso,alpine,18,19,Rear wing,0.0,1:40.067,46.0
+2021,17,ocon,alpine,19,11,Mechanical,0.0,1:42.194,28.0
+2021,17,gasly,alphatauri,20,8,Suspension,0.0,1:42.015,12.0
+2021,18,max_verstappen,red_bull,1,3,Finished,25.0,1:18.999,52.0
+2021,18,hamilton,mercedes,2,2,Finished,18.0,1:19.820,66.0
+2021,18,perez,red_bull,3,4,Finished,15.0,1:19.468,49.0
+2021,18,gasly,alphatauri,4,5,Finished,12.0,1:20.510,66.0
+2021,18,leclerc,ferrari,5,8,Finished,10.0,1:20.665,63.0
+2021,18,sainz,ferrari,6,6,+1 Lap,8.0,1:20.081,63.0
+2021,18,vettel,aston_martin,7,9,+1 Lap,6.0,1:20.460,70.0
+2021,18,raikkonen,alfa,8,10,+1 Lap,4.0,1:20.713,63.0
+2021,18,alonso,alpine,9,12,+1 Lap,2.0,1:20.711,54.0
+2021,18,norris,mclaren,10,18,+1 Lap,1.0,1:20.617,67.0
+2021,18,giovinazzi,alfa,11,11,+1 Lap,0.0,1:21.523,68.0
+2021,18,ricciardo,mclaren,12,7,+1 Lap,0.0,1:21.069,40.0
+2021,18,ocon,alpine,13,19,+1 Lap,0.0,1:21.348,67.0
+2021,18,stroll,aston_martin,14,20,+2 Laps,0.0,1:20.930,61.0
+2021,18,bottas,mercedes,15,1,+2 Laps,0.0,1:17.774,69.0
+2021,18,russell,williams,16,16,+2 Laps,0.0,1:22.016,61.0
+2021,18,latifi,williams,17,13,+2 Laps,0.0,1:21.546,66.0
+2021,18,mazepin,haas,18,15,+3 Laps,0.0,1:21.402,61.0
+2021,18,mick_schumacher,haas,19,14,Collision,0.0,,
+2021,18,tsunoda,alphatauri,20,17,Collision,0.0,,
+2021,19,hamilton,mercedes,1,10,Finished,25.0,1:11.982,46.0
+2021,19,max_verstappen,red_bull,2,2,Finished,18.0,1:12.486,47.0
+2021,19,bottas,mercedes,3,1,Finished,15.0,1:12.526,49.0
+2021,19,perez,red_bull,4,4,Finished,13.0,1:11.010,71.0
+2021,19,leclerc,ferrari,5,6,Finished,10.0,1:12.822,61.0
+2021,19,sainz,ferrari,6,3,Finished,8.0,1:12.710,63.0
+2021,19,gasly,alphatauri,7,7,+1 Lap,6.0,1:13.227,53.0
+2021,19,ocon,alpine,8,8,+1 Lap,4.0,1:14.430,48.0
+2021,19,alonso,alpine,9,12,+1 Lap,2.0,1:13.922,37.0
+2021,19,norris,mclaren,10,5,+1 Lap,1.0,1:13.761,53.0
+2021,19,vettel,aston_martin,11,9,+1 Lap,0.0,1:13.634,69.0
+2021,19,raikkonen,alfa,12,0,+1 Lap,0.0,1:12.621,54.0
+2021,19,russell,williams,13,17,+1 Lap,0.0,1:14.355,45.0
+2021,19,giovinazzi,alfa,14,13,+1 Lap,0.0,1:14.227,44.0
+2021,19,tsunoda,alphatauri,15,15,+1 Lap,0.0,1:14.204,62.0
+2021,19,latifi,williams,16,16,+1 Lap,0.0,1:14.616,57.0
+2021,19,mazepin,haas,17,19,+2 Laps,0.0,1:14.954,36.0
+2021,19,mick_schumacher,haas,18,18,+2 Laps,0.0,1:13.793,66.0
+2021,19,ricciardo,mclaren,19,11,Power loss,0.0,1:14.443,40.0
+2021,19,stroll,aston_martin,20,14,Collision damage,0.0,1:15.344,25.0
+2021,20,hamilton,mercedes,1,1,Finished,25.0,1:25.084,50.0
+2021,20,max_verstappen,red_bull,2,7,Finished,19.0,1:23.196,57.0
+2021,20,alonso,alpine,3,3,Finished,15.0,1:26.682,48.0
+2021,20,perez,red_bull,4,11,Finished,12.0,1:25.613,49.0
+2021,20,ocon,alpine,5,9,Finished,10.0,1:27.061,46.0
+2021,20,stroll,aston_martin,6,12,Finished,8.0,1:27.356,44.0
+2021,20,sainz,ferrari,7,5,Finished,6.0,1:26.570,46.0
+2021,20,leclerc,ferrari,8,13,Finished,4.0,1:26.555,46.0
+2021,20,norris,mclaren,9,4,+1 Lap,2.0,1:25.746,51.0
+2021,20,vettel,aston_martin,10,10,+1 Lap,1.0,1:26.434,53.0
+2021,20,gasly,alphatauri,11,2,+1 Lap,0.0,1:27.019,46.0
+2021,20,ricciardo,mclaren,12,14,+1 Lap,0.0,1:27.198,50.0
+2021,20,tsunoda,alphatauri,13,8,+1 Lap,0.0,1:27.043,50.0
+2021,20,raikkonen,alfa,14,16,+1 Lap,0.0,1:26.358,53.0
+2021,20,giovinazzi,alfa,15,18,+1 Lap,0.0,1:27.823,40.0
+2021,20,mick_schumacher,haas,16,19,+1 Lap,0.0,1:28.412,46.0
+2021,20,russell,williams,17,15,+2 Laps,0.0,1:25.768,55.0
+2021,20,mazepin,haas,18,20,+2 Laps,0.0,1:27.340,55.0
+2021,20,latifi,williams,19,17,Puncture,0.0,1:28.732,44.0
+2021,20,bottas,mercedes,20,6,Damage,0.0,1:27.246,39.0
+2021,21,hamilton,mercedes,1,1,Finished,26.0,1:30.734,47.0
+2021,21,max_verstappen,red_bull,2,3,Finished,18.0,1:31.488,35.0
+2021,21,bottas,mercedes,3,2,Finished,15.0,1:31.408,47.0
+2021,21,ocon,alpine,4,9,Finished,12.0,1:31.797,47.0
+2021,21,ricciardo,mclaren,5,11,Finished,10.0,1:32.716,43.0
+2021,21,gasly,alphatauri,6,6,Finished,8.0,1:32.297,46.0
+2021,21,leclerc,ferrari,7,4,Finished,6.0,1:31.601,46.0
+2021,21,sainz,ferrari,8,15,Finished,4.0,1:31.851,37.0
+2021,21,giovinazzi,alfa,9,10,Finished,2.0,1:32.865,37.0
+2021,21,norris,mclaren,10,7,Finished,1.0,1:31.914,49.0
+2021,21,stroll,aston_martin,11,18,Finished,0.0,1:32.804,45.0
+2021,21,latifi,williams,12,16,Finished,0.0,1:32.751,49.0
+2021,21,alonso,alpine,13,13,+1 Lap,0.0,1:31.633,46.0
+2021,21,tsunoda,alphatauri,14,8,+1 Lap,0.0,1:32.506,44.0
+2021,21,raikkonen,alfa,15,12,+1 Lap,0.0,1:32.778,45.0
+2021,21,vettel,aston_martin,16,17,Collision damage,0.0,1:34.030,41.0
+2021,21,perez,red_bull,17,5,Collision,0.0,1:34.138,9.0
+2021,21,mazepin,haas,18,20,Collision,0.0,1:37.043,7.0
+2021,21,russell,williams,19,14,Collision,0.0,1:36.130,7.0
+2021,21,mick_schumacher,haas,20,19,Accident,0.0,1:36.043,8.0
+2021,22,max_verstappen,red_bull,1,1,Finished,26.0,1:26.103,39.0
+2021,22,hamilton,mercedes,2,2,Finished,18.0,1:26.615,43.0
+2021,22,sainz,ferrari,3,5,Finished,15.0,1:27.618,51.0
+2021,22,tsunoda,alphatauri,4,8,Finished,12.0,1:27.496,50.0
+2021,22,gasly,alphatauri,5,12,Finished,10.0,1:27.342,49.0
+2021,22,bottas,mercedes,6,6,Finished,8.0,1:26.862,51.0
+2021,22,norris,mclaren,7,3,Finished,6.0,1:26.762,58.0
+2021,22,alonso,alpine,8,11,Finished,4.0,1:27.607,58.0
+2021,22,ocon,alpine,9,9,Finished,2.0,1:28.249,58.0
+2021,22,leclerc,ferrari,10,7,Finished,1.0,1:28.433,40.0
+2021,22,vettel,aston_martin,11,15,Finished,0.0,1:28.303,58.0
+2021,22,ricciardo,mclaren,12,10,+1 Lap,0.0,1:28.723,48.0
+2021,22,stroll,aston_martin,13,13,+1 Lap,0.0,1:28.567,48.0
+2021,22,mick_schumacher,haas,14,19,+1 Lap,0.0,1:29.457,42.0
+2021,22,perez,red_bull,15,4,Engine,0.0,1:26.419,51.0
+2021,22,latifi,williams,16,16,Accident,0.0,1:29.293,30.0
+2021,22,giovinazzi,alfa,17,14,Gearbox,0.0,1:29.442,33.0
+2021,22,russell,williams,18,17,Gearbox,0.0,1:30.647,23.0
+2021,22,raikkonen,alfa,19,18,Brakes,0.0,1:29.698,23.0
+2021,22,mazepin,haas,20,20,Illness,0.0,,
+2022,1,leclerc,ferrari,1,1,Finished,26.0,1:34.570,51.0
+2022,1,sainz,ferrari,2,3,Finished,18.0,1:35.740,52.0
+2022,1,hamilton,mercedes,3,5,Finished,15.0,1:36.228,53.0
+2022,1,russell,mercedes,4,9,Finished,12.0,1:36.302,56.0
+2022,1,kevin_magnussen,haas,5,7,Finished,10.0,1:36.623,53.0
+2022,1,bottas,alfa,6,6,Finished,8.0,1:36.599,53.0
+2022,1,ocon,alpine,7,11,Finished,6.0,1:37.110,53.0
+2022,1,tsunoda,alphatauri,8,16,Finished,4.0,1:37.104,53.0
+2022,1,alonso,alpine,9,8,Finished,2.0,1:36.733,44.0
+2022,1,zhou,alfa,10,15,Finished,1.0,1:36.685,39.0
+2022,1,mick_schumacher,haas,11,12,Finished,0.0,1:36.956,37.0
+2022,1,stroll,aston_martin,12,19,Finished,0.0,1:37.146,49.0
+2022,1,albon,williams,13,14,Finished,0.0,1:37.355,50.0
+2022,1,ricciardo,mclaren,14,18,Finished,0.0,1:37.261,50.0
+2022,1,norris,mclaren,15,13,Finished,0.0,1:36.988,51.0
+2022,1,latifi,williams,16,20,Finished,0.0,1:38.251,51.0
+2022,1,hulkenberg,aston_martin,17,17,Finished,0.0,1:38.201,49.0
+2022,1,perez,red_bull,18,4,Fuel pressure,0.0,1:36.089,52.0
+2022,1,max_verstappen,red_bull,19,2,Fuel pressure,0.0,1:35.440,51.0
+2022,1,gasly,alphatauri,20,10,Power Unit,0.0,1:37.324,34.0
+2022,2,max_verstappen,red_bull,1,4,Finished,25.0,1:31.772,50.0
+2022,2,leclerc,ferrari,2,2,Finished,19.0,1:31.634,48.0
+2022,2,sainz,ferrari,3,3,Finished,15.0,1:31.905,48.0
+2022,2,perez,red_bull,4,1,Finished,12.0,1:32.042,46.0
+2022,2,russell,mercedes,5,6,Finished,10.0,1:32.821,43.0
+2022,2,ocon,alpine,6,5,Finished,8.0,1:33.103,46.0
+2022,2,norris,mclaren,7,11,Finished,6.0,1:32.753,46.0
+2022,2,gasly,alphatauri,8,9,Finished,4.0,1:33.468,42.0
+2022,2,kevin_magnussen,haas,9,10,Finished,2.0,1:32.779,48.0
+2022,2,hamilton,mercedes,10,15,Finished,1.0,1:32.997,47.0
+2022,2,zhou,alfa,11,12,Finished,0.0,1:33.924,45.0
+2022,2,hulkenberg,aston_martin,12,17,Finished,0.0,1:33.651,47.0
+2022,2,stroll,aston_martin,13,13,+1 Lap,0.0,1:34.446,46.0
+2022,2,albon,williams,14,16,Collision damage,0.0,1:34.368,46.0
+2022,2,bottas,alfa,15,8,Cooling system,0.0,1:33.979,31.0
+2022,2,alonso,alpine,16,7,Water pump,0.0,1:33.831,33.0
+2022,2,ricciardo,mclaren,17,14,Gearbox,0.0,1:34.487,34.0
+2022,2,latifi,williams,18,18,Accident,0.0,1:37.530,9.0
+2022,2,tsunoda,alphatauri,19,19,Power Unit,0.0,,
+2022,2,mick_schumacher,haas,20,0,Withdrew,0.0,,
+2022,3,leclerc,ferrari,1,1,Finished,26.0,1:20.260,58.0
+2022,3,perez,red_bull,2,3,Finished,18.0,1:21.094,58.0
+2022,3,russell,mercedes,3,6,Finished,15.0,1:21.495,53.0
+2022,3,hamilton,mercedes,4,5,Finished,12.0,1:21.886,51.0
+2022,3,norris,mclaren,5,4,Finished,10.0,1:22.248,55.0
+2022,3,ricciardo,mclaren,6,7,Finished,8.0,1:22.451,54.0
+2022,3,ocon,alpine,7,8,Finished,6.0,1:22.469,58.0
+2022,3,bottas,alfa,8,12,Finished,4.0,1:21.651,54.0
+2022,3,gasly,alphatauri,9,11,Finished,2.0,1:22.731,52.0
+2022,3,albon,williams,10,20,Finished,1.0,1:22.589,54.0
+2022,3,zhou,alfa,11,14,Finished,0.0,1:22.541,55.0
+2022,3,stroll,aston_martin,12,19,Finished,0.0,1:23.592,48.0
+2022,3,mick_schumacher,haas,13,15,+1 Lap,0.0,1:23.006,55.0
+2022,3,kevin_magnussen,haas,14,16,+1 Lap,0.0,1:23.071,44.0
+2022,3,tsunoda,alphatauri,15,13,+1 Lap,0.0,1:23.342,56.0
+2022,3,latifi,williams,16,18,+1 Lap,0.0,1:23.882,49.0
+2022,3,alonso,alpine,17,10,+1 Lap,0.0,1:20.846,57.0
+2022,3,max_verstappen,red_bull,18,2,Fuel leak,0.0,1:21.677,37.0
+2022,3,vettel,aston_martin,19,17,Accident,0.0,1:25.189,17.0
+2022,3,sainz,ferrari,20,9,Spun off,0.0,,
+2022,4,max_verstappen,red_bull,1,1,Finished,26.0,1:18.446,55.0
+2022,4,perez,red_bull,2,3,Finished,18.0,1:18.949,52.0
+2022,4,norris,mclaren,3,5,Finished,15.0,1:20.903,61.0
+2022,4,russell,mercedes,4,11,Finished,12.0,1:20.962,57.0
+2022,4,bottas,alfa,5,7,Finished,10.0,1:20.758,43.0
+2022,4,leclerc,ferrari,6,2,Finished,8.0,1:18.574,63.0
+2022,4,tsunoda,alphatauri,7,12,Finished,6.0,1:20.544,61.0
+2022,4,vettel,aston_martin,8,13,Finished,4.0,1:21.211,47.0
+2022,4,kevin_magnussen,haas,9,8,Finished,2.0,1:21.238,61.0
+2022,4,stroll,aston_martin,10,15,+1 Lap,1.0,1:21.750,46.0
+2022,4,albon,williams,11,18,+1 Lap,0.0,1:21.757,61.0
+2022,4,gasly,alphatauri,12,17,+1 Lap,0.0,1:21.713,34.0
+2022,4,hamilton,mercedes,13,14,+1 Lap,0.0,1:21.419,50.0
+2022,4,ocon,alpine,14,16,+1 Lap,0.0,1:21.887,37.0
+2022,4,zhou,alfa,15,0,+1 Lap,0.0,1:21.286,61.0
+2022,4,latifi,williams,16,19,+1 Lap,0.0,1:21.338,62.0
+2022,4,mick_schumacher,haas,17,10,+1 Lap,0.0,1:18.999,55.0
+2022,4,ricciardo,mclaren,18,6,+1 Lap,0.0,1:21.577,61.0
+2022,4,alonso,alpine,19,9,Collision damage,0.0,1:39.685,5.0
+2022,4,sainz,ferrari,20,4,Collision,0.0,,
+2022,5,max_verstappen,red_bull,1,3,Finished,26.0,1:31.361,54.0
+2022,5,leclerc,ferrari,2,1,Finished,18.0,1:31.488,53.0
+2022,5,sainz,ferrari,3,2,Finished,15.0,1:31.790,56.0
+2022,5,perez,red_bull,4,4,Finished,12.0,1:31.819,54.0
+2022,5,russell,mercedes,5,12,Finished,10.0,1:32.195,56.0
+2022,5,hamilton,mercedes,6,6,Finished,8.0,1:32.941,55.0
+2022,5,bottas,alfa,7,5,Finished,6.0,1:33.184,56.0
+2022,5,ocon,alpine,8,20,Finished,4.0,1:33.163,56.0
+2022,5,albon,williams,9,18,Finished,2.0,1:33.447,57.0
+2022,5,stroll,aston_martin,10,0,Finished,1.0,1:33.312,52.0
+2022,5,alonso,alpine,11,11,Finished,0.0,1:33.331,53.0
+2022,5,tsunoda,alphatauri,12,9,Finished,0.0,1:33.035,55.0
+2022,5,ricciardo,mclaren,13,14,Finished,0.0,1:33.265,56.0
+2022,5,latifi,williams,14,19,Finished,0.0,1:34.169,53.0
+2022,5,mick_schumacher,haas,15,15,Finished,0.0,1:32.528,57.0
+2022,5,kevin_magnussen,haas,16,16,Front wing,0.0,1:33.511,52.0
+2022,5,vettel,aston_martin,17,0,Collision,0.0,1:33.479,50.0
+2022,5,gasly,alphatauri,18,7,Suspension,0.0,1:34.487,38.0
+2022,5,norris,mclaren,19,8,Collision,0.0,1:33.411,37.0
+2022,5,zhou,alfa,20,17,Water leak,0.0,1:35.731,4.0
+2022,6,max_verstappen,red_bull,1,2,Finished,25.0,1:25.456,46.0
+2022,6,perez,red_bull,2,5,Finished,19.0,1:24.108,55.0
+2022,6,russell,mercedes,3,4,Finished,15.0,1:24.636,53.0
+2022,6,sainz,ferrari,4,3,Finished,12.0,1:25.985,49.0
+2022,6,hamilton,mercedes,5,6,Finished,10.0,1:24.253,51.0
+2022,6,bottas,alfa,6,7,Finished,8.0,1:26.395,36.0
+2022,6,ocon,alpine,7,12,Finished,6.0,1:25.935,54.0
+2022,6,norris,mclaren,8,11,Finished,4.0,1:25.619,53.0
+2022,6,alonso,alpine,9,20,+1 Lap,2.0,1:26.599,56.0
+2022,6,tsunoda,alphatauri,10,13,+1 Lap,1.0,1:26.828,59.0
+2022,6,vettel,aston_martin,11,16,+1 Lap,0.0,1:27.629,59.0
+2022,6,ricciardo,mclaren,12,9,+1 Lap,0.0,1:27.285,54.0
+2022,6,gasly,alphatauri,13,14,+1 Lap,0.0,1:26.987,51.0
+2022,6,mick_schumacher,haas,14,10,+1 Lap,0.0,1:27.447,32.0
+2022,6,stroll,aston_martin,15,17,+1 Lap,0.0,1:26.876,54.0
+2022,6,latifi,williams,16,19,+2 Laps,0.0,1:27.246,52.0
+2022,6,kevin_magnussen,haas,17,8,+2 Laps,0.0,1:27.537,3.0
+2022,6,albon,williams,18,18,+2 Laps,0.0,1:28.281,56.0
+2022,6,zhou,alfa,19,15,Power loss,0.0,1:28.415,12.0
+2022,6,leclerc,ferrari,20,1,Turbo,0.0,1:27.030,25.0
+2022,7,perez,red_bull,1,3,Finished,25.0,1:16.028,46.0
+2022,7,sainz,ferrari,2,2,Finished,18.0,1:16.421,47.0
+2022,7,max_verstappen,red_bull,3,4,Finished,15.0,1:16.052,47.0
+2022,7,leclerc,ferrari,4,1,Finished,12.0,1:16.249,46.0
+2022,7,russell,mercedes,5,6,Finished,10.0,1:16.830,42.0
+2022,7,norris,mclaren,6,5,Finished,9.0,1:14.693,55.0
+2022,7,alonso,alpine,7,7,Finished,6.0,1:15.882,50.0
+2022,7,hamilton,mercedes,8,8,Finished,4.0,1:17.203,51.0
+2022,7,bottas,alfa,9,12,Finished,2.0,1:17.600,57.0
+2022,7,vettel,aston_martin,10,9,Finished,1.0,1:17.558,54.0
+2022,7,gasly,alphatauri,11,17,Finished,0.0,1:17.344,61.0
+2022,7,ocon,alpine,12,10,Finished,0.0,1:17.571,50.0
+2022,7,ricciardo,mclaren,13,14,Finished,0.0,1:17.532,59.0
+2022,7,stroll,aston_martin,14,18,Finished,0.0,1:17.672,56.0
+2022,7,latifi,williams,15,19,+1 Lap,0.0,1:18.579,43.0
+2022,7,zhou,alfa,16,20,+1 Lap,0.0,1:18.200,52.0
+2022,7,tsunoda,alphatauri,17,11,+1 Lap,0.0,1:15.334,61.0
+2022,7,albon,williams,18,16,Mechanical,0.0,1:18.023,40.0
+2022,7,mick_schumacher,haas,19,15,Accident,0.0,1:24.778,24.0
+2022,7,kevin_magnussen,haas,20,13,Water pressure,0.0,1:33.754,18.0
+2022,8,max_verstappen,red_bull,1,3,Finished,25.0,1:46.050,50.0
+2022,8,perez,red_bull,2,2,Finished,19.0,1:46.046,36.0
+2022,8,russell,mercedes,3,5,Finished,15.0,1:47.177,42.0
+2022,8,hamilton,mercedes,4,7,Finished,12.0,1:47.044,39.0
+2022,8,gasly,alphatauri,5,6,Finished,10.0,1:48.519,39.0
+2022,8,vettel,aston_martin,6,9,Finished,8.0,1:48.206,41.0
+2022,8,alonso,alpine,7,10,Finished,6.0,1:47.989,49.0
+2022,8,ricciardo,mclaren,8,12,Finished,4.0,1:48.276,44.0
+2022,8,norris,mclaren,9,11,Finished,2.0,1:47.997,37.0
+2022,8,ocon,alpine,10,13,Finished,1.0,1:48.297,36.0
+2022,8,bottas,alfa,11,15,+1 Lap,0.0,1:48.179,42.0
+2022,8,albon,williams,12,17,+1 Lap,0.0,1:47.966,48.0
+2022,8,tsunoda,alphatauri,13,8,+1 Lap,0.0,1:47.523,42.0
+2022,8,mick_schumacher,haas,14,20,+1 Lap,0.0,1:48.410,40.0
+2022,8,latifi,williams,15,18,+1 Lap,0.0,1:49.583,37.0
+2022,8,stroll,aston_martin,16,19,Vibrations,0.0,1:48.038,38.0
+2022,8,kevin_magnussen,haas,17,16,Power Unit,0.0,1:48.789,12.0
+2022,8,zhou,alfa,18,14,Hydraulics,0.0,1:48.723,12.0
+2022,8,leclerc,ferrari,19,1,Power Unit,0.0,1:47.531,13.0
+2022,8,sainz,ferrari,20,4,Hydraulics,0.0,1:48.978,3.0
+2022,9,max_verstappen,red_bull,1,1,Finished,25.0,1:15.839,64.0
+2022,9,sainz,ferrari,2,3,Finished,19.0,1:15.749,63.0
+2022,9,hamilton,mercedes,3,4,Finished,15.0,1:16.167,69.0
+2022,9,russell,mercedes,4,8,Finished,12.0,1:16.418,63.0
+2022,9,leclerc,ferrari,5,19,Finished,10.0,1:15.901,62.0
+2022,9,ocon,alpine,6,7,Finished,8.0,1:17.110,62.0
+2022,9,bottas,alfa,7,11,Finished,6.0,1:17.010,64.0
+2022,9,zhou,alfa,8,10,Finished,4.0,1:16.927,60.0
+2022,9,alonso,alpine,9,2,Finished,2.0,1:16.578,63.0
+2022,9,stroll,aston_martin,10,17,Finished,1.0,1:17.421,64.0
+2022,9,ricciardo,mclaren,11,9,Finished,0.0,1:17.932,59.0
+2022,9,vettel,aston_martin,12,16,Finished,0.0,1:17.956,63.0
+2022,9,albon,williams,13,12,Finished,0.0,1:17.951,59.0
+2022,9,gasly,alphatauri,14,15,Finished,0.0,1:17.810,60.0
+2022,9,norris,mclaren,15,14,Finished,0.0,1:17.495,63.0
+2022,9,latifi,williams,16,18,Finished,0.0,1:18.540,61.0
+2022,9,kevin_magnussen,haas,17,5,Finished,0.0,1:18.046,11.0
+2022,9,tsunoda,alphatauri,18,20,Accident,0.0,1:18.309,15.0
+2022,9,mick_schumacher,haas,19,6,Engine,0.0,1:18.967,13.0
+2022,9,perez,red_bull,20,13,Gearbox,0.0,1:18.844,7.0
+2022,10,sainz,ferrari,1,1,Finished,25.0,1:30.813,44.0
+2022,10,perez,red_bull,2,4,Finished,18.0,1:30.937,47.0
+2022,10,hamilton,mercedes,3,5,Finished,16.0,1:30.510,52.0
+2022,10,leclerc,ferrari,4,3,Finished,12.0,1:31.282,52.0
+2022,10,alonso,alpine,5,7,Finished,10.0,1:31.609,47.0
+2022,10,norris,mclaren,6,6,Finished,8.0,1:31.645,47.0
+2022,10,max_verstappen,red_bull,7,2,Finished,6.0,1:32.354,44.0
+2022,10,mick_schumacher,haas,8,19,Finished,4.0,1:32.109,48.0
+2022,10,vettel,aston_martin,9,18,Finished,2.0,1:32.471,52.0
+2022,10,kevin_magnussen,haas,10,17,Finished,1.0,1:32.661,52.0
+2022,10,stroll,aston_martin,11,20,Finished,0.0,1:32.379,52.0
+2022,10,latifi,williams,12,10,Finished,0.0,1:33.286,48.0
+2022,10,ricciardo,mclaren,13,14,Finished,0.0,1:32.644,34.0
+2022,10,tsunoda,alphatauri,14,13,Finished,0.0,1:33.832,51.0
+2022,10,ocon,alpine,15,15,Fuel pump,0.0,1:33.537,37.0
+2022,10,gasly,alphatauri,16,11,Collision damage,0.0,1:34.614,18.0
+2022,10,bottas,alfa,17,12,Gearbox,0.0,1:35.103,19.0
+2022,10,russell,mercedes,18,8,Collision,0.0,,
+2022,10,zhou,alfa,19,9,Collision,0.0,,
+2022,10,albon,williams,20,16,Collision,0.0,,
+2022,11,leclerc,ferrari,1,2,Finished,25.0,1:07.583,62.0
+2022,11,max_verstappen,red_bull,2,1,Finished,19.0,1:07.275,62.0
+2022,11,hamilton,mercedes,3,8,Finished,15.0,1,63.0
+2022,11,russell,mercedes,4,4,Finished,12.0,1:09.075,61.0
+2022,11,ocon,alpine,5,6,Finished,10.0,1:09.559,62.0
+2022,11,mick_schumacher,haas,6,9,+1 Lap,8.0,1:09.625,50.0
+2022,11,norris,mclaren,7,10,+1 Lap,6.0,1:09.304,62.0
+2022,11,kevin_magnussen,haas,8,7,+1 Lap,4.0,1:09.938,61.0
+2022,11,ricciardo,mclaren,9,11,+1 Lap,2.0,1:09.924,61.0
+2022,11,alonso,alpine,10,19,+1 Lap,1.0,1:08.558,62.0
+2022,11,bottas,alfa,11,0,+1 Lap,0.0,1:09.266,61.0
+2022,11,albon,williams,12,15,+1 Lap,0.0,1:09.669,60.0
+2022,11,stroll,aston_martin,13,12,+1 Lap,0.0,1:10.048,64.0
+2022,11,zhou,alfa,14,13,+1 Lap,0.0,1:09.380,50.0
+2022,11,gasly,alphatauri,15,14,+1 Lap,0.0,1:10.104,61.0
+2022,11,tsunoda,alphatauri,16,16,+1 Lap,0.0,1:10.023,62.0
+2022,11,vettel,aston_martin,17,18,+1 Lap,0.0,1:10.001,62.0
+2022,11,sainz,ferrari,18,3,Power Unit,0.0,1:08.649,55.0
+2022,11,latifi,williams,19,17,Undertray,0.0,1:10.890,14.0
+2022,11,perez,red_bull,20,5,Collision damage,0.0,1:11.843,5.0
+2022,12,max_verstappen,red_bull,1,2,Finished,25.0,1:37.491,30.0
+2022,12,hamilton,mercedes,2,4,Finished,18.0,1:37.668,30.0
+2022,12,russell,mercedes,3,6,Finished,15.0,1:37.548,51.0
+2022,12,perez,red_bull,4,3,Finished,12.0,1:37.780,45.0
+2022,12,sainz,ferrari,5,19,Finished,11.0,1:35.781,51.0
+2022,12,alonso,alpine,6,7,Finished,8.0,1:38.160,53.0
+2022,12,norris,mclaren,7,5,Finished,6.0,1:39.037,43.0
+2022,12,ocon,alpine,8,10,Finished,4.0,1:38.684,53.0
+2022,12,ricciardo,mclaren,9,9,Finished,2.0,1:39.133,27.0
+2022,12,stroll,aston_martin,10,15,Finished,1.0,1:39.185,52.0
+2022,12,vettel,aston_martin,11,12,Finished,0.0,1:39.044,43.0
+2022,12,gasly,alphatauri,12,14,Finished,0.0,1:38.786,53.0
+2022,12,albon,williams,13,13,Finished,0.0,1:39.199,53.0
+2022,12,bottas,alfa,14,11,Finished,0.0,1:37.963,52.0
+2022,12,mick_schumacher,haas,15,17,Finished,0.0,1:39.068,48.0
+2022,12,zhou,alfa,16,16,+6 Laps,0.0,1:39.368,25.0
+2022,12,latifi,williams,17,18,Collision damage,0.0,1:39.650,40.0
+2022,12,kevin_magnussen,haas,18,20,Collision damage,0.0,1:39.265,11.0
+2022,12,leclerc,ferrari,19,1,Accident,0.0,1:38.088,4.0
+2022,12,tsunoda,alphatauri,20,8,Undertray,0.0,1:40.216,4.0
+2022,13,max_verstappen,red_bull,1,10,Finished,25.0,1:22.126,45.0
+2022,13,hamilton,mercedes,2,7,Finished,19.0,1:21.386,57.0
+2022,13,russell,mercedes,3,1,Finished,15.0,1:22.766,57.0
+2022,13,sainz,ferrari,4,2,Finished,12.0,1,51.0
+2022,13,perez,red_bull,5,11,Finished,10.0,1:21.940,44.0
+2022,13,leclerc,ferrari,6,3,Finished,8.0,1:21.622,57.0
+2022,13,norris,mclaren,7,4,Finished,6.0,1:23.043,47.0
+2022,13,alonso,alpine,8,6,+1 Lap,4.0,1:23.979,47.0
+2022,13,ocon,alpine,9,5,+1 Lap,2.0,1:24.149,60.0
+2022,13,vettel,aston_martin,10,18,+1 Lap,1.0,1:22.824,51.0
+2022,13,stroll,aston_martin,11,14,+1 Lap,0.0,1:22.437,51.0
+2022,13,gasly,alphatauri,12,0,+1 Lap,0.0,1:23.199,58.0
+2022,13,zhou,alfa,13,12,+1 Lap,0.0,1:22.029,58.0
+2022,13,mick_schumacher,haas,14,15,+1 Lap,0.0,1:23.151,50.0
+2022,13,ricciardo,mclaren,15,9,+1 Lap,0.0,1:23.654,63.0
+2022,13,kevin_magnussen,haas,16,13,+1 Lap,0.0,1:23.511,37.0
+2022,13,albon,williams,17,17,+1 Lap,0.0,1:23.047,43.0
+2022,13,latifi,williams,18,19,+1 Lap,0.0,1:22.478,60.0
+2022,13,tsunoda,alphatauri,19,16,+2 Laps,0.0,1:23.538,58.0
+2022,13,bottas,alfa,20,8,Power Unit,0.0,1:24.002,60.0
+2022,14,max_verstappen,red_bull,1,14,Finished,26.0,1:49.354,32.0
+2022,14,perez,red_bull,2,2,Finished,18.0,1:50.764,29.0
+2022,14,sainz,ferrari,3,1,Finished,15.0,1:51.977,32.0
+2022,14,russell,mercedes,4,5,Finished,12.0,1:50.793,31.0
+2022,14,alonso,alpine,5,3,Finished,10.0,1:52.868,35.0
+2022,14,leclerc,ferrari,6,15,Finished,8.0,1:49.984,44.0
+2022,14,ocon,alpine,7,16,Finished,6.0,1:51.717,36.0
+2022,14,vettel,aston_martin,8,10,Finished,4.0,1:52.515,40.0
+2022,14,gasly,alphatauri,9,0,Finished,2.0,1:53.002,24.0
+2022,14,albon,williams,10,6,Finished,1.0,1:53.055,28.0
+2022,14,stroll,aston_martin,11,9,Finished,0.0,1:52.880,29.0
+2022,14,norris,mclaren,12,17,Finished,0.0,1:51.678,31.0
+2022,14,tsunoda,alphatauri,13,0,Finished,0.0,1:52.436,32.0
+2022,14,zhou,alfa,14,18,Finished,0.0,1:52.317,30.0
+2022,14,ricciardo,mclaren,15,7,Finished,0.0,1:53.080,34.0
+2022,14,kevin_magnussen,haas,16,12,+1 Lap,0.0,1:53.332,29.0
+2022,14,mick_schumacher,haas,17,19,+1 Lap,0.0,1:52.646,35.0
+2022,14,latifi,williams,18,11,+1 Lap,0.0,1:52.256,38.0
+2022,14,bottas,alfa,19,13,Accident,0.0,,
+2022,14,hamilton,mercedes,20,4,Collision damage,0.0,,
+2022,15,max_verstappen,red_bull,1,1,Finished,26.0,1:13.652,62.0
+2022,15,russell,mercedes,2,6,Finished,18.0,1:13.671,72.0
+2022,15,leclerc,ferrari,3,2,Finished,15.0,1:14.413,62.0
+2022,15,hamilton,mercedes,4,4,Finished,12.0,1:13.854,54.0
+2022,15,perez,red_bull,5,5,Finished,10.0,1:14.404,63.0
+2022,15,alonso,alpine,6,13,Finished,8.0,1:14.144,51.0
+2022,15,norris,mclaren,7,7,Finished,6.0,1:14.706,63.0
+2022,15,sainz,ferrari,8,3,Finished,4.0,1:14.643,63.0
+2022,15,ocon,alpine,9,12,Finished,2.0,1:15.084,64.0
+2022,15,stroll,aston_martin,10,10,Finished,1.0,1:15.043,65.0
+2022,15,gasly,alphatauri,11,11,Finished,0.0,1:15.165,65.0
+2022,15,albon,williams,12,15,Finished,0.0,1:15.534,65.0
+2022,15,mick_schumacher,haas,13,8,Finished,0.0,1:15.233,51.0
+2022,15,vettel,aston_martin,14,19,Finished,0.0,1:14.862,50.0
+2022,15,kevin_magnussen,haas,15,18,Finished,0.0,1:15.369,53.0
+2022,15,zhou,alfa,16,14,Finished,0.0,1:15.940,63.0
+2022,15,ricciardo,mclaren,17,17,Finished,0.0,1:15.577,52.0
+2022,15,latifi,williams,18,20,+1 Lap,0.0,1:16.066,62.0
+2022,15,bottas,alfa,19,16,Engine,0.0,1:16.844,51.0
+2022,15,tsunoda,alphatauri,20,9,Differential,0.0,1:17.138,16.0
+2022,16,max_verstappen,red_bull,1,7,Finished,25.0,1:24.745,38.0
+2022,16,leclerc,ferrari,2,1,Finished,18.0,1:24.336,38.0
+2022,16,russell,mercedes,3,2,Finished,15.0,1:25.288,40.0
+2022,16,sainz,ferrari,4,18,Finished,12.0,1:24.446,41.0
+2022,16,hamilton,mercedes,5,19,Finished,10.0,1:24.434,43.0
+2022,16,perez,red_bull,6,13,Finished,9.0,1:24.030,46.0
+2022,16,norris,mclaren,7,3,Finished,6.0,1:24.718,43.0
+2022,16,gasly,alphatauri,8,5,Finished,4.0,1:26.718,30.0
+2022,16,de_vries,williams,9,8,Finished,2.0,1:26.624,41.0
+2022,16,zhou,alfa,10,9,Finished,1.0,1:26.361,41.0
+2022,16,ocon,alpine,11,14,Finished,0.0,1:26.593,37.0
+2022,16,mick_schumacher,haas,12,17,Finished,0.0,1:25.298,43.0
+2022,16,bottas,alfa,13,15,+1 Lap,0.0,1:25.706,45.0
+2022,16,tsunoda,alphatauri,14,20,+1 Lap,0.0,1:26.857,43.0
+2022,16,latifi,williams,15,10,+1 Lap,0.0,1:26.798,17.0
+2022,16,kevin_magnussen,haas,16,16,+1 Lap,0.0,1:26.798,37.0
+2022,16,ricciardo,mclaren,17,4,Oil leak,0.0,1:26.603,39.0
+2022,16,stroll,aston_martin,18,12,Engine,0.0,1:27.467,34.0
+2022,16,alonso,alpine,19,6,Water pressure,0.0,1:27.203,7.0
+2022,16,vettel,aston_martin,20,11,Engine,0.0,1:27.501,4.0
+2022,17,perez,red_bull,1,2,Finished,25.0,1:48.165,57.0
+2022,17,leclerc,ferrari,2,1,Finished,18.0,1:48.753,54.0
+2022,17,sainz,ferrari,3,4,Finished,15.0,1:48.414,59.0
+2022,17,norris,mclaren,4,6,Finished,12.0,1:49.212,56.0
+2022,17,ricciardo,mclaren,5,16,Finished,10.0,1:51.006,57.0
+2022,17,stroll,aston_martin,6,11,Finished,8.0,1:50.283,58.0
+2022,17,max_verstappen,red_bull,7,8,Finished,6.0,1:49.142,52.0
+2022,17,vettel,aston_martin,8,13,Finished,4.0,1:50.669,58.0
+2022,17,hamilton,mercedes,9,3,Finished,2.0,1:50.622,58.0
+2022,17,gasly,alphatauri,10,7,Finished,1.0,1:50.569,56.0
+2022,17,bottas,alfa,11,15,Finished,0.0,1:51.864,52.0
+2022,17,kevin_magnussen,haas,12,9,Finished,0.0,1:52.067,59.0
+2022,17,mick_schumacher,haas,13,12,+1 Lap,0.0,1:50.290,58.0
+2022,17,russell,mercedes,14,0,+2 Laps,0.0,1:46.458,54.0
+2022,17,tsunoda,alphatauri,15,10,Accident,0.0,1:58.716,32.0
+2022,17,ocon,alpine,16,17,Engine,0.0,2:01.105,24.0
+2022,17,albon,williams,17,18,Collision damage,0.0,2:02.121,24.0
+2022,17,alonso,alpine,18,5,Engine,0.0,2:00.463,19.0
+2022,17,latifi,williams,19,19,Collision damage,0.0,2:05.585,5.0
+2022,17,zhou,alfa,20,14,Collision,0.0,2:05.556,5.0
+2022,18,max_verstappen,red_bull,1,1,Finished,25.0,1:44.911,10.0
+2022,18,perez,red_bull,2,4,Finished,18.0,1:46.120,11.0
+2022,18,leclerc,ferrari,3,2,Finished,15.0,1:44.489,10.0
+2022,18,ocon,alpine,4,5,Finished,12.0,1:46.559,11.0
+2022,18,hamilton,mercedes,5,6,Finished,10.0,1:45.530,11.0
+2022,18,vettel,aston_martin,6,9,Finished,8.0,1:46.964,13.0
+2022,18,alonso,alpine,7,7,Finished,6.0,1:44.412,25.0
+2022,18,russell,mercedes,8,8,Finished,4.0,1:47.004,21.0
+2022,18,latifi,williams,9,20,Finished,2.0,1:48.371,12.0
+2022,18,norris,mclaren,10,10,Finished,1.0,1:48.175,8.0
+2022,18,ricciardo,mclaren,11,11,Finished,0.0,1:47.843,11.0
+2022,18,stroll,aston_martin,12,19,Finished,0.0,1:45.205,21.0
+2022,18,tsunoda,alphatauri,13,13,Finished,0.0,1:45.893,22.0
+2022,18,kevin_magnussen,haas,14,18,Finished,0.0,1:48.072,10.0
+2022,18,bottas,alfa,15,12,Finished,0.0,1:47.820,11.0
+2022,18,zhou,alfa,16,14,Finished,0.0,1:44.411,20.0
+2022,18,mick_schumacher,haas,17,15,Finished,0.0,1:45.387,22.0
+2022,18,gasly,alphatauri,18,17,Finished,0.0,1:46.545,13.0
+2022,18,sainz,ferrari,19,3,Accident,0.0,,
+2022,18,albon,williams,20,16,Hydraulics,0.0,,
+2022,19,max_verstappen,red_bull,1,2,Finished,25.0,1:39.541,37.0
+2022,19,hamilton,mercedes,2,3,Finished,18.0,1:39.830,45.0
+2022,19,leclerc,ferrari,3,12,Finished,15.0,1:39.731,37.0
+2022,19,perez,red_bull,4,9,Finished,12.0,1:39.563,44.0
+2022,19,russell,mercedes,5,4,Finished,11.0,1:38.788,56.0
+2022,19,norris,mclaren,6,6,Finished,8.0,1:41.322,49.0
+2022,19,alonso,alpine,7,14,Finished,6.0,1:41.538,39.0
+2022,19,vettel,aston_martin,8,10,Finished,4.0,1:42.546,35.0
+2022,19,kevin_magnussen,haas,9,13,Finished,2.0,1:42.206,36.0
+2022,19,tsunoda,alphatauri,10,19,Finished,1.0,1:41.243,49.0
+2022,19,ocon,alpine,11,0,Finished,0.0,1:42.394,39.0
+2022,19,zhou,alfa,12,18,Finished,0.0,1:42.471,46.0
+2022,19,albon,williams,13,8,Finished,0.0,1:41.674,55.0
+2022,19,gasly,alphatauri,14,11,Finished,0.0,1:42.320,55.0
+2022,19,mick_schumacher,haas,15,16,Finished,0.0,1:41.804,51.0
+2022,19,ricciardo,mclaren,16,15,Finished,0.0,1:42.420,55.0
+2022,19,latifi,williams,17,17,Finished,0.0,1:43.485,54.0
+2022,19,stroll,aston_martin,18,5,Collision,0.0,1:43.080,3.0
+2022,19,bottas,alfa,19,7,Spun off,0.0,1:43.391,4.0
+2022,19,sainz,ferrari,20,1,Collision damage,0.0,,
+2022,20,max_verstappen,red_bull,1,1,Finished,25.0,1:22.046,36.0
+2022,20,hamilton,mercedes,2,3,Finished,18.0,1:22.062,32.0
+2022,20,perez,red_bull,3,4,Finished,15.0,1:21.775,30.0
+2022,20,russell,mercedes,4,2,Finished,13.0,1:20.153,71.0
+2022,20,sainz,ferrari,5,5,Finished,10.0,1:22.199,32.0
+2022,20,leclerc,ferrari,6,7,Finished,8.0,1:22.603,48.0
+2022,20,ricciardo,mclaren,7,11,+1 Lap,6.0,1:22.022,48.0
+2022,20,ocon,alpine,8,10,+1 Lap,4.0,1:23.279,48.0
+2022,20,norris,mclaren,9,8,+1 Lap,2.0,1:23.402,48.0
+2022,20,bottas,alfa,10,6,+1 Lap,1.0,1:23.363,43.0
+2022,20,gasly,alphatauri,11,14,+1 Lap,0.0,1:22.277,42.0
+2022,20,albon,williams,12,17,+1 Lap,0.0,1:22.914,48.0
+2022,20,zhou,alfa,13,12,+1 Lap,0.0,1:22.260,47.0
+2022,20,vettel,aston_martin,14,16,+1 Lap,0.0,1:23.086,45.0
+2022,20,stroll,aston_martin,15,20,+1 Lap,0.0,1:22.463,42.0
+2022,20,mick_schumacher,haas,16,15,+1 Lap,0.0,1:23.641,30.0
+2022,20,kevin_magnussen,haas,17,19,+1 Lap,0.0,1:23.300,49.0
+2022,20,latifi,williams,18,18,+2 Laps,0.0,1:23.709,56.0
+2022,20,alonso,alpine,19,9,Engine,0.0,1:22.866,48.0
+2022,20,tsunoda,alphatauri,20,13,Collision damage,0.0,1:23.403,48.0
+2022,21,russell,mercedes,1,1,Finished,26.0,1:13.785,61.0
+2022,21,hamilton,mercedes,2,2,Finished,18.0,1:13.942,63.0
+2022,21,sainz,ferrari,3,7,Finished,15.0,1:13.953,65.0
+2022,21,leclerc,ferrari,4,5,Finished,12.0,1:14.253,63.0
+2022,21,alonso,alpine,5,17,Finished,10.0,1:14.164,62.0
+2022,21,max_verstappen,red_bull,6,3,Finished,8.0,1:14.195,64.0
+2022,21,perez,red_bull,7,4,Finished,6.0,1:14.283,62.0
+2022,21,ocon,alpine,8,16,Finished,4.0,1:15.093,65.0
+2022,21,bottas,alfa,9,14,Finished,2.0,1:15.511,62.0
+2022,21,stroll,aston_martin,10,15,Finished,1.0,1:14.831,50.0
+2022,21,vettel,aston_martin,11,9,Finished,0.0,1:15.549,64.0
+2022,21,zhou,alfa,12,13,Finished,0.0,1:15.802,64.0
+2022,21,mick_schumacher,haas,13,12,Finished,0.0,1:15.251,63.0
+2022,21,gasly,alphatauri,14,10,Finished,0.0,1:15.327,64.0
+2022,21,albon,williams,15,19,Finished,0.0,1:15.613,49.0
+2022,21,latifi,williams,16,18,Finished,0.0,1:15.327,59.0
+2022,21,tsunoda,alphatauri,17,0,+1 Lap,0.0,1:15.508,63.0
+2022,21,norris,mclaren,18,6,Gearbox,0.0,1:15.855,48.0
+2022,21,kevin_magnussen,haas,19,8,Collision,0.0,,
+2022,21,ricciardo,mclaren,20,11,Collision,0.0,,
+2022,22,max_verstappen,red_bull,1,1,Finished,25.0,1:29.392,54.0
+2022,22,leclerc,ferrari,2,3,Finished,18.0,1:29.719,48.0
+2022,22,perez,red_bull,3,2,Finished,15.0,1:28.972,52.0
+2022,22,sainz,ferrari,4,4,Finished,12.0,1:28.879,50.0
+2022,22,russell,mercedes,5,6,Finished,10.0,1:28.836,48.0
+2022,22,norris,mclaren,6,7,Finished,9.0,1:28.391,44.0
+2022,22,ocon,alpine,7,8,Finished,6.0,1:29.333,45.0
+2022,22,stroll,aston_martin,8,14,Finished,4.0,1:29.620,42.0
+2022,22,ricciardo,mclaren,9,13,Finished,2.0,1:30.785,45.0
+2022,22,vettel,aston_martin,10,9,Finished,1.0,1:30.312,35.0
+2022,22,tsunoda,alphatauri,11,11,Finished,0.0,1:29.489,40.0
+2022,22,zhou,alfa,12,15,+1 Lap,0.0,1:29.600,53.0
+2022,22,albon,williams,13,19,+1 Lap,0.0,1:29.939,40.0
+2022,22,gasly,alphatauri,14,17,+1 Lap,0.0,1:31.081,16.0
+2022,22,bottas,alfa,15,18,+1 Lap,0.0,1:30.352,47.0
+2022,22,mick_schumacher,haas,16,12,+1 Lap,0.0,1:29.833,39.0
+2022,22,kevin_magnussen,haas,17,16,+1 Lap,0.0,1:31.158,40.0
+2022,22,hamilton,mercedes,18,5,Hydraulics,0.0,1:29.788,42.0
+2022,22,latifi,williams,19,20,Collision damage,0.0,1:30.309,45.0
+2022,22,alonso,alpine,20,10,Water leak,0.0,1:30.579,24.0
+2023,1,max_verstappen,red_bull,1,1,Finished,25.0,1:36.236,44.0
+2023,1,perez,red_bull,2,2,Finished,18.0,1:36.344,37.0
+2023,1,alonso,aston_martin,3,5,Finished,15.0,1:36.156,36.0
+2023,1,sainz,ferrari,4,4,Finished,12.0,1:37.130,37.0
+2023,1,hamilton,mercedes,5,7,Finished,10.0,1:36.546,36.0
+2023,1,stroll,aston_martin,6,8,Finished,8.0,1:36.546,32.0
+2023,1,russell,mercedes,7,6,Finished,6.0,1:37.221,33.0
+2023,1,bottas,alfa,8,12,Finished,4.0,1:37.379,31.0
+2023,1,gasly,alpine,9,20,Finished,2.0,1:35.068,42.0
+2023,1,albon,williams,10,15,Finished,1.0,1:37.144,43.0
+2023,1,tsunoda,alphatauri,11,14,Finished,0.0,1:36.637,42.0
+2023,1,sargeant,williams,12,16,Lapped,0.0,1:36.037,42.0
+2023,1,kevin_magnussen,haas,13,17,Lapped,0.0,1:36.471,42.0
+2023,1,de_vries,alphatauri,14,19,Lapped,0.0,1:37.709,30.0
+2023,1,hulkenberg,haas,15,10,Lapped,0.0,1:36.616,42.0
+2023,1,zhou,alfa,16,13,Lapped,0.0,1:33.996,56.0
+2023,1,norris,mclaren,17,11,Lapped,0.0,1:35.822,51.0
+2023,1,ocon,alpine,18,9,Retired,0.0,1:36.797,34.0
+2023,1,leclerc,ferrari,19,3,Retired,0.0,1:37.170,37.0
+2023,1,piastri,mclaren,20,18,Retired,0.0,1:40.691,3.0
+2023,2,perez,red_bull,1,1,Finished,25.0,1:32.188,38.0
+2023,2,max_verstappen,red_bull,2,15,Finished,19.0,1:31.906,50.0
+2023,2,alonso,aston_martin,3,2,Finished,15.0,1:32.240,50.0
+2023,2,russell,mercedes,4,3,Finished,12.0,1:32.433,50.0
+2023,2,hamilton,mercedes,5,7,Finished,10.0,1:32.941,47.0
+2023,2,sainz,ferrari,6,4,Finished,8.0,1:32.822,50.0
+2023,2,leclerc,ferrari,7,12,Finished,6.0,1:33.056,47.0
+2023,2,ocon,alpine,8,6,Finished,4.0,1:33.222,49.0
+2023,2,gasly,alpine,9,9,Finished,2.0,1:33.392,50.0
+2023,2,kevin_magnussen,haas,10,13,Finished,1.0,1:33.374,44.0
+2023,2,tsunoda,alphatauri,11,16,Finished,0.0,1:33.931,50.0
+2023,2,hulkenberg,haas,12,10,Finished,0.0,1:33.780,50.0
+2023,2,zhou,alfa,13,11,Finished,0.0,1:33.894,49.0
+2023,2,de_vries,alphatauri,14,18,Finished,0.0,1:33.609,49.0
+2023,2,piastri,mclaren,15,8,Finished,0.0,1:34.287,48.0
+2023,2,sargeant,williams,16,20,Finished,0.0,1:34.469,49.0
+2023,2,norris,mclaren,17,19,Finished,0.0,1:34.122,49.0
+2023,2,bottas,alfa,18,14,Lapped,0.0,1:34.384,37.0
+2023,2,albon,williams,19,17,Retired,0.0,1:35.567,24.0
+2023,2,stroll,aston_martin,20,5,Retired,0.0,1:35.140,7.0
+2023,3,max_verstappen,red_bull,1,1,Finished,25.0,1:20.342,49.0
+2023,3,hamilton,mercedes,2,3,Finished,18.0,1:20.613,49.0
+2023,3,alonso,aston_martin,3,4,Finished,15.0,1:20.476,53.0
+2023,3,stroll,aston_martin,4,6,Finished,12.0,1:20.934,50.0
+2023,3,perez,red_bull,5,20,Finished,11.0,1:20.235,53.0
+2023,3,norris,mclaren,6,13,Finished,8.0,1:21.173,46.0
+2023,3,hulkenberg,haas,7,10,Finished,6.0,1:21.124,46.0
+2023,3,piastri,mclaren,8,16,Finished,4.0,1:21.335,53.0
+2023,3,zhou,alfa,9,17,Finished,2.0,1:21.819,48.0
+2023,3,tsunoda,alphatauri,10,12,Finished,1.0,1:21.789,52.0
+2023,3,bottas,alfa,11,19,Finished,0.0,1:22.233,46.0
+2023,3,sainz,ferrari,12,5,Finished,0.0,1:20.467,53.0
+2023,3,gasly,alpine,13,9,Finished,0.0,1:20.995,47.0
+2023,3,ocon,alpine,14,11,Finished,0.0,1:21.203,44.0
+2023,3,de_vries,alphatauri,15,15,Finished,0.0,1:21.183,50.0
+2023,3,sargeant,williams,16,18,Finished,0.0,1:21.456,50.0
+2023,3,kevin_magnussen,haas,17,14,Finished,0.0,1:21.685,52.0
+2023,3,russell,mercedes,18,2,Retired,0.0,1:22.680,16.0
+2023,3,albon,williams,19,8,Retired,0.0,1:23.349,6.0
+2023,3,leclerc,ferrari,20,7,Retired,0.0,,
+2023,4,perez,red_bull,1,3,Finished,25.0,1:44.589,50.0
+2023,4,max_verstappen,red_bull,2,2,Finished,18.0,1:44.232,51.0
+2023,4,leclerc,ferrari,3,1,Finished,15.0,1:44.561,49.0
+2023,4,alonso,aston_martin,4,6,Finished,12.0,1:44.241,49.0
+2023,4,sainz,ferrari,5,4,Finished,10.0,1:45.175,48.0
+2023,4,hamilton,mercedes,6,5,Finished,8.0,1:45.346,48.0
+2023,4,stroll,aston_martin,7,9,Finished,6.0,1:45.627,45.0
+2023,4,russell,mercedes,8,11,Finished,5.0,1:43.370,51.0
+2023,4,norris,mclaren,9,7,Finished,2.0,1:45.738,49.0
+2023,4,tsunoda,alphatauri,10,8,Finished,1.0,1:45.727,51.0
+2023,4,piastri,mclaren,11,10,Finished,0.0,1:45.631,51.0
+2023,4,albon,williams,12,12,Finished,0.0,1:45.925,51.0
+2023,4,kevin_magnussen,haas,13,16,Finished,0.0,1:45.850,51.0
+2023,4,gasly,alpine,14,17,Finished,0.0,1:45.540,47.0
+2023,4,ocon,alpine,15,19,Finished,0.0,1:45.908,49.0
+2023,4,sargeant,williams,16,14,Finished,0.0,1:46.501,49.0
+2023,4,hulkenberg,haas,17,20,Lapped,0.0,1:46.731,34.0
+2023,4,bottas,alfa,18,13,Lapped,0.0,1:46.304,36.0
+2023,4,zhou,alfa,19,15,Retired,0.0,1:47.553,31.0
+2023,4,de_vries,alphatauri,20,18,Retired,0.0,1:48.781,4.0
+2023,5,max_verstappen,red_bull,1,9,Finished,26.0,1:29.708,56.0
+2023,5,perez,red_bull,2,1,Finished,18.0,1:30.560,57.0
+2023,5,alonso,aston_martin,3,2,Finished,15.0,1:30.519,57.0
+2023,5,russell,mercedes,4,6,Finished,12.0,1:31.015,57.0
+2023,5,sainz,ferrari,5,3,Finished,10.0,1:31.362,55.0
+2023,5,hamilton,mercedes,6,13,Finished,8.0,1:30.669,57.0
+2023,5,leclerc,ferrari,7,7,Finished,6.0,1:31.434,57.0
+2023,5,gasly,alpine,8,5,Finished,4.0,1:31.971,55.0
+2023,5,ocon,alpine,9,8,Finished,2.0,1:31.143,56.0
+2023,5,kevin_magnussen,haas,10,4,Finished,1.0,1:31.691,53.0
+2023,5,tsunoda,alphatauri,11,17,Finished,0.0,1:31.038,56.0
+2023,5,stroll,aston_martin,12,18,Finished,0.0,1:30.862,44.0
+2023,5,bottas,alfa,13,10,Finished,0.0,1:31.838,56.0
+2023,5,albon,williams,14,11,Finished,0.0,1:31.852,55.0
+2023,5,hulkenberg,haas,15,12,Finished,0.0,1:30.901,36.0
+2023,5,zhou,alfa,16,14,Finished,0.0,1:31.736,56.0
+2023,5,norris,mclaren,17,16,Finished,0.0,1:32.401,47.0
+2023,5,de_vries,alphatauri,18,15,Finished,0.0,1:31.562,57.0
+2023,5,piastri,mclaren,19,19,Lapped,0.0,1:32.006,56.0
+2023,5,sargeant,williams,20,20,Lapped,0.0,1:32.384,50.0
+2023,6,max_verstappen,red_bull,1,1,Finished,25.0,1:16.604,23.0
+2023,6,alonso,aston_martin,2,2,Finished,18.0,1:16.674,43.0
+2023,6,ocon,alpine,3,3,Finished,15.0,1:16.528,41.0
+2023,6,hamilton,mercedes,4,5,Finished,13.0,1:15.650,33.0
+2023,6,russell,mercedes,5,8,Finished,10.0,1:16.798,48.0
+2023,6,leclerc,ferrari,6,6,Finished,8.0,1:15.773,46.0
+2023,6,gasly,alpine,7,7,Finished,6.0,1:15.831,49.0
+2023,6,sainz,ferrari,8,4,Finished,4.0,1:16.449,43.0
+2023,6,norris,mclaren,9,10,Lapped,2.0,1:17.844,46.0
+2023,6,piastri,mclaren,10,11,Lapped,1.0,1:17.513,47.0
+2023,6,bottas,alfa,11,15,Lapped,0.0,1:17.824,19.0
+2023,6,de_vries,alphatauri,12,12,Lapped,0.0,1:17.561,43.0
+2023,6,zhou,alfa,13,19,Lapped,0.0,1:16.926,5.0
+2023,6,albon,williams,14,13,Lapped,0.0,1:16.672,24.0
+2023,6,tsunoda,alphatauri,15,9,Lapped,0.0,1:17.680,36.0
+2023,6,perez,red_bull,16,20,Lapped,0.0,1:16.269,5.0
+2023,6,hulkenberg,haas,17,18,Lapped,0.0,1:16.991,6.0
+2023,6,sargeant,williams,18,16,Lapped,0.0,1:17.302,32.0
+2023,6,kevin_magnussen,haas,19,17,Finished,0.0,1:18.351,41.0
+2023,6,stroll,aston_martin,20,14,Retired,0.0,1:17.769,18.0
+2023,7,max_verstappen,red_bull,1,1,Finished,26.0,1:16.330,61.0
+2023,7,hamilton,mercedes,2,4,Finished,18.0,1:16.676,62.0
+2023,7,russell,mercedes,3,12,Finished,15.0,1:17.875,48.0
+2023,7,perez,red_bull,4,11,Finished,12.0,1:16.666,52.0
+2023,7,sainz,ferrari,5,2,Finished,10.0,1:18.403,60.0
+2023,7,stroll,aston_martin,6,5,Finished,8.0,1:18.722,56.0
+2023,7,alonso,aston_martin,7,8,Finished,6.0,1:18.083,49.0
+2023,7,ocon,alpine,8,6,Finished,4.0,1:18.946,54.0
+2023,7,zhou,alfa,9,13,Finished,2.0,1:18.753,38.0
+2023,7,gasly,alpine,10,10,Finished,1.0,1:18.375,41.0
+2023,7,leclerc,ferrari,11,19,Finished,0.0,1:18.357,52.0
+2023,7,tsunoda,alphatauri,12,15,Finished,0.0,1:18.904,59.0
+2023,7,piastri,mclaren,13,9,Lapped,0.0,1:18.679,41.0
+2023,7,de_vries,alphatauri,14,14,Lapped,0.0,1:18.594,41.0
+2023,7,hulkenberg,haas,15,7,Lapped,0.0,1:18.776,53.0
+2023,7,albon,williams,16,18,Lapped,0.0,1:19.133,59.0
+2023,7,norris,mclaren,17,3,Lapped,0.0,1:17.182,55.0
+2023,7,kevin_magnussen,haas,18,17,Lapped,0.0,1:18.069,44.0
+2023,7,bottas,alfa,19,16,Lapped,0.0,1:18.242,50.0
+2023,7,sargeant,williams,20,20,Lapped,0.0,1:19.247,41.0
+2023,8,max_verstappen,red_bull,1,1,Finished,25.0,1:15.594,68.0
+2023,8,alonso,aston_martin,2,2,Finished,18.0,1:15.779,62.0
+2023,8,hamilton,mercedes,3,3,Finished,15.0,1:15.396,47.0
+2023,8,leclerc,ferrari,4,10,Finished,12.0,1:15.907,47.0
+2023,8,sainz,ferrari,5,11,Finished,10.0,1:15.911,47.0
+2023,8,perez,red_bull,6,12,Finished,9.0,1:14.481,70.0
+2023,8,albon,williams,7,9,Finished,6.0,1:16.917,68.0
+2023,8,ocon,alpine,8,6,Finished,4.0,1:16.782,63.0
+2023,8,stroll,aston_martin,9,16,Finished,2.0,1:16.564,58.0
+2023,8,bottas,alfa,10,14,Finished,1.0,1:16.625,52.0
+2023,8,piastri,mclaren,11,8,Finished,0.0,1:16.598,59.0
+2023,8,gasly,alpine,12,15,Finished,0.0,1:16.425,67.0
+2023,8,norris,mclaren,13,7,Finished,0.0,1:16.374,65.0
+2023,8,tsunoda,alphatauri,14,19,Finished,0.0,1:16.666,68.0
+2023,8,hulkenberg,haas,15,5,Lapped,0.0,1:17.232,37.0
+2023,8,zhou,alfa,16,20,Lapped,0.0,1:17.090,58.0
+2023,8,kevin_magnussen,haas,17,13,Lapped,0.0,1:16.126,55.0
+2023,8,de_vries,alphatauri,18,17,Lapped,0.0,1:16.656,52.0
+2023,8,russell,mercedes,19,4,Retired,0.0,1:17.097,44.0
+2023,8,sargeant,williams,20,18,Retired,0.0,1:18.437,4.0
+2023,9,max_verstappen,red_bull,1,1,Finished,26.0,1:07.012,71.0
+2023,9,leclerc,ferrari,2,2,Finished,18.0,1:08.820,51.0
+2023,9,perez,red_bull,3,15,Finished,15.0,1:08.111,52.0
+2023,9,norris,mclaren,4,4,Finished,12.0,1:08.739,48.0
+2023,9,alonso,aston_martin,5,7,Finished,10.0,1:09.108,54.0
+2023,9,sainz,ferrari,6,3,Finished,8.0,1:08.880,50.0
+2023,9,russell,mercedes,7,11,Finished,6.0,1:09.283,49.0
+2023,9,hamilton,mercedes,8,5,Finished,4.0,1:09.160,48.0
+2023,9,stroll,aston_martin,9,6,Finished,2.0,1:08.463,57.0
+2023,9,gasly,alpine,10,9,Finished,1.0,1:09.046,48.0
+2023,9,albon,williams,11,10,Finished,0.0,1:09.560,53.0
+2023,9,zhou,alfa,12,17,Lapped,0.0,1:09.786,46.0
+2023,9,sargeant,williams,13,18,Lapped,0.0,1:09.611,45.0
+2023,9,ocon,alpine,14,12,Lapped,0.0,1:09.797,50.0
+2023,9,bottas,alfa,15,14,Lapped,0.0,1:09.940,49.0
+2023,9,piastri,mclaren,16,13,Lapped,0.0,1:09.862,46.0
+2023,9,de_vries,alphatauri,17,20,Lapped,0.0,1:09.852,46.0
+2023,9,kevin_magnussen,haas,18,19,Lapped,0.0,1:10.176,37.0
+2023,9,tsunoda,alphatauri,19,16,Lapped,0.0,1:09.620,45.0
+2023,9,hulkenberg,haas,20,8,Retired,0.0,1:11.066,7.0
+2023,10,max_verstappen,red_bull,1,1,Finished,26.0,1:30.275,42.0
+2023,10,norris,mclaren,2,2,Finished,18.0,1:30.543,43.0
+2023,10,hamilton,mercedes,3,7,Finished,15.0,1:30.545,43.0
+2023,10,piastri,mclaren,4,3,Finished,12.0,1:30.850,41.0
+2023,10,russell,mercedes,5,6,Finished,10.0,1:31.124,41.0
+2023,10,perez,red_bull,6,15,Finished,8.0,1:30.914,51.0
+2023,10,alonso,aston_martin,7,9,Finished,6.0,1:31.338,48.0
+2023,10,albon,williams,8,8,Finished,4.0,1:31.273,41.0
+2023,10,leclerc,ferrari,9,4,Finished,2.0,1:31.255,48.0
+2023,10,sainz,ferrari,10,5,Finished,1.0,1:31.366,51.0
+2023,10,sargeant,williams,11,14,Finished,0.0,1:31.699,42.0
+2023,10,bottas,alfa,12,20,Finished,0.0,1:31.852,52.0
+2023,10,hulkenberg,haas,13,11,Finished,0.0,1:31.776,52.0
+2023,10,stroll,aston_martin,14,12,Finished,0.0,1:31.508,42.0
+2023,10,zhou,alfa,15,17,Finished,0.0,1:31.769,48.0
+2023,10,tsunoda,alphatauri,16,16,Finished,0.0,1:32.084,48.0
+2023,10,de_vries,alphatauri,17,18,Finished,0.0,1:32.353,48.0
+2023,10,gasly,alpine,18,10,Finished,0.0,1:31.539,42.0
+2023,10,kevin_magnussen,haas,19,19,Retired,0.0,1:33.356,29.0
+2023,10,ocon,alpine,20,13,Retired,0.0,1:33.941,4.0
+2023,11,max_verstappen,red_bull,1,2,Finished,26.0,1:20.504,53.0
+2023,11,norris,mclaren,2,3,Finished,18.0,1:22.178,50.0
+2023,11,perez,red_bull,3,9,Finished,15.0,1:22.295,53.0
+2023,11,hamilton,mercedes,4,1,Finished,12.0,1:21.601,54.0
+2023,11,piastri,mclaren,5,4,Finished,10.0,1:22.736,45.0
+2023,11,russell,mercedes,6,18,Finished,8.0,1:22.158,48.0
+2023,11,leclerc,ferrari,7,6,Finished,6.0,1:22.469,50.0
+2023,11,sainz,ferrari,8,11,Finished,4.0,1:22.584,54.0
+2023,11,alonso,aston_martin,9,8,Finished,2.0,1:22.745,51.0
+2023,11,stroll,aston_martin,10,14,Lapped,1.0,1:23.425,54.0
+2023,11,albon,williams,11,16,Lapped,0.0,1:24.051,54.0
+2023,11,bottas,alfa,12,7,Lapped,0.0,1:23.651,42.0
+2023,11,ricciardo,alphatauri,13,13,Lapped,0.0,1:23.934,67.0
+2023,11,hulkenberg,haas,14,10,Lapped,0.0,1:23.573,42.0
+2023,11,tsunoda,alphatauri,15,17,Lapped,0.0,1:23.269,68.0
+2023,11,zhou,alfa,16,5,Lapped,0.0,1:23.743,12.0
+2023,11,kevin_magnussen,haas,17,19,Lapped,0.0,1:23.864,54.0
+2023,11,sargeant,williams,18,20,Finished,0.0,1:23.496,36.0
+2023,11,ocon,alpine,19,12,Retired,0.0,,
+2023,11,gasly,alpine,20,15,Retired,0.0,,
+2023,12,max_verstappen,red_bull,1,6,Finished,25.0,1:48.922,32.0
+2023,12,perez,red_bull,2,2,Finished,18.0,1:50.308,31.0
+2023,12,leclerc,ferrari,3,1,Finished,15.0,1:50.436,30.0
+2023,12,hamilton,mercedes,4,3,Finished,13.0,1:47.305,44.0
+2023,12,alonso,aston_martin,5,9,Finished,10.0,1:50.938,42.0
+2023,12,russell,mercedes,6,8,Finished,8.0,1:50.603,25.0
+2023,12,norris,mclaren,7,7,Finished,6.0,1:51.682,26.0
+2023,12,ocon,alpine,8,14,Finished,4.0,1:50.439,27.0
+2023,12,stroll,aston_martin,9,10,Finished,2.0,1:51.297,26.0
+2023,12,tsunoda,alphatauri,10,11,Finished,1.0,1:51.394,26.0
+2023,12,gasly,alpine,11,12,Finished,0.0,1:50.911,25.0
+2023,12,bottas,alfa,12,13,Finished,0.0,1:50.515,26.0
+2023,12,zhou,alfa,13,17,Finished,0.0,1:50.188,27.0
+2023,12,albon,williams,14,15,Finished,0.0,1:49.841,35.0
+2023,12,kevin_magnussen,haas,15,16,Finished,0.0,1:50.993,27.0
+2023,12,ricciardo,alphatauri,16,19,Finished,0.0,1:50.994,25.0
+2023,12,sargeant,williams,17,18,Finished,0.0,1:50.486,37.0
+2023,12,hulkenberg,haas,18,20,Finished,0.0,1:49.907,26.0
+2023,12,sainz,ferrari,19,4,Retired,0.0,1:53.138,9.0
+2023,12,piastri,mclaren,20,5,Retired,0.0,,
+2023,13,max_verstappen,red_bull,1,1,Finished,25.0,1:13.889,58.0
+2023,13,alonso,aston_martin,2,5,Finished,19.0,1:13.837,56.0
+2023,13,gasly,alpine,3,12,Finished,15.0,1:14.441,55.0
+2023,13,perez,red_bull,4,7,Finished,12.0,1:14.231,59.0
+2023,13,sainz,ferrari,5,6,Finished,10.0,1:14.934,54.0
+2023,13,hamilton,mercedes,6,13,Finished,8.0,1:13.904,58.0
+2023,13,norris,mclaren,7,2,Finished,6.0,1:14.390,50.0
+2023,13,albon,williams,8,4,Finished,4.0,1:14.468,55.0
+2023,13,piastri,mclaren,9,8,Finished,2.0,1:14.299,54.0
+2023,13,ocon,alpine,10,16,Finished,1.0,1:14.570,51.0
+2023,13,stroll,aston_martin,11,11,Finished,0.0,1:15.171,37.0
+2023,13,hulkenberg,haas,12,14,Finished,0.0,1:14.472,53.0
+2023,13,lawson,alphatauri,13,19,Finished,0.0,1:14.820,49.0
+2023,13,bottas,alfa,14,18,Finished,0.0,1:14.698,49.0
+2023,13,tsunoda,alphatauri,15,17,Finished,0.0,1:16.253,35.0
+2023,13,kevin_magnussen,haas,16,0,Finished,0.0,1:15.489,37.0
+2023,13,russell,mercedes,17,3,Finished,0.0,1:15.124,54.0
+2023,13,zhou,alfa,18,15,Accident,0.0,1:15.417,39.0
+2023,13,leclerc,ferrari,19,9,Undertray,0.0,1:17.277,33.0
+2023,13,sargeant,williams,20,10,Accident,0.0,1:17.399,13.0
+2023,14,max_verstappen,red_bull,1,2,Finished,25.0,1:25.240,33.0
+2023,14,perez,red_bull,2,5,Finished,18.0,1:25.522,39.0
+2023,14,sainz,ferrari,3,1,Finished,15.0,1:25.501,30.0
+2023,14,leclerc,ferrari,4,3,Finished,12.0,1:25.580,38.0
+2023,14,russell,mercedes,5,4,Finished,10.0,1:25.847,38.0
+2023,14,hamilton,mercedes,6,8,Finished,8.0,1:25.582,29.0
+2023,14,albon,williams,7,6,Finished,6.0,1:26.389,33.0
+2023,14,norris,mclaren,8,9,Finished,4.0,1:26.144,24.0
+2023,14,alonso,aston_martin,9,10,Finished,2.0,1:26.105,43.0
+2023,14,bottas,alfa,10,14,Finished,1.0,1:25.988,27.0
+2023,14,lawson,alphatauri,11,12,Finished,0.0,1:25.842,44.0
+2023,14,piastri,mclaren,12,7,Finished,0.0,1:25.072,43.0
+2023,14,sargeant,williams,13,15,Finished,0.0,1:26.840,16.0
+2023,14,zhou,alfa,14,16,Finished,0.0,1:25.983,35.0
+2023,14,gasly,alpine,15,17,Finished,0.0,1:25.758,44.0
+2023,14,stroll,aston_martin,16,20,Finished,0.0,1:26.617,31.0
+2023,14,hulkenberg,haas,17,13,Lapped,0.0,1:25.894,50.0
+2023,14,kevin_magnussen,haas,18,19,Lapped,0.0,1:26.278,42.0
+2023,14,ocon,alpine,19,18,Retired,0.0,1:26.963,33.0
+2023,14,tsunoda,alphatauri,20,11,Did not start,0.0,,
+2023,15,sainz,ferrari,1,1,Finished,25.0,1:37.666,47.0
+2023,15,norris,mclaren,2,4,Finished,18.0,1:38.046,46.0
+2023,15,hamilton,mercedes,3,5,Finished,16.0,1:35.867,47.0
+2023,15,leclerc,ferrari,4,3,Finished,12.0,1:38.275,46.0
+2023,15,max_verstappen,red_bull,5,11,Finished,10.0,1:36.575,61.0
+2023,15,gasly,alpine,6,12,Finished,8.0,1:38.277,46.0
+2023,15,piastri,mclaren,7,17,Finished,6.0,1:38.492,46.0
+2023,15,perez,red_bull,8,13,Finished,4.0,1:37.108,61.0
+2023,15,lawson,alphatauri,9,10,Finished,2.0,1:39.028,47.0
+2023,15,kevin_magnussen,haas,10,6,Finished,1.0,1:38.107,48.0
+2023,15,albon,williams,11,14,Finished,0.0,1:37.342,46.0
+2023,15,zhou,alfa,12,19,Finished,0.0,1:39.316,46.0
+2023,15,hulkenberg,haas,13,9,Finished,0.0,1:39.923,50.0
+2023,15,sargeant,williams,14,18,Finished,0.0,1:38.531,45.0
+2023,15,alonso,aston_martin,15,7,Finished,0.0,1:36.456,47.0
+2023,15,russell,mercedes,16,2,Finished,0.0,1:36.273,46.0
+2023,15,bottas,alfa,17,16,Retired,0.0,1:38.075,51.0
+2023,15,ocon,alpine,18,8,Retired,0.0,1:39.930,33.0
+2023,15,tsunoda,alphatauri,19,15,Retired,0.0,,
+2023,15,stroll,aston_martin,20,0,Withdrew,0.0,,
+2023,16,max_verstappen,red_bull,1,1,Finished,26.0,1:34.183,39.0
+2023,16,norris,mclaren,2,3,Finished,18.0,1:35.247,40.0
+2023,16,piastri,mclaren,3,2,Finished,15.0,1:36.328,38.0
+2023,16,leclerc,ferrari,4,4,Finished,12.0,1:36.362,40.0
+2023,16,hamilton,mercedes,5,7,Finished,10.0,1:35.611,36.0
+2023,16,sainz,ferrari,6,6,Finished,8.0,1:36.187,40.0
+2023,16,russell,mercedes,7,8,Finished,6.0,1:37.653,27.0
+2023,16,alonso,aston_martin,8,10,Finished,4.0,1:37.203,28.0
+2023,16,ocon,alpine,9,14,Finished,2.0,1:37.398,34.0
+2023,16,gasly,alpine,10,12,Finished,1.0,1:36.371,36.0
+2023,16,lawson,alphatauri,11,11,Lapped,0.0,1:38.267,50.0
+2023,16,tsunoda,alphatauri,12,9,Lapped,0.0,1:37.768,36.0
+2023,16,zhou,alfa,13,19,Lapped,0.0,1:37.791,45.0
+2023,16,hulkenberg,haas,14,18,Lapped,0.0,1:37.250,44.0
+2023,16,kevin_magnussen,haas,15,15,Lapped,0.0,1:37.842,41.0
+2023,16,albon,williams,16,13,Retired,0.0,1:39.185,15.0
+2023,16,sargeant,williams,17,20,Retired,0.0,1:38.848,7.0
+2023,16,stroll,aston_martin,18,17,Retired,0.0,1:39.050,16.0
+2023,16,perez,red_bull,19,5,Retired,0.0,1:39.704,8.0
+2023,16,bottas,alfa,20,16,Retired,0.0,2:02.755,5.0
+2023,17,max_verstappen,red_bull,1,1,Finished,26.0,1:24.319,56.0
+2023,17,piastri,mclaren,2,6,Finished,18.0,1:24.921,48.0
+2023,17,norris,mclaren,3,10,Finished,15.0,1:24.842,47.0
+2023,17,russell,mercedes,4,2,Finished,12.0,1:25.770,35.0
+2023,17,leclerc,ferrari,5,5,Finished,10.0,1:24.992,57.0
+2023,17,alonso,aston_martin,6,4,Finished,8.0,1:26.045,57.0
+2023,17,ocon,alpine,7,8,Finished,6.0,1:26.450,42.0
+2023,17,bottas,alfa,8,9,Finished,4.0,1:26.652,54.0
+2023,17,zhou,alfa,9,19,Finished,2.0,1:26.323,54.0
+2023,17,perez,red_bull,10,20,Finished,1.0,1:26.220,50.0
+2023,17,stroll,aston_martin,11,16,Finished,0.0,1:26.352,55.0
+2023,17,gasly,alpine,12,7,Finished,0.0,1:26.310,49.0
+2023,17,albon,williams,13,13,Finished,0.0,1:26.666,57.0
+2023,17,kevin_magnussen,haas,14,18,Lapped,0.0,1:27.067,46.0
+2023,17,tsunoda,alphatauri,15,11,Lapped,0.0,1:27.174,55.0
+2023,17,hulkenberg,haas,16,14,Lapped,0.0,1:26.489,45.0
+2023,17,lawson,alphatauri,17,17,Lapped,0.0,1:27.113,54.0
+2023,17,sargeant,williams,18,15,Retired,0.0,1:27.983,31.0
+2023,17,hamilton,mercedes,19,3,Retired,0.0,,
+2023,17,sainz,ferrari,20,12,Did not start,0.0,,
+2023,18,max_verstappen,red_bull,1,6,Finished,25.0,1:40.028,40.0
+2023,18,norris,mclaren,2,2,Finished,18.0,1:39.985,39.0
+2023,18,sainz,ferrari,3,4,Finished,15.0,1:40.034,51.0
+2023,18,perez,red_bull,4,9,Finished,12.0,1:39.737,40.0
+2023,18,russell,mercedes,5,5,Finished,10.0,1:39.393,48.0
+2023,18,gasly,alpine,6,7,Finished,8.0,1:40.412,47.0
+2023,18,stroll,aston_martin,7,20,Finished,6.0,1:39.908,48.0
+2023,18,tsunoda,alphatauri,8,11,Finished,5.0,1:38.139,56.0
+2023,18,albon,williams,9,15,Finished,2.0,1:41.318,48.0
+2023,18,sargeant,williams,10,16,Finished,1.0,1:41.238,34.0
+2023,18,hulkenberg,haas,11,18,Finished,0.0,1:40.925,45.0
+2023,18,bottas,alfa,12,13,Finished,0.0,1:41.972,54.0
+2023,18,zhou,alfa,13,12,Lapped,0.0,1:41.879,51.0
+2023,18,kevin_magnussen,haas,14,17,Lapped,0.0,1:41.506,41.0
+2023,18,ricciardo,alphatauri,15,14,Lapped,0.0,1:39.366,49.0
+2023,18,alonso,aston_martin,16,19,Retired,0.0,1:39.954,47.0
+2023,18,piastri,mclaren,17,10,Retired,0.0,1:42.705,5.0
+2023,18,ocon,alpine,18,8,Retired,0.0,1:44.789,2.0
+2023,18,hamilton,mercedes,19,3,Disqualified,0.0,1:39.582,42.0
+2023,18,leclerc,ferrari,20,1,Disqualified,0.0,1:41.025,38.0
+2023,19,max_verstappen,red_bull,1,3,Finished,25.0,1:21.644,40.0
+2023,19,hamilton,mercedes,2,6,Finished,19.0,1:21.334,71.0
+2023,19,leclerc,ferrari,3,1,Finished,15.0,1:22.332,38.0
+2023,19,sainz,ferrari,4,2,Finished,12.0,1:22.539,57.0
+2023,19,norris,mclaren,5,17,Finished,10.0,1:21.944,71.0
+2023,19,russell,mercedes,6,8,Finished,8.0,1:22.780,38.0
+2023,19,ricciardo,alphatauri,7,4,Finished,6.0,1:22.679,66.0
+2023,19,piastri,mclaren,8,7,Finished,4.0,1:22.760,53.0
+2023,19,albon,williams,9,14,Finished,2.0,1:22.773,65.0
+2023,19,ocon,alpine,10,15,Finished,1.0,1:22.976,66.0
+2023,19,gasly,alpine,11,11,Finished,0.0,1:23.230,43.0
+2023,19,tsunoda,alphatauri,12,18,Finished,0.0,1:22.501,11.0
+2023,19,hulkenberg,haas,13,12,Finished,0.0,1:23.222,43.0
+2023,19,zhou,alfa,14,10,Finished,0.0,1:23.567,39.0
+2023,19,bottas,alfa,15,9,Finished,0.0,1:23.166,43.0
+2023,19,sargeant,williams,16,19,Retired,0.0,1:23.003,24.0
+2023,19,stroll,aston_martin,17,0,Collision damage,0.0,1:23.257,43.0
+2023,19,alonso,aston_martin,18,13,Withdrew,0.0,1:23.531,40.0
+2023,19,kevin_magnussen,haas,19,16,Accident,0.0,1:23.146,25.0
+2023,19,perez,red_bull,20,5,Collision damage,0.0,,
+2023,20,max_verstappen,red_bull,1,1,Finished,25.0,1:13.422,68.0
+2023,20,norris,mclaren,2,6,Finished,19.0,1:12.486,61.0
+2023,20,alonso,aston_martin,3,4,Finished,15.0,1:14.442,54.0
+2023,20,perez,red_bull,4,9,Finished,12.0,1:14.124,55.0
+2023,20,stroll,aston_martin,5,3,Finished,10.0,1:14.007,67.0
+2023,20,sainz,ferrari,6,7,Finished,8.0,1:14.406,59.0
+2023,20,gasly,alpine,7,15,Finished,6.0,1:14.521,48.0
+2023,20,hamilton,mercedes,8,5,Finished,4.0,1:14.739,59.0
+2023,20,tsunoda,alphatauri,9,16,Finished,2.0,1:14.231,64.0
+2023,20,ocon,alpine,10,14,Lapped,1.0,1:14.206,53.0
+2023,20,sargeant,williams,11,19,Lapped,0.0,1:15.738,51.0
+2023,20,hulkenberg,haas,12,11,Lapped,0.0,1:15.036,66.0
+2023,20,ricciardo,alphatauri,13,17,Lapped,0.0,1:13.866,68.0
+2023,20,piastri,mclaren,14,10,Lapped,0.0,1:14.310,66.0
+2023,20,russell,mercedes,15,8,Retired,0.0,1:14.934,55.0
+2023,20,bottas,alfa,16,18,Retired,0.0,1:15.731,20.0
+2023,20,zhou,alfa,17,20,Retired,0.0,1:16.232,17.0
+2023,20,kevin_magnussen,haas,18,12,Retired,0.0,,
+2023,20,albon,williams,19,13,Retired,0.0,,
+2023,20,leclerc,ferrari,20,2,Did not start,0.0,,
+2023,21,max_verstappen,red_bull,1,2,Finished,25.0,1:35.614,44.0
+2023,21,leclerc,ferrari,2,1,Finished,18.0,1:35.669,50.0
+2023,21,perez,red_bull,3,11,Finished,15.0,1:35.939,40.0
+2023,21,ocon,alpine,4,16,Finished,12.0,1:36.637,47.0
+2023,21,stroll,aston_martin,5,19,Finished,10.0,1:36.584,45.0
+2023,21,sainz,ferrari,6,12,Finished,8.0,1:35.984,47.0
+2023,21,hamilton,mercedes,7,10,Finished,6.0,1:35.716,48.0
+2023,21,russell,mercedes,8,3,Finished,4.0,1:36.071,44.0
+2023,21,alonso,aston_martin,9,9,Finished,2.0,1:36.559,42.0
+2023,21,piastri,mclaren,10,18,Finished,2.0,1:35.490,47.0
+2023,21,gasly,alpine,11,4,Finished,0.0,1:36.913,37.0
+2023,21,albon,williams,12,5,Finished,0.0,1:37.357,50.0
+2023,21,kevin_magnussen,haas,13,8,Finished,0.0,1:37.455,50.0
+2023,21,ricciardo,alphatauri,14,14,Finished,0.0,1:37.108,50.0
+2023,21,zhou,alfa,15,17,Finished,0.0,1:37.375,32.0
+2023,21,sargeant,williams,16,6,Finished,0.0,1:37.740,32.0
+2023,21,bottas,alfa,17,7,Finished,0.0,1:37.562,49.0
+2023,21,tsunoda,alphatauri,18,20,Finished,0.0,1:37.587,45.0
+2023,21,hulkenberg,haas,19,13,Finished,0.0,1:37.565,43.0
+2023,21,norris,mclaren,20,15,Retired,0.0,1:59.327,2.0
+2023,22,max_verstappen,red_bull,1,1,Finished,26.0,1:26.993,45.0
+2023,22,leclerc,ferrari,2,2,Finished,18.0,1:28.199,44.0
+2023,22,russell,mercedes,3,4,Finished,15.0,1:28.187,45.0
+2023,22,perez,red_bull,4,9,Finished,12.0,1:27.493,44.0
+2023,22,norris,mclaren,5,5,Finished,10.0,1:28.164,45.0
+2023,22,piastri,mclaren,6,3,Finished,8.0,1:28.138,38.0
+2023,22,alonso,aston_martin,7,7,Finished,6.0,1:28.256,42.0
+2023,22,tsunoda,alphatauri,8,6,Finished,4.0,1:29.256,55.0
+2023,22,hamilton,mercedes,9,11,Finished,2.0,1:28.372,52.0
+2023,22,stroll,aston_martin,10,13,Finished,1.0,1:28.050,44.0
+2023,22,ricciardo,alphatauri,11,15,Finished,0.0,1:28.571,47.0
+2023,22,ocon,alpine,12,12,Finished,0.0,1:30.033,34.0
+2023,22,gasly,alpine,13,10,Finished,0.0,1:29.016,35.0
+2023,22,albon,williams,14,14,Finished,0.0,1:27.845,45.0
+2023,22,hulkenberg,haas,15,8,Finished,0.0,1:29.217,58.0
+2023,22,sargeant,williams,16,20,Finished,0.0,1:28.580,43.0
+2023,22,zhou,alfa,17,19,Finished,0.0,1:28.746,43.0
+2023,22,sainz,ferrari,18,16,Finished,0.0,1:29.452,42.0
+2023,22,bottas,alfa,19,18,Lapped,0.0,1:29.863,42.0
+2023,22,kevin_magnussen,haas,20,17,Lapped,0.0,1:29.934,46.0
+2024,1,max_verstappen,red_bull,1,1,Finished,26.0,1:32.608,39.0
+2024,1,perez,red_bull,2,5,Finished,18.0,1:34.364,40.0
+2024,1,sainz,ferrari,3,4,Finished,15.0,1:34.507,44.0
+2024,1,leclerc,ferrari,4,2,Finished,12.0,1:34.090,36.0
+2024,1,russell,mercedes,5,3,Finished,10.0,1:35.065,40.0
+2024,1,norris,mclaren,6,7,Finished,8.0,1:34.476,35.0
+2024,1,hamilton,mercedes,7,9,Finished,6.0,1:34.722,39.0
+2024,1,piastri,mclaren,8,8,Finished,4.0,1:34.983,39.0
+2024,1,alonso,aston_martin,9,6,Finished,2.0,1:34.199,48.0
+2024,1,stroll,aston_martin,10,12,Finished,1.0,1:35.632,30.0
+2024,1,zhou,sauber,11,17,Lapped,0.0,1:35.458,30.0
+2024,1,kevin_magnussen,haas,12,15,Lapped,0.0,1:35.570,34.0
+2024,1,ricciardo,rb,13,14,Lapped,0.0,1:35.163,37.0
+2024,1,tsunoda,rb,14,11,Lapped,0.0,1:35.833,37.0
+2024,1,albon,williams,15,13,Lapped,0.0,1:35.723,40.0
+2024,1,hulkenberg,haas,16,10,Lapped,0.0,1:34.834,46.0
+2024,1,ocon,alpine,17,19,Lapped,0.0,1:36.226,34.0
+2024,1,gasly,alpine,18,20,Lapped,0.0,1:34.805,45.0
+2024,1,bottas,sauber,19,16,Lapped,0.0,1:36.202,33.0
+2024,1,sargeant,williams,20,18,Lapped,0.0,1:34.735,42.0
+2024,2,max_verstappen,red_bull,1,1,Finished,25.0,1:31.773,50.0
+2024,2,perez,red_bull,2,3,Finished,18.0,1:32.273,37.0
+2024,2,leclerc,ferrari,3,2,Finished,16.0,1:31.632,50.0
+2024,2,piastri,mclaren,4,5,Finished,12.0,1:32.310,45.0
+2024,2,alonso,aston_martin,5,4,Finished,10.0,1:32.387,43.0
+2024,2,russell,mercedes,6,7,Finished,8.0,1:32.254,42.0
+2024,2,bearman,ferrari,7,11,Finished,6.0,1:32.186,50.0
+2024,2,norris,mclaren,8,6,Finished,4.0,1:31.944,40.0
+2024,2,hamilton,mercedes,9,8,Finished,2.0,1:31.746,38.0
+2024,2,hulkenberg,haas,10,15,Finished,1.0,1:32.366,49.0
+2024,2,albon,williams,11,12,Finished,0.0,1:32.307,50.0
+2024,2,kevin_magnussen,haas,12,13,Finished,0.0,1:32.338,47.0
+2024,2,ocon,alpine,13,17,Lapped,0.0,1:33.481,48.0
+2024,2,sargeant,williams,14,19,Lapped,0.0,1:33.026,49.0
+2024,2,tsunoda,rb,15,9,Lapped,0.0,1:33.523,44.0
+2024,2,ricciardo,rb,16,14,Lapped,0.0,1:33.323,47.0
+2024,2,bottas,sauber,17,16,Lapped,0.0,1:32.706,49.0
+2024,2,zhou,sauber,18,20,Lapped,0.0,1:32.208,49.0
+2024,2,stroll,aston_martin,19,10,Retired,0.0,1:35.560,5.0
+2024,2,gasly,alpine,20,18,Retired,0.0,,
+2024,3,sainz,ferrari,1,2,Finished,25.0,1:20.031,48.0
+2024,3,leclerc,ferrari,2,4,Finished,19.0,1:19.813,56.0
+2024,3,norris,mclaren,3,3,Finished,15.0,1:19.915,49.0
+2024,3,piastri,mclaren,4,5,Finished,12.0,1:20.199,54.0
+2024,3,perez,red_bull,5,6,Finished,10.0,1:20.388,47.0
+2024,3,stroll,aston_martin,6,9,Finished,8.0,1:20.930,49.0
+2024,3,tsunoda,rb,7,8,Finished,6.0,1:21.134,46.0
+2024,3,alonso,aston_martin,8,10,Finished,4.0,1:20.493,52.0
+2024,3,hulkenberg,haas,9,16,Finished,2.0,1:21.145,46.0
+2024,3,kevin_magnussen,haas,10,14,Lapped,1.0,1:21.082,44.0
+2024,3,albon,williams,11,12,Lapped,0.0,1:21.618,46.0
+2024,3,ricciardo,rb,12,18,Lapped,0.0,1:21.239,46.0
+2024,3,gasly,alpine,13,17,Lapped,0.0,1:21.090,51.0
+2024,3,bottas,sauber,14,13,Lapped,0.0,1:21.422,48.0
+2024,3,zhou,sauber,15,19,Lapped,0.0,1:21.327,49.0
+2024,3,ocon,alpine,16,15,Lapped,0.0,1:21.354,45.0
+2024,3,russell,mercedes,17,7,Finished,0.0,1:20.284,53.0
+2024,3,hamilton,mercedes,18,11,Retired,0.0,1:22.444,11.0
+2024,3,max_verstappen,red_bull,19,1,Retired,0.0,1:23.115,3.0
+2024,4,max_verstappen,red_bull,1,1,Finished,26.0,1:33.706,50.0
+2024,4,perez,red_bull,2,2,Finished,18.0,1:33.945,35.0
+2024,4,sainz,ferrari,3,4,Finished,15.0,1:33.841,46.0
+2024,4,leclerc,ferrari,4,8,Finished,12.0,1:35.044,53.0
+2024,4,norris,mclaren,5,3,Finished,10.0,1:35.186,51.0
+2024,4,alonso,aston_martin,6,5,Finished,8.0,1:34.726,53.0
+2024,4,russell,mercedes,7,9,Finished,6.0,1:34.404,39.0
+2024,4,piastri,mclaren,8,6,Finished,4.0,1:34.802,35.0
+2024,4,hamilton,mercedes,9,7,Finished,2.0,1:33.952,41.0
+2024,4,tsunoda,rb,10,10,Lapped,1.0,1:36.342,51.0
+2024,4,hulkenberg,haas,11,12,Lapped,0.0,1:35.325,52.0
+2024,4,stroll,aston_martin,12,16,Lapped,0.0,1:35.798,41.0
+2024,4,kevin_magnussen,haas,13,18,Lapped,0.0,1:36.654,24.0
+2024,4,bottas,sauber,14,13,Lapped,0.0,1:36.608,25.0
+2024,4,ocon,alpine,15,15,Lapped,0.0,1:36.232,52.0
+2024,4,gasly,alpine,16,17,Lapped,0.0,1:36.642,48.0
+2024,4,sargeant,williams,17,19,Lapped,0.0,1:34.900,43.0
+2024,4,zhou,sauber,18,20,Retired,0.0,1:37.160,9.0
+2024,4,ricciardo,rb,19,11,Retired,0.0,,
+2024,4,albon,williams,20,14,Retired,0.0,,
+2024,5,max_verstappen,red_bull,1,1,Finished,25.0,1:38.406,33.0
+2024,5,norris,mclaren,2,4,Finished,18.0,1:38.751,33.0
+2024,5,perez,red_bull,3,2,Finished,15.0,1:39.388,33.0
+2024,5,leclerc,ferrari,4,6,Finished,12.0,1:39.384,33.0
+2024,5,sainz,ferrari,5,7,Finished,10.0,1:39.764,19.0
+2024,5,russell,mercedes,6,8,Finished,8.0,1:40.112,39.0
+2024,5,alonso,aston_martin,7,3,Finished,7.0,1:37.810,45.0
+2024,5,piastri,mclaren,8,5,Finished,4.0,1:39.739,18.0
+2024,5,hamilton,mercedes,9,18,Finished,2.0,1:40.835,34.0
+2024,5,hulkenberg,haas,10,9,Finished,1.0,1:40.815,32.0
+2024,5,ocon,alpine,11,13,Finished,0.0,1:40.937,33.0
+2024,5,albon,williams,12,14,Finished,0.0,1:40.790,34.0
+2024,5,gasly,alpine,13,15,Finished,0.0,1:39.198,40.0
+2024,5,zhou,sauber,14,16,Finished,0.0,1:38.633,42.0
+2024,5,stroll,aston_martin,15,11,Finished,0.0,1:39.444,37.0
+2024,5,kevin_magnussen,haas,16,17,Finished,0.0,1:41.077,45.0
+2024,5,sargeant,williams,17,20,Finished,0.0,1,14.0
+2024,5,ricciardo,rb,18,12,Retired,0.0,1:40.994,16.0
+2024,5,tsunoda,rb,19,19,Retired,0.0,1:41.593,11.0
+2024,5,bottas,sauber,20,10,Retired,0.0,1:41.276,11.0
+2024,6,norris,mclaren,1,5,Finished,25.0,1:30.980,55.0
+2024,6,max_verstappen,red_bull,2,1,Finished,18.0,1:31.261,48.0
+2024,6,leclerc,ferrari,3,2,Finished,15.0,1:31.084,56.0
+2024,6,perez,red_bull,4,4,Finished,12.0,1:30.855,55.0
+2024,6,sainz,ferrari,5,3,Finished,10.0,1:30.928,55.0
+2024,6,hamilton,mercedes,6,8,Finished,8.0,1:31.233,54.0
+2024,6,tsunoda,rb,7,10,Finished,6.0,1:31.682,55.0
+2024,6,russell,mercedes,8,7,Finished,4.0,1:31.921,43.0
+2024,6,alonso,aston_martin,9,15,Finished,2.0,1:31.727,55.0
+2024,6,ocon,alpine,10,13,Finished,1.0,1:32.037,51.0
+2024,6,hulkenberg,haas,11,9,Finished,0.0,1:31.941,56.0
+2024,6,gasly,alpine,12,12,Finished,0.0,1:32.055,56.0
+2024,6,piastri,mclaren,13,6,Finished,0.0,1:30.634,43.0
+2024,6,zhou,sauber,14,19,Finished,0.0,1:31.991,56.0
+2024,6,ricciardo,rb,15,20,Finished,0.0,1:32.122,57.0
+2024,6,bottas,sauber,16,16,Finished,0.0,1:32.098,55.0
+2024,6,stroll,aston_martin,17,11,Finished,0.0,1:31.588,57.0
+2024,6,albon,williams,18,14,Finished,0.0,1:30.849,55.0
+2024,6,kevin_magnussen,haas,19,18,Finished,0.0,1:31.774,33.0
+2024,6,sargeant,williams,20,17,Retired,0.0,1:33.452,15.0
+2024,7,max_verstappen,red_bull,1,1,Finished,25.0,1:20.366,38.0
+2024,7,norris,mclaren,2,2,Finished,18.0,1:19.994,54.0
+2024,7,leclerc,ferrari,3,3,Finished,15.0,1:19.935,27.0
+2024,7,piastri,mclaren,4,5,Finished,12.0,1:19.907,25.0
+2024,7,sainz,ferrari,5,4,Finished,10.0,1:20.220,63.0
+2024,7,hamilton,mercedes,6,8,Finished,8.0,1:20.331,43.0
+2024,7,russell,mercedes,7,6,Finished,7.0,1:18.589,54.0
+2024,7,perez,red_bull,8,11,Finished,4.0,1:19.686,52.0
+2024,7,stroll,aston_martin,9,13,Finished,2.0,1:20.570,58.0
+2024,7,tsunoda,rb,10,7,Lapped,1.0,1:20.936,14.0
+2024,7,hulkenberg,haas,11,10,Lapped,0.0,1:21.700,3.0
+2024,7,kevin_magnussen,haas,12,18,Lapped,0.0,1:21.009,58.0
+2024,7,ricciardo,rb,13,9,Lapped,0.0,1:21.569,13.0
+2024,7,ocon,alpine,14,12,Lapped,0.0,1:21.304,37.0
+2024,7,zhou,sauber,15,17,Lapped,0.0,1:21.016,37.0
+2024,7,gasly,alpine,16,15,Lapped,0.0,1:21.371,10.0
+2024,7,sargeant,williams,17,19,Lapped,0.0,1:21.229,55.0
+2024,7,bottas,sauber,18,16,Lapped,0.0,1:21.455,11.0
+2024,7,alonso,aston_martin,19,20,Lapped,0.0,1:19.004,62.0
+2024,7,albon,williams,20,14,Retired,0.0,1:21.274,48.0
+2024,8,leclerc,ferrari,1,1,Finished,25.0,1:15.162,71.0
+2024,8,piastri,mclaren,2,2,Finished,18.0,1:16.281,73.0
+2024,8,sainz,ferrari,3,3,Finished,15.0,1:14.726,62.0
+2024,8,norris,mclaren,4,4,Finished,12.0,1:15.742,64.0
+2024,8,russell,mercedes,5,5,Finished,10.0,1:15.228,73.0
+2024,8,max_verstappen,red_bull,6,6,Finished,8.0,1:14.569,58.0
+2024,8,hamilton,mercedes,7,7,Finished,7.0,1:14.165,63.0
+2024,8,tsunoda,rb,8,8,Lapped,4.0,1:14.720,77.0
+2024,8,albon,williams,9,9,Lapped,2.0,1:17.060,77.0
+2024,8,gasly,alpine,10,10,Lapped,1.0,1:15.625,77.0
+2024,8,alonso,aston_martin,11,14,Lapped,0.0,1:17.939,68.0
+2024,8,ricciardo,rb,12,12,Lapped,0.0,1:17.172,46.0
+2024,8,bottas,sauber,13,17,Lapped,0.0,1:16.561,17.0
+2024,8,stroll,aston_martin,14,13,Lapped,0.0,1:16.710,59.0
+2024,8,sargeant,williams,15,15,Lapped,0.0,1:15.525,62.0
+2024,8,zhou,sauber,16,18,Lapped,0.0,1:14.718,75.0
+2024,8,ocon,alpine,17,11,Retired,0.0,,
+2024,8,perez,red_bull,18,16,Retired,0.0,,
+2024,8,hulkenberg,haas,19,19,Retired,0.0,,
+2024,8,kevin_magnussen,haas,20,20,Retired,0.0,,
+2024,9,max_verstappen,red_bull,1,2,Finished,25.0,1:15.569,70.0
+2024,9,norris,mclaren,2,3,Finished,18.0,1:15.558,67.0
+2024,9,russell,mercedes,3,1,Finished,15.0,1:14.895,70.0
+2024,9,hamilton,mercedes,4,7,Finished,13.0,1:14.856,70.0
+2024,9,piastri,mclaren,5,4,Finished,10.0,1:16.247,65.0
+2024,9,alonso,aston_martin,6,6,Finished,8.0,1:16.303,70.0
+2024,9,stroll,aston_martin,7,9,Finished,6.0,1:16.762,70.0
+2024,9,ricciardo,rb,8,5,Finished,4.0,1:17.076,68.0
+2024,9,gasly,alpine,9,15,Finished,2.0,1:17.013,70.0
+2024,9,ocon,alpine,10,18,Finished,1.0,1:17.012,70.0
+2024,9,hulkenberg,haas,11,17,Finished,0.0,1:16.683,67.0
+2024,9,kevin_magnussen,haas,12,14,Finished,0.0,1:16.499,68.0
+2024,9,bottas,sauber,13,19,Finished,0.0,1:17.250,65.0
+2024,9,tsunoda,rb,14,8,Finished,0.0,1:17.309,70.0
+2024,9,zhou,sauber,15,20,Lapped,0.0,1:17.325,68.0
+2024,9,sainz,ferrari,16,12,Retired,0.0,1:18.957,51.0
+2024,9,albon,williams,17,10,Retired,0.0,1:19.359,51.0
+2024,9,perez,red_bull,18,16,Retired,0.0,1:18.819,51.0
+2024,9,leclerc,ferrari,19,11,Retired,0.0,1:26.012,39.0
+2024,9,sargeant,williams,20,13,Retired,0.0,1:26.484,19.0
+2024,10,max_verstappen,red_bull,1,2,Finished,25.0,1:17.776,54.0
+2024,10,norris,mclaren,2,1,Finished,19.0,1:17.115,51.0
+2024,10,hamilton,mercedes,3,3,Finished,15.0,1:17.809,46.0
+2024,10,russell,mercedes,4,4,Finished,12.0,1:18.290,50.0
+2024,10,leclerc,ferrari,5,5,Finished,10.0,1:17.897,52.0
+2024,10,sainz,ferrari,6,6,Finished,8.0,1:18.539,39.0
+2024,10,piastri,mclaren,7,9,Finished,6.0,1:17.874,56.0
+2024,10,perez,red_bull,8,11,Finished,4.0,1:17.785,51.0
+2024,10,gasly,alpine,9,7,Finished,2.0,1:19.045,51.0
+2024,10,ocon,alpine,10,8,Finished,1.0,1:18.982,54.0
+2024,10,hulkenberg,haas,11,13,Finished,0.0,1:18.609,49.0
+2024,10,alonso,aston_martin,12,10,Lapped,0.0,1:18.334,50.0
+2024,10,zhou,sauber,13,15,Lapped,0.0,1:18.771,50.0
+2024,10,stroll,aston_martin,14,14,Lapped,0.0,1:19.318,50.0
+2024,10,ricciardo,rb,15,18,Lapped,0.0,1:19.450,61.0
+2024,10,bottas,sauber,16,12,Lapped,0.0,1:19.608,13.0
+2024,10,kevin_magnussen,haas,17,16,Lapped,0.0,1:19.805,33.0
+2024,10,albon,williams,18,20,Lapped,0.0,1:19.132,45.0
+2024,10,tsunoda,rb,19,17,Lapped,0.0,1:19.447,56.0
+2024,10,sargeant,williams,20,19,Lapped,0.0,1:20.172,38.0
+2024,11,russell,mercedes,1,3,Finished,25.0,1:09.164,48.0
+2024,11,piastri,mclaren,2,7,Finished,18.0,1:08.697,56.0
+2024,11,sainz,ferrari,3,4,Finished,15.0,1:09.282,56.0
+2024,11,hamilton,mercedes,4,5,Finished,12.0,1:09.562,61.0
+2024,11,max_verstappen,red_bull,5,1,Finished,10.0,1:07.719,68.0
+2024,11,hulkenberg,haas,6,9,Finished,8.0,1:10.215,51.0
+2024,11,perez,red_bull,7,8,Finished,6.0,1:09.694,56.0
+2024,11,kevin_magnussen,haas,8,12,Finished,4.0,1:10.125,45.0
+2024,11,ricciardo,rb,9,11,Finished,2.0,1:10.426,49.0
+2024,11,gasly,alpine,10,13,Finished,1.0,1:09.609,45.0
+2024,11,leclerc,ferrari,11,6,Finished,0.0,1:09.584,55.0
+2024,11,ocon,alpine,12,10,Finished,0.0,1:09.649,45.0
+2024,11,stroll,aston_martin,13,17,Lapped,0.0,1:10.143,54.0
+2024,11,tsunoda,rb,14,14,Lapped,0.0,1:10.318,54.0
+2024,11,albon,williams,15,16,Lapped,0.0,1:10.364,41.0
+2024,11,bottas,sauber,16,18,Lapped,0.0,1:10.449,48.0
+2024,11,zhou,sauber,17,20,Lapped,0.0,1:10.470,54.0
+2024,11,alonso,aston_martin,18,15,Lapped,0.0,1:07.694,70.0
+2024,11,sargeant,williams,19,19,Lapped,0.0,1:10.406,60.0
+2024,11,norris,mclaren,20,2,Lapped,0.0,1:08.016,53.0
+2024,12,hamilton,mercedes,1,2,Finished,25.0,1:29.438,45.0
+2024,12,max_verstappen,red_bull,2,4,Finished,18.0,1:28.952,48.0
+2024,12,norris,mclaren,3,3,Finished,15.0,1:29.262,43.0
+2024,12,piastri,mclaren,4,5,Finished,12.0,1:28.748,51.0
+2024,12,sainz,ferrari,5,7,Finished,11.0,1:28.293,52.0
+2024,12,hulkenberg,haas,6,6,Finished,8.0,1:29.836,43.0
+2024,12,stroll,aston_martin,7,8,Finished,6.0,1:29.897,46.0
+2024,12,alonso,aston_martin,8,10,Finished,4.0,1:29.710,47.0
+2024,12,albon,williams,9,9,Finished,2.0,1:29.718,52.0
+2024,12,tsunoda,rb,10,13,Finished,1.0,1:30.229,43.0
+2024,12,sargeant,williams,11,12,Finished,0.0,1:29.972,42.0
+2024,12,kevin_magnussen,haas,12,17,Finished,0.0,1:30.093,42.0
+2024,12,ricciardo,rb,13,15,Lapped,0.0,1:30.735,47.0
+2024,12,leclerc,ferrari,14,11,Lapped,0.0,1:29.748,43.0
+2024,12,bottas,sauber,15,16,Lapped,0.0,1:31.277,44.0
+2024,12,ocon,alpine,16,18,Lapped,0.0,1:30.875,46.0
+2024,12,perez,red_bull,17,20,Lapped,0.0,1:29.707,50.0
+2024,12,zhou,sauber,18,14,Lapped,0.0,1:31.014,43.0
+2024,12,russell,mercedes,19,1,Retired,0.0,1:31.298,3.0
+2024,12,gasly,alpine,20,19,Did not start,0.0,,
+2024,13,piastri,mclaren,1,2,Finished,25.0,1:21.716,51.0
+2024,13,norris,mclaren,2,1,Finished,18.0,1:21.712,50.0
+2024,13,hamilton,mercedes,3,5,Finished,15.0,1:22.153,54.0
+2024,13,leclerc,ferrari,4,6,Finished,12.0,1:22.182,29.0
+2024,13,max_verstappen,red_bull,5,3,Finished,10.0,1:20.908,51.0
+2024,13,sainz,ferrari,6,4,Finished,8.0,1:21.441,53.0
+2024,13,perez,red_bull,7,16,Finished,6.0,1:21.096,49.0
+2024,13,russell,mercedes,8,17,Finished,5.0,1:20.305,55.0
+2024,13,tsunoda,rb,9,10,Finished,2.0,1:23.533,57.0
+2024,13,stroll,aston_martin,10,8,Finished,1.0,1:22.338,48.0
+2024,13,alonso,aston_martin,11,7,Finished,0.0,1:23.063,52.0
+2024,13,ricciardo,rb,12,9,Lapped,0.0,1:22.640,30.0
+2024,13,hulkenberg,haas,13,11,Lapped,0.0,1:23.461,54.0
+2024,13,albon,williams,14,13,Lapped,0.0,1:23.930,31.0
+2024,13,kevin_magnussen,haas,15,15,Lapped,0.0,1:23.553,50.0
+2024,13,bottas,sauber,16,12,Lapped,0.0,1:22.792,52.0
+2024,13,sargeant,williams,17,14,Lapped,0.0,1:20.561,65.0
+2024,13,ocon,alpine,18,19,Lapped,0.0,1:21.610,66.0
+2024,13,zhou,sauber,19,18,Lapped,0.0,1:23.487,38.0
+2024,13,gasly,alpine,20,20,Retired,0.0,1:23.340,31.0
+2024,14,hamilton,mercedes,1,3,Finished,25.0,1:46.653,33.0
+2024,14,piastri,mclaren,2,5,Finished,18.0,1:45.840,32.0
+2024,14,leclerc,ferrari,3,1,Finished,15.0,1:47.013,33.0
+2024,14,max_verstappen,red_bull,4,11,Finished,12.0,1:46.128,32.0
+2024,14,norris,mclaren,5,4,Finished,10.0,1:45.563,31.0
+2024,14,sainz,ferrari,6,7,Finished,8.0,1:46.364,44.0
+2024,14,perez,red_bull,7,2,Finished,7.0,1:44.701,44.0
+2024,14,alonso,aston_martin,8,8,Finished,4.0,1:48.051,42.0
+2024,14,ocon,alpine,9,9,Finished,2.0,1:46.957,43.0
+2024,14,ricciardo,rb,10,13,Finished,1.0,1:47.435,37.0
+2024,14,stroll,aston_martin,11,15,Finished,0.0,1:48.105,44.0
+2024,14,albon,williams,12,10,Finished,0.0,1:47.996,44.0
+2024,14,gasly,alpine,13,12,Finished,0.0,1:47.418,30.0
+2024,14,kevin_magnussen,haas,14,17,Finished,0.0,1:47.848,44.0
+2024,14,bottas,sauber,15,14,Finished,0.0,1:47.019,37.0
+2024,14,tsunoda,rb,16,20,Finished,0.0,1:47.969,44.0
+2024,14,sargeant,williams,17,18,Finished,0.0,1:47.490,43.0
+2024,14,hulkenberg,haas,18,16,Finished,0.0,1:48.954,44.0
+2024,14,zhou,sauber,19,19,Retired,0.0,1:52.099,2.0
+2024,14,russell,mercedes,20,6,Disqualified,0.0,1:47.113,44.0
+2024,15,norris,mclaren,1,1,Finished,26.0,1:13.817,72.0
+2024,15,max_verstappen,red_bull,2,2,Finished,18.0,1:14.752,30.0
+2024,15,leclerc,ferrari,3,6,Finished,15.0,1:14.585,62.0
+2024,15,piastri,mclaren,4,3,Finished,12.0,1:14.237,36.0
+2024,15,sainz,ferrari,5,10,Finished,10.0,1:14.117,40.0
+2024,15,perez,red_bull,6,5,Finished,8.0,1:14.587,69.0
+2024,15,russell,mercedes,7,4,Finished,6.0,1:13.927,57.0
+2024,15,hamilton,mercedes,8,14,Finished,4.0,1:13.878,62.0
+2024,15,gasly,alpine,9,9,Lapped,2.0,1:14.855,54.0
+2024,15,alonso,aston_martin,10,7,Lapped,1.0,1:14.758,34.0
+2024,15,hulkenberg,haas,11,12,Lapped,0.0,1:15.657,59.0
+2024,15,ricciardo,rb,12,13,Lapped,0.0,1:15.222,52.0
+2024,15,stroll,aston_martin,13,8,Lapped,0.0,1:15.255,51.0
+2024,15,albon,williams,14,19,Lapped,0.0,1:14.434,71.0
+2024,15,ocon,alpine,15,15,Lapped,0.0,1:15.390,50.0
+2024,15,sargeant,williams,16,18,Lapped,0.0,1:15.539,26.0
+2024,15,tsunoda,rb,17,11,Lapped,0.0,1:15.552,16.0
+2024,15,kevin_magnussen,haas,18,20,Lapped,0.0,1:14.954,42.0
+2024,15,bottas,sauber,19,16,Lapped,0.0,1:15.822,45.0
+2024,15,zhou,sauber,20,17,Lapped,0.0,1:15.724,67.0
+2024,16,leclerc,ferrari,1,4,Finished,25.0,1:23.226,33.0
+2024,16,piastri,mclaren,2,2,Finished,18.0,1:21.943,53.0
+2024,16,norris,mclaren,3,1,Finished,16.0,1:21.432,53.0
+2024,16,sainz,ferrari,4,5,Finished,12.0,1:23.219,53.0
+2024,16,hamilton,mercedes,5,6,Finished,10.0,1:21.512,53.0
+2024,16,max_verstappen,red_bull,6,7,Finished,8.0,1:21.745,43.0
+2024,16,russell,mercedes,7,3,Finished,6.0,1:22.036,49.0
+2024,16,perez,red_bull,8,8,Finished,4.0,1:22.971,47.0
+2024,16,albon,williams,9,9,Finished,2.0,1:23.918,53.0
+2024,16,kevin_magnussen,haas,10,13,Finished,1.0,1:23.437,51.0
+2024,16,alonso,aston_martin,11,11,Finished,0.0,1:22.944,46.0
+2024,16,colapinto,williams,12,18,Finished,0.0,1:23.728,53.0
+2024,16,ricciardo,rb,13,12,Finished,0.0,1:24.219,52.0
+2024,16,ocon,alpine,14,15,Lapped,0.0,1:24.343,52.0
+2024,16,gasly,alpine,15,14,Lapped,0.0,1:23.755,51.0
+2024,16,bottas,sauber,16,19,Lapped,0.0,1:23.609,52.0
+2024,16,hulkenberg,haas,17,10,Lapped,0.0,1:23.275,44.0
+2024,16,zhou,sauber,18,20,Lapped,0.0,1:25.092,17.0
+2024,16,stroll,aston_martin,19,17,Lapped,0.0,1:22.232,52.0
+2024,16,tsunoda,rb,20,16,Retired,0.0,1:26.198,4.0
+2024,17,piastri,mclaren,1,2,Finished,25.0,1:47.060,47.0
+2024,17,leclerc,ferrari,2,1,Finished,18.0,1:47.067,44.0
+2024,17,russell,mercedes,3,5,Finished,15.0,1:46.628,45.0
+2024,17,norris,mclaren,4,15,Finished,13.0,1:45.255,42.0
+2024,17,max_verstappen,red_bull,5,6,Finished,10.0,1:46.798,42.0
+2024,17,alonso,aston_martin,6,7,Finished,8.0,1:47.057,48.0
+2024,17,albon,williams,7,9,Finished,6.0,1:46.947,43.0
+2024,17,colapinto,williams,8,8,Finished,4.0,1:47.274,44.0
+2024,17,hamilton,mercedes,9,19,Finished,2.0,1:47.236,48.0
+2024,17,bearman,haas,10,10,Finished,1.0,1:47.048,47.0
+2024,17,hulkenberg,haas,11,12,Finished,0.0,1:47.691,42.0
+2024,17,gasly,alpine,12,18,Finished,0.0,1:48.018,47.0
+2024,17,ricciardo,rb,13,14,Finished,0.0,1:48.380,39.0
+2024,17,zhou,sauber,14,17,Finished,0.0,1:47.644,43.0
+2024,17,ocon,alpine,15,20,Lapped,0.0,1:48.831,35.0
+2024,17,bottas,sauber,16,16,Lapped,0.0,1:48.418,41.0
+2024,17,perez,red_bull,17,4,Finished,0.0,1:47.013,46.0
+2024,17,sainz,ferrari,18,3,Finished,0.0,1:46.866,46.0
+2024,17,stroll,aston_martin,19,13,Finished,0.0,1:48.148,31.0
+2024,17,tsunoda,rb,20,11,Retired,0.0,1:50.887,8.0
+2024,18,norris,mclaren,1,1,Finished,25.0,1:34.925,48.0
+2024,18,max_verstappen,red_bull,2,2,Finished,18.0,1:35.967,59.0
+2024,18,piastri,mclaren,3,5,Finished,15.0,1:35.745,48.0
+2024,18,russell,mercedes,4,4,Finished,12.0,1:37.047,30.0
+2024,18,leclerc,ferrari,5,9,Finished,10.0,1:35.371,46.0
+2024,18,hamilton,mercedes,6,3,Finished,8.0,1:37.393,43.0
+2024,18,sainz,ferrari,7,10,Finished,6.0,1:36.561,15.0
+2024,18,alonso,aston_martin,8,7,Lapped,4.0,1:37.741,54.0
+2024,18,hulkenberg,haas,9,6,Lapped,2.0,1:37.470,35.0
+2024,18,perez,red_bull,10,13,Lapped,1.0,1:37.477,33.0
+2024,18,colapinto,williams,11,12,Lapped,0.0,1:37.262,35.0
+2024,18,tsunoda,rb,12,8,Lapped,0.0,1:36.393,53.0
+2024,18,ocon,alpine,13,15,Lapped,0.0,1:37.964,48.0
+2024,18,stroll,aston_martin,14,17,Lapped,0.0,1:37.851,36.0
+2024,18,zhou,sauber,15,20,Lapped,0.0,1:37.461,47.0
+2024,18,bottas,sauber,16,19,Lapped,0.0,1:37.524,46.0
+2024,18,gasly,alpine,17,18,Lapped,0.0,1:36.927,46.0
+2024,18,ricciardo,rb,18,16,Lapped,0.0,1:34.486,60.0
+2024,18,kevin_magnussen,haas,19,14,Finished,0.0,1:37.425,52.0
+2024,18,albon,williams,20,11,Retired,0.0,1:36.888,13.0
+2024,19,leclerc,ferrari,1,4,Finished,25.0,1:37.834,39.0
+2024,19,sainz,ferrari,2,3,Finished,18.0,1:37.763,42.0
+2024,19,max_verstappen,red_bull,3,2,Finished,15.0,1:38.117,42.0
+2024,19,norris,mclaren,4,1,Finished,12.0,1:37.679,55.0
+2024,19,piastri,mclaren,5,5,Finished,10.0,1:37.883,42.0
+2024,19,russell,mercedes,6,20,Finished,8.0,1:37.656,42.0
+2024,19,perez,red_bull,7,9,Finished,6.0,1:38.514,45.0
+2024,19,hulkenberg,haas,8,11,Finished,4.0,1:38.404,51.0
+2024,19,lawson,rb,9,19,Finished,2.0,1:38.091,54.0
+2024,19,colapinto,williams,10,15,Finished,1.0,1:37.611,46.0
+2024,19,kevin_magnussen,haas,11,8,Finished,0.0,1:38.210,56.0
+2024,19,gasly,alpine,12,6,Finished,0.0,1:38.311,55.0
+2024,19,alonso,aston_martin,13,7,Lapped,0.0,1:39.261,52.0
+2024,19,tsunoda,rb,14,10,Lapped,0.0,1:39.193,54.0
+2024,19,stroll,aston_martin,15,13,Lapped,0.0,1:39.214,54.0
+2024,19,albon,williams,16,14,Lapped,0.0,1:39.084,54.0
+2024,19,bottas,sauber,17,16,Lapped,0.0,1:40.575,53.0
+2024,19,ocon,alpine,18,12,Lapped,0.0,1:37.330,53.0
+2024,19,zhou,sauber,19,18,Lapped,0.0,1:39.272,53.0
+2024,19,hamilton,mercedes,20,17,Retired,0.0,,
+2024,20,sainz,ferrari,1,1,Finished,25.0,1:20.137,62.0
+2024,20,norris,mclaren,2,3,Finished,18.0,1:19.691,68.0
+2024,20,leclerc,ferrari,3,4,Finished,16.0,1:18.336,71.0
+2024,20,hamilton,mercedes,4,6,Finished,12.0,1:20.371,31.0
+2024,20,russell,mercedes,5,5,Finished,10.0,1:20.731,63.0
+2024,20,max_verstappen,red_bull,6,2,Finished,8.0,1:20.872,53.0
+2024,20,kevin_magnussen,haas,7,7,Finished,6.0,1:20.637,61.0
+2024,20,piastri,mclaren,8,17,Finished,4.0,1:20.064,65.0
+2024,20,hulkenberg,haas,9,10,Lapped,2.0,1:20.748,69.0
+2024,20,gasly,alpine,10,8,Lapped,1.0,1:21.274,67.0
+2024,20,stroll,aston_martin,11,14,Lapped,0.0,1:21.311,55.0
+2024,20,colapinto,williams,12,16,Lapped,0.0,1:20.090,50.0
+2024,20,ocon,alpine,13,0,Lapped,0.0,1:20.659,70.0
+2024,20,bottas,sauber,14,15,Lapped,0.0,1:21.085,57.0
+2024,20,zhou,sauber,15,19,Lapped,0.0,1:21.553,56.0
+2024,20,lawson,rb,16,12,Lapped,0.0,1:19.502,67.0
+2024,20,perez,red_bull,17,18,Lapped,0.0,1:19.209,70.0
+2024,20,alonso,aston_martin,18,13,Retired,0.0,1:22.722,7.0
+2024,20,albon,williams,19,9,Retired,0.0,,
+2024,20,tsunoda,rb,20,11,Retired,0.0,,
+2024,21,max_verstappen,red_bull,1,17,Finished,26.0,1:20.472,67.0
+2024,21,ocon,alpine,2,4,Finished,18.0,1:21.771,64.0
+2024,21,gasly,alpine,3,13,Finished,15.0,1:21.645,66.0
+2024,21,russell,mercedes,4,2,Finished,12.0,1:21.645,66.0
+2024,21,leclerc,ferrari,5,6,Finished,10.0,1:21.631,60.0
+2024,21,norris,mclaren,6,1,Finished,8.0,1:21.517,67.0
+2024,21,tsunoda,rb,7,3,Finished,6.0,1:21.828,69.0
+2024,21,piastri,mclaren,8,8,Finished,4.0,1:21.532,69.0
+2024,21,lawson,rb,9,5,Finished,2.0,1:22.123,67.0
+2024,21,hamilton,mercedes,10,14,Finished,1.0,1:22.041,69.0
+2024,21,perez,red_bull,11,12,Finished,0.0,1:22.143,67.0
+2024,21,bearman,haas,12,15,Finished,0.0,1:22.494,64.0
+2024,21,bottas,sauber,13,11,Finished,0.0,1:22.877,67.0
+2024,21,alonso,aston_martin,14,9,Finished,0.0,1:22.293,59.0
+2024,21,zhou,sauber,15,19,Finished,0.0,1:23.058,65.0
+2024,21,sainz,ferrari,16,20,Retired,0.0,1:24.201,19.0
+2024,21,colapinto,williams,17,16,Retired,0.0,1:24.296,21.0
+2024,21,albon,williams,18,7,Did not start,0.0,,
+2024,21,stroll,aston_martin,19,10,Did not start,0.0,,
+2024,21,hulkenberg,haas,20,18,Disqualified,0.0,,
+2024,22,russell,mercedes,1,1,Finished,25.0,1:35.717,46.0
+2024,22,hamilton,mercedes,2,10,Finished,18.0,1:35.480,41.0
+2024,22,sainz,ferrari,3,2,Finished,15.0,1:35.875,44.0
+2024,22,leclerc,ferrari,4,4,Finished,12.0,1:35.674,40.0
+2024,22,max_verstappen,red_bull,5,5,Finished,10.0,1:36.248,43.0
+2024,22,norris,mclaren,6,6,Finished,9.0,1:34.876,50.0
+2024,22,piastri,mclaren,7,8,Finished,6.0,1:36.598,44.0
+2024,22,hulkenberg,haas,8,9,Finished,4.0,1:36.585,48.0
+2024,22,tsunoda,rb,9,7,Finished,2.0,1:36.957,48.0
+2024,22,perez,red_bull,10,15,Finished,1.0,1:36.326,42.0
+2024,22,alonso,aston_martin,11,16,Finished,0.0,1:36.553,39.0
+2024,22,kevin_magnussen,haas,12,12,Finished,0.0,1:36.557,49.0
+2024,22,zhou,sauber,13,13,Finished,0.0,1:36.324,46.0
+2024,22,colapinto,williams,14,20,Finished,0.0,1:36.867,37.0
+2024,22,stroll,aston_martin,15,18,Finished,0.0,1:37.179,43.0
+2024,22,lawson,rb,16,14,Finished,0.0,1:36.980,45.0
+2024,22,ocon,alpine,17,11,Lapped,0.0,1:36.511,47.0
+2024,22,bottas,sauber,18,19,Lapped,0.0,1:36.601,46.0
+2024,22,albon,williams,19,17,Retired,0.0,1:38.008,21.0
+2024,22,gasly,alpine,20,3,Retired,0.0,1:38.314,13.0
+2024,23,max_verstappen,red_bull,1,2,Finished,25.0,1:22.905,55.0
+2024,23,leclerc,ferrari,2,5,Finished,18.0,1:23.242,53.0
+2024,23,piastri,mclaren,3,4,Finished,15.0,1:23.218,51.0
+2024,23,russell,mercedes,4,1,Finished,12.0,1:23.355,50.0
+2024,23,gasly,alpine,5,11,Finished,10.0,1:23.705,56.0
+2024,23,sainz,ferrari,6,7,Finished,8.0,1:23.465,52.0
+2024,23,alonso,aston_martin,7,8,Finished,6.0,1:23.667,57.0
+2024,23,zhou,sauber,8,12,Finished,4.0,1:23.889,57.0
+2024,23,kevin_magnussen,haas,9,10,Finished,2.0,1:24.259,55.0
+2024,23,norris,mclaren,10,3,Finished,2.0,1:22.384,56.0
+2024,23,bottas,sauber,11,13,Finished,0.0,1:25.533,53.0
+2024,23,hamilton,mercedes,12,6,Finished,0.0,1:23.865,52.0
+2024,23,tsunoda,rb,13,14,Finished,0.0,1:26.144,47.0
+2024,23,lawson,rb,14,17,Finished,0.0,1:26.076,46.0
+2024,23,albon,williams,15,16,Lapped,0.0,1:25.559,47.0
+2024,23,hulkenberg,haas,16,18,Retired,0.0,1:25.767,33.0
+2024,23,perez,red_bull,17,9,Retired,0.0,1:25.288,31.0
+2024,23,stroll,aston_martin,18,15,Retired,0.0,1:30.935,6.0
+2024,23,colapinto,williams,19,19,Retired,0.0,,
+2024,23,ocon,alpine,20,20,Retired,0.0,,
+2024,24,norris,mclaren,1,1,Finished,25.0,1:27.438,52.0
+2024,24,sainz,ferrari,2,3,Finished,18.0,1:27.765,55.0
+2024,24,leclerc,ferrari,3,19,Finished,15.0,1:28.018,51.0
+2024,24,hamilton,mercedes,4,16,Finished,12.0,1:27.278,44.0
+2024,24,russell,mercedes,5,6,Finished,10.0,1:28.195,56.0
+2024,24,max_verstappen,red_bull,6,4,Finished,8.0,1:27.765,56.0
+2024,24,gasly,alpine,7,5,Finished,6.0,1:29.251,30.0
+2024,24,hulkenberg,haas,8,7,Finished,4.0,1:29.152,17.0
+2024,24,alonso,aston_martin,9,8,Finished,2.0,1:27.948,51.0
+2024,24,piastri,mclaren,10,2,Finished,1.0,1:27.690,51.0
+2024,24,albon,williams,11,18,Lapped,0.0,1:29.438,46.0
+2024,24,tsunoda,rb,12,11,Lapped,0.0,1:29.200,41.0
+2024,24,zhou,sauber,13,15,Lapped,0.0,1:27.982,56.0
+2024,24,stroll,aston_martin,14,13,Lapped,0.0,1:28.604,42.0
+2024,24,doohan,alpine,15,17,Lapped,0.0,1:29.121,56.0
+2024,24,kevin_magnussen,haas,16,14,Lapped,0.0,1:25.637,57.0
+2024,24,lawson,rb,17,12,Finished,0.0,1:28.751,52.0
+2024,24,bottas,sauber,18,9,Retired,0.0,1:29.482,14.0
+2024,24,colapinto,williams,19,20,Retired,0.0,1:29.411,5.0
+2024,24,perez,red_bull,20,10,Retired,0.0,,

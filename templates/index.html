@@ -1,135 +1,1110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formula 1 Data Analysis Dashboard</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formula 1 Dashboard</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js for visualizations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <!-- PapaParse for CSV parsing -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  
+  <style>
+    /* Force visibility for critical elements */
+    .container {
+      width: 100% !important;
+      max-width: 1200px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: block !important;
+    }
+    
+    .mb-6 {
+      margin-bottom: 1.5rem !important;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    /* Custom navigation styles */
+    .nav-container {
+      margin-bottom: 1.5rem;
+      background-color: white;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      display: block !important;
+    }
+    
+    .nav-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #e2e8f0;
+      width: 100%;
+    }
+    
+    .nav-tab {
+      padding: 0.5rem 1rem;
+      margin-right: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .nav-tab.active {
+      color: #e53e3e;
+      border-bottom: 2px solid #e53e3e;
+    }
+    
+    .nav-tab:not(.active) {
+      color: #4a5568;
+    }
+    
+    .nav-tab:hover:not(.active) {
+      color: #e53e3e;
+    }
+  </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">F1 Data Analysis</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#drivers">Drivers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#teams">Teams</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#races">Races</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container mt-4">
-        <h1 class="mb-4">Formula 1 Data Analysis Dashboard</h1>
-        
-        <div class="row mb-4">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">Season Selection</div>
-                    <div class="card-body">
-                        <select id="seasonSelect" class="form-select mb-3">
-                            <option value="2023">2023</option>
-                            <option value="2024">2024</option>
-                        </select>
-                        <button id="loadSeasonBtn" class="btn btn-primary">Load Season Data</button>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">Race Selection</div>
-                    <div class="card-body">
-                        <select id="raceSelect" class="form-select mb-3">
-                            <option value="">Select a race...</option>
-                        </select>
-                        <button id="loadRaceBtn" class="btn btn-primary">Load Race Data</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header">
-                        <ul class="nav nav-tabs card-header-tabs" id="analysisTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="lap-times-tab" data-bs-toggle="tab" data-bs-target="#lap-times" type="button" role="tab">Lap Times</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="podiums-tab" data-bs-toggle="tab" data-bs-target="#podiums" type="button" role="tab">Podium Finishes</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="tire-age-tab" data-bs-toggle="tab" data-bs-target="#tire-age" type="button" role="tab">Tire Age Analysis</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="qualifying-tab" data-bs-toggle="tab" data-bs-target="#qualifying" type="button" role="tab">Qualifying Positions</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="weather-tab" data-bs-toggle="tab" data-bs-target="#weather" type="button" role="tab">Weather Conditions</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-body">
-                        <div class="tab-content" id="analysisTabContent">
-                            <!-- Lap Times Comparison -->
-                            <div class="tab-pane fade show active" id="lap-times" role="tabpanel">
-                                <h3>Average Lap Times Comparison</h3>
-                                <div id="lapTimesChart" class="chart-container"></div>
-                            </div>
-                            
-                            <!-- Podium Finishes -->
-                            <div class="tab-pane fade" id="podiums" role="tabpanel">
-                                <h3>Podium Finishes by Team</h3>
-                                <div id="podiumsChart" class="chart-container"></div>
-                            </div>
-                            
-                            <!-- Tire Age Analysis -->
-                            <div class="tab-pane fade" id="tire-age" role="tabpanel">
-                                <h3>Lap Times by Tire Age</h3>
-                                <div id="tireAgeChart" class="chart-container"></div>
-                            </div>
-                            
-                            <!-- Qualifying Positions -->
-                            <div class="tab-pane fade" id="qualifying" role="tabpanel">
-                                <h3>Average Qualifying Positions</h3>
-                                <div id="qualifyingChart" class="chart-container"></div>
-                            </div>
-                            
-                            <!-- Weather Conditions -->
-                            <div class="tab-pane fade" id="weather" role="tabpanel">
-                                <h3>Lap Times by Weather Conditions</h3>
-                                <div id="weatherChart" class="chart-container"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<body class="bg-gray-100">
+  <header class="bg-red-600 text-white p-4">
+    <div class="container mx-auto">
+      <h1 class="text-3xl font-bold">Formula 1 Dashboard</h1>
+      <p class="text-lg">Season Data 2020-2024</p>
     </div>
+  </header>
+  
+  <div class="container mx-auto p-4">
+    <!-- Season Selector -->
+    <div class="mb-6 bg-white rounded-lg p-4 shadow">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl font-bold">Season</h2>
+        <div class="flex space-x-2" id="season-selector">
+          <button class="px-4 py-2 rounded bg-red-600 text-white" data-season="2024">2024</button>
+          <button class="px-4 py-2 rounded bg-gray-200" data-season="2023">2023</button>
+          <button class="px-4 py-2 rounded bg-gray-200" data-season="2022">2022</button>
+          <button class="px-4 py-2 rounded bg-gray-200" data-season="2021">2021</button>
+          <button class="px-4 py-2 rounded bg-gray-200" data-season="2020">2020</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Custom Navigation Tabs -->
+    <div class="nav-container">
+      <div class="nav-tabs" id="custom-tab-navigation">
+        <div class="nav-tab active" data-tab="overview">Season Overview</div>
+        <div class="nav-tab" data-tab="drivers">Drivers</div>
+        <div class="nav-tab" data-tab="teams">Teams</div>
+        <div class="nav-tab" data-tab="races">Races</div>
+      </div>
+    </div>
+    
+    <!-- Dashboard Content -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <!-- Overview Tab Content -->
+      <div id="tab-overview" class="lg:col-span-3">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Driver Standings -->
+          <div class="lg:col-span-2 bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Driver Standings <span id="standings-year">2024</span></h2>
+            <div class="overflow-auto max-h-96">
+              <table class="min-w-full" id="driver-standings-table">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="p-2 text-left">Pos</th>
+                    <th class="p-2 text-left">Driver</th>
+                    <th class="p-2 text-left">Team</th>
+                    <th class="p-2 text-right">Points</th>
+                    <th class="p-2 text-right">Wins</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Driver standings will be loaded here -->
+                  <tr>
+                    <td colspan="5" class="p-4 text-center">Loading data...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
 
-    <!-- Bootstrap JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Plotly.js for Data Visualization -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <!-- Custom JS -->
-    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+          <!-- Constructor Standings Chart -->
+          <div class="bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Constructor Standings <span id="constructor-year">2024</span></h2>
+            <div class="h-80">
+              <canvas id="constructor-standings-chart"></canvas>
+            </div>
+          </div>
+
+          <!-- Race Calendar -->
+          <div class="lg:col-span-3 bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Race Calendar <span id="calendar-year">2024</span></h2>
+            <div class="overflow-auto">
+              <div class="flex flex-nowrap space-x-4 pb-4" id="race-calendar">
+                <!-- Race calendar will be loaded here -->
+                <div class="flex-none w-64 p-4 rounded-lg border border-gray-200">
+                  <div class="font-bold text-lg">Loading races...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Drivers Tab Content -->
+      <div id="tab-drivers" class="lg:col-span-3 hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Driver Selection -->
+          <div class="lg:col-span-1 bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Drivers <span id="drivers-year">2024</span></h2>
+            <div class="overflow-auto max-h-96">
+              <table class="min-w-full" id="drivers-table">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="p-2 text-left">Driver</th>
+                    <th class="p-2 text-left">Team</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Drivers will be loaded here -->
+                  <tr>
+                    <td colspan="2" class="p-4 text-center">Loading drivers...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          <!-- Driver Details -->
+          <div class="lg:col-span-2 bg-white rounded-lg p-4 shadow">
+            <div id="driver-details">
+              <div class="flex items-center justify-center h-64">
+                <p class="text-lg text-gray-500">Select a driver to view details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Teams Tab Content -->
+      <div id="tab-teams" class="lg:col-span-3 hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Team Points -->
+          <div class="lg:col-span-2 bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Constructor Championship <span id="teams-year">2024</span></h2>
+            <div class="overflow-auto max-h-96">
+              <table class="min-w-full" id="teams-table">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="p-2 text-left">Pos</th>
+                    <th class="p-2 text-left">Team</th>
+                    <th class="p-2 text-right">Points</th>
+                    <th class="p-2 text-right">Wins</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Team standings will be loaded here -->
+                  <tr>
+                    <td colspan="4" class="p-4 text-center">Loading teams...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Team Distribution Chart -->
+          <div class="bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Points Distribution</h2>
+            <div class="h-80">
+              <canvas id="team-distribution-chart"></canvas>
+            </div>
+          </div>
+
+          <!-- Team Drivers -->
+          <div class="lg:col-span-3 bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Team Drivers <span id="team-drivers-year">2024</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="team-drivers-grid">
+              <!-- Team drivers will be loaded here -->
+              <div class="p-4 rounded-lg border">
+                <h3 class="font-bold text-lg">Loading teams...</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Races Tab Content -->
+      <div id="tab-races" class="lg:col-span-3 hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Race Selection -->
+          <div class="lg:col-span-1 bg-white rounded-lg p-4 shadow">
+            <h2 class="text-xl font-bold mb-4">Races <span id="races-year">2024</span></h2>
+            <div class="overflow-auto max-h-96">
+              <div class="space-y-2" id="race-selector">
+                <!-- Races will be loaded here -->
+                <div class="p-3 rounded-lg border border-gray-200">
+                  <div class="font-bold">Loading races...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Race Results -->
+          <div class="lg:col-span-2 bg-white rounded-lg p-4 shadow">
+            <div id="race-results">
+              <div class="flex items-center justify-center h-64">
+                <p class="text-lg text-gray-500">Select a race to view results</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading overlay -->
+  <div id="loading-overlay" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-bold mb-4">Loading F1 Dashboard Data</h2>
+      <div class="w-full bg-gray-200 rounded-full h-2.5">
+        <div id="loading-progress" class="bg-red-600 h-2.5 rounded-full" style="width: 0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Global data storage
+    const F1Data = {
+      circuits: [],
+      drivers: [],
+      teams: [],
+      events: [],
+      results: [],
+      driverTeamSeason: [],
+      selectedSeason: 2024,
+      selectedDriver: null,
+      selectedCircuit: null,
+      activeTab: 'overview',
+      driverStandings: [],
+      constructorStandings: [],
+      charts: {}
+    };
+
+    // Color palette for charts and styling
+    const COLORS = [
+      '#FF5733', '#33FF57', '#3357FF', '#F3FF33', '#FF33F3',
+      '#33FFF3', '#FF8033', '#8033FF', '#33FF80', '#FF3380'
+    ];
+
+    // Load CSV data
+    async function loadData() {
+      // Set up loading progress
+      const totalFiles = 6;
+      let loadedFiles = 0;
+      
+      async function updateProgress() {
+        loadedFiles++;
+        const progress = Math.floor((loadedFiles / totalFiles) * 100);
+        document.getElementById('loading-progress').style.width = `${progress}%`;
+      }
+
+      try {
+        // Load circuits data
+        const circuitsResponse = await fetch('/static/data/circuits.csv');
+        const circuitsText = await circuitsResponse.text();
+        F1Data.circuits = Papa.parse(circuitsText, { header: true, skipEmptyLines: true }).data;
+        await updateProgress();
+
+        // Load drivers data
+        const driversResponse = await fetch('/static/data/drivers.csv');
+        const driversText = await driversResponse.text();
+        F1Data.drivers = Papa.parse(driversText, { header: true, skipEmptyLines: true }).data;
+        await updateProgress();
+
+        // Load teams data
+        const teamsResponse = await fetch('/static/data/teams.csv');
+        const teamsText = await teamsResponse.text();
+        F1Data.teams = Papa.parse(teamsText, { header: true, skipEmptyLines: true }).data;
+        await updateProgress();
+
+        // Load events data
+        const eventsResponse = await fetch('/static/data/events.csv');
+        const eventsText = await eventsResponse.text();
+        F1Data.events = Papa.parse(eventsText, { header: true, skipEmptyLines: true, dynamicTyping: true }).data;
+        await updateProgress();
+
+        // Load results data
+        const resultsResponse = await fetch('/static/data/results_raw.csv');
+        const resultsText = await resultsResponse.text();
+        F1Data.results = Papa.parse(resultsText, { header: true, skipEmptyLines: true, dynamicTyping: true }).data;
+        await updateProgress();
+
+        // Load driver team season data
+        const driverTeamResponse = await fetch('/static/data/driver_team_season.csv');
+        const driverTeamText = await driverTeamResponse.text();
+        F1Data.driverTeamSeason = Papa.parse(driverTeamText, { header: true, skipEmptyLines: true, dynamicTyping: true }).data;
+        await updateProgress();
+
+        // Hide loading overlay after all data is loaded
+        setTimeout(() => {
+          document.getElementById('loading-overlay').style.display = 'none';
+          
+          // Initialize dashboard with data
+          initialize();
+        }, 500);
+
+      } catch (error) {
+        console.error('Error loading data:', error);
+        alert('Failed to load data. Please refresh the page.');
+      }
+    }
+
+    // Helper functions
+    function getDriverTeam(driverRef, season) {
+      const pairing = F1Data.driverTeamSeason.find(d => d.driver_ref === driverRef && d.season === season);
+      if (pairing) {
+        const team = F1Data.teams.find(t => t.constructor_ref === pairing.constructor_ref);
+        return team ? team.name : pairing.constructor_ref;
+      }
+      return 'Unknown Team';
+    }
+
+    function getTeamColor(constructorRef) {
+      const team = F1Data.teams.find(t => t.constructor_ref === constructorRef);
+      return team?.team_color || '#cccccc';
+    }
+
+    function getRaceResults(circuitRef, season) {
+      const event = F1Data.events.find(e => e.circuit_ref === circuitRef && e.season === season);
+      if (!event) return [];
+      
+      const raceResults = F1Data.results.filter(r => 
+        r.season === season && 
+        r.round === event.round
+      ).sort((a, b) => a.finishing_position - b.finishing_position);
+      
+      return raceResults.map(result => {
+        const driver = F1Data.drivers.find(d => d.driver_ref === result.driver_ref);
+        return {
+          ...result,
+          driver_name: driver ? driver.full_name : result.driver_ref
+        };
+      });
+    }
+
+    function getDriverResults(driverRef, season) {
+      if (!driverRef) return [];
+      
+      const driverResults = F1Data.results.filter(r => 
+        r.season === season && 
+        r.driver_ref === driverRef
+      ).sort((a, b) => a.round - b.round);
+      
+      return driverResults.map(result => {
+        const event = F1Data.events.find(e => e.season === result.season && e.round === result.round);
+        const circuit = F1Data.circuits.find(c => c.CircuitId === event?.circuit_ref);
+        return {
+          ...result,
+          event_name: event?.event_name || `Round ${result.round}`,
+          circuit_name: circuit?.CircuitName || 'Unknown Circuit'
+        };
+      });
+    }
+
+    function getSeasonRaces(season) {
+      return F1Data.events
+        .filter(e => e.season === season)
+        .sort((a, b) => a.round - b.round)
+        .map(event => {
+          const circuit = F1Data.circuits.find(c => c.CircuitId === event.circuit_ref);
+          return {
+            ...event,
+            circuit_name: circuit?.CircuitName || 'Unknown',
+            location: circuit?.Location || 'Unknown',
+            country: circuit?.Country || 'Unknown'
+          };
+        });
+    }
+
+    function getDriverPerformanceData(driverRef, season) {
+      if (!driverRef) return [];
+      
+      const driverResults = getDriverResults(driverRef, season);
+      
+      return driverResults.map(result => ({
+        round: result.round,
+        event: result.event_name,
+        position: result.finishing_position,
+        points: result.points,
+        grid: result.grid_position
+      }));
+    }
+
+    // Calculate driver standings
+    function calculateDriverStandings(season) {
+      const filteredResults = F1Data.results.filter(result => result.season === season);
+      
+      // Group by driver and sum points
+      const standingsMap = {};
+      
+      filteredResults.forEach(result => {
+        if (!standingsMap[result.driver_ref]) {
+          const driver = F1Data.drivers.find(d => d.driver_ref === result.driver_ref);
+          standingsMap[result.driver_ref] = {
+            driver_ref: result.driver_ref,
+            name: driver ? driver.full_name : result.driver_ref,
+            constructor_ref: result.constructor_ref,
+            points: 0,
+            wins: 0
+          };
+        }
+        
+        standingsMap[result.driver_ref].points += result.points;
+        if (result.finishing_position === 1) {
+          standingsMap[result.driver_ref].wins += 1;
+        }
+
+        // Set the constructor for the driver (last one will override previous)
+        standingsMap[result.driver_ref].constructor_ref = result.constructor_ref;
+      });
+      
+      // Convert to array and sort by points
+      const standingsArray = Object.values(standingsMap)
+        .sort((a, b) => b.points - a.points)
+        .map((driver, index) => ({
+          ...driver,
+          position: index + 1
+        }));
+      
+      return standingsArray;
+    }
+
+    // Calculate constructor standings
+    function calculateConstructorStandings(season) {
+      const filteredResults = F1Data.results.filter(result => result.season === season);
+      
+      // Group by constructor and sum points
+      const standingsMap = {};
+      
+      filteredResults.forEach(result => {
+        if (!standingsMap[result.constructor_ref]) {
+          const team = F1Data.teams.find(t => t.constructor_ref === result.constructor_ref);
+          standingsMap[result.constructor_ref] = {
+            constructor_ref: result.constructor_ref,
+            name: team ? team.name : result.constructor_ref,
+            points: 0,
+            wins: 0,
+            color: team?.team_color || '#cccccc'
+          };
+        }
+        
+        standingsMap[result.constructor_ref].points += result.points;
+        if (result.finishing_position === 1) {
+          standingsMap[result.constructor_ref].wins += 1;
+        }
+      });
+      
+      // Convert to array and sort by points
+      const standingsArray = Object.values(standingsMap)
+        .sort((a, b) => b.points - a.points)
+        .map((constructor, index) => ({
+          ...constructor,
+          position: index + 1
+        }));
+      
+      return standingsArray;
+    }
+
+    // Update driver standings table
+    function updateDriverStandingsTable() {
+      const tableBody = document.getElementById('driver-standings-table').querySelector('tbody');
+      tableBody.innerHTML = '';
+      
+      F1Data.driverStandings.forEach(driver => {
+        const row = document.createElement('tr');
+        row.className = 'border-t hover:bg-gray-50 cursor-pointer';
+        row.innerHTML = `
+          <td class="p-2">${driver.position}</td>
+          <td class="p-2 font-medium">${driver.name}</td>
+          <td class="p-2">${getDriverTeam(driver.driver_ref, F1Data.selectedSeason)}</td>
+          <td class="p-2 text-right">${driver.points.toFixed(0)}</td>
+          <td class="p-2 text-right">${driver.wins}</td>
+        `;
+        
+        row.addEventListener('click', () => {
+          F1Data.selectedDriver = driver.driver_ref;
+          setActiveTab('drivers');
+          updateDriversTab();
+        });
+        
+        tableBody.appendChild(row);
+      });
+    }
+
+    // Update constructor standings chart
+    function updateConstructorStandingsChart() {
+      // Destroy previous chart if it exists
+      if (F1Data.charts.constructorStandings) {
+        F1Data.charts.constructorStandings.destroy();
+      }
+      
+      const ctx = document.getElementById('constructor-standings-chart').getContext('2d');
+      
+      // Prepare data for horizontal bar chart
+      const data = {
+        labels: F1Data.constructorStandings.map(team => team.name),
+        datasets: [{
+          label: 'Points',
+          data: F1Data.constructorStandings.map(team => team.points),
+          backgroundColor: F1Data.constructorStandings.map(team => team.color || '#cccccc'),
+          borderColor: 'rgba(255, 255, 255, 0.5)',
+          borderWidth: 1
+        }]
+      };
+      
+      // Create horizontal bar chart
+      F1Data.charts.constructorStandings = new Chart(ctx, {
+        type: 'bar',
+        data: data,
+        options: {
+          indexAxis: 'y',
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+            x: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: 'Points'
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // Update race calendar
+    function updateRaceCalendar() {
+      const container = document.getElementById('race-calendar');
+      container.innerHTML = '';
+      
+      const races = getSeasonRaces(F1Data.selectedSeason);
+      
+      races.forEach(race => {
+        const raceElement = document.createElement('div');
+        raceElement.className = `flex-none w-64 p-4 rounded-lg border ${F1Data.selectedCircuit === race.circuit_ref ? 'border-red-600 bg-red-50' : 'border-gray-200'}`;
+        raceElement.innerHTML = `
+          <div class="font-bold text-lg">${race.event_name}</div>
+          <div>${race.circuit_name}</div>
+          <div class="text-gray-600">${race.location}, ${race.country}</div>
+          <div class="mt-2 text-sm">Round ${race.round} | ${race.event_date}</div>
+        `;
+        
+        raceElement.addEventListener('click', () => {
+          F1Data.selectedCircuit = race.circuit_ref;
+          setActiveTab('races');
+          updateRacesTab();
+        });
+        
+        container.appendChild(raceElement);
+      });
+    }
+
+    // Update drivers tab
+    function updateDriversTab() {
+      // Update year in header
+      document.getElementById('drivers-year').textContent = F1Data.selectedSeason;
+      
+      // Update drivers table
+      const tableBody = document.getElementById('drivers-table').querySelector('tbody');
+      tableBody.innerHTML = '';
+      
+      const seasonDrivers = F1Data.drivers
+        .filter(driver => F1Data.driverTeamSeason.some(d => 
+          d.driver_ref === driver.driver_ref && 
+          d.season === F1Data.selectedSeason
+        ))
+        .sort((a, b) => a.full_name.localeCompare(b.full_name));
+      
+      seasonDrivers.forEach(driver => {
+        const row = document.createElement('tr');
+        row.className = `border-t hover:bg-gray-50 cursor-pointer ${F1Data.selectedDriver === driver.driver_ref ? 'bg-red-50' : ''}`;
+        row.innerHTML = `
+          <td class="p-2 font-medium">${driver.full_name}</td>
+          <td class="p-2">${getDriverTeam(driver.driver_ref, F1Data.selectedSeason)}</td>
+        `;
+        
+        row.addEventListener('click', () => {
+          F1Data.selectedDriver = driver.driver_ref;
+          updateDriverDetails();
+          
+          // Highlight selected driver
+          document.querySelectorAll('#drivers-table tbody tr').forEach(tr => {
+            tr.classList.remove('bg-red-50');
+          });
+          row.classList.add('bg-red-50');
+        });
+        
+        tableBody.appendChild(row);
+      });
+      
+      // Update driver details if a driver is selected
+      updateDriverDetails();
+    }
+
+    // Update driver details
+    function updateDriverDetails() {
+      const container = document.getElementById('driver-details');
+      
+      if (!F1Data.selectedDriver) {
+        container.innerHTML = `
+          <div class="flex items-center justify-center h-64">
+            <p class="text-lg text-gray-500">Select a driver to view details</p>
+          </div>
+        `;
+        return;
+      }
+      
+      const driver = F1Data.drivers.find(d => d.driver_ref === F1Data.selectedDriver);
+      if (!driver) return;
+      
+      const team = getDriverTeam(F1Data.selectedDriver, F1Data.selectedSeason);
+      const driverData = getDriverPerformanceData(F1Data.selectedDriver, F1Data.selectedSeason);
+      
+      container.innerHTML = `
+        <div class="mb-4">
+          <h2 class="text-2xl font-bold">${driver.full_name}</h2>
+          <div class="text-lg">${team} | #${driver.number} | ${driver.nationality}</div>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-2">Season Performance</h3>
+        <div class="h-80 mb-4">
+          <canvas id="driver-performance-chart"></canvas>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-2 mt-12">Race Results</h3>
+        <div class="overflow-auto max-h-64">
+          <table class="min-w-full">
+            <thead>
+              <tr class="bg-gray-100">
+                <th class="p-2 text-left">Round</th>
+                <th class="p-2 text-left">Race</th>
+                <th class="p-2 text-center">Grid</th>
+                <th class="p-2 text-center">Pos</th>
+                <th class="p-2 text-right">Points</th>
+              </tr>
+            </thead>
+            <tbody id="driver-results-table"></tbody>
+          </table>
+        </div>
+      `;
+      
+      // Create performance chart
+      if (F1Data.charts.driverPerformance) {
+        F1Data.charts.driverPerformance.destroy();
+      }
+      
+      const ctx = document.getElementById('driver-performance-chart').getContext('2d');
+      
+      F1Data.charts.driverPerformance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: driverData.map(d => `R${d.round}`),
+          datasets: [
+            {
+              label: 'Finishing Position',
+              data: driverData.map(d => d.position),
+              borderColor: '#FF5733',
+              backgroundColor: 'rgba(255, 87, 51, 0.1)',
+              tension: 0.1,
+              pointRadius: 5
+            },
+            {
+              label: 'Grid Position',
+              data: driverData.map(d => d.grid),
+              borderColor: '#33C9FF',
+              backgroundColor: 'rgba(51, 201, 255, 0.1)',
+              tension: 0.1,
+              pointRadius: 5
+            }
+          ]
+        },
+        options: {
+          scales: {
+            y: {
+              reverse: true,
+              min: 1,
+              max: 20,
+              title: {
+                display: true,
+                text: 'Position'
+              }
+            }
+          }
+        }
+      });
+      
+      // Fill results table
+      const resultsTable = document.getElementById('driver-results-table');
+      
+      driverData.forEach(result => {
+        const row = document.createElement('tr');
+        row.className = 'border-t';
+        row.innerHTML = `
+          <td class="p-2">${result.round}</td>
+          <td class="p-2">${result.event}</td>
+          <td class="p-2 text-center">${result.grid}</td>
+          <td class="p-2 text-center">${result.position}</td>
+          <td class="p-2 text-right">${result.points}</td>
+        `;
+        
+        resultsTable.appendChild(row);
+      });
+    }
+
+    // Update teams tab
+    function updateTeamsTab() {
+      // Update year in header
+      document.getElementById('teams-year').textContent = F1Data.selectedSeason;
+      document.getElementById('team-drivers-year').textContent = F1Data.selectedSeason;
+      
+      // Update teams table
+      const tableBody = document.getElementById('teams-table').querySelector('tbody');
+      tableBody.innerHTML = '';
+      
+      F1Data.constructorStandings.forEach(team => {
+        const row = document.createElement('tr');
+        row.className = 'border-t hover:bg-gray-50';
+        row.style.borderLeftWidth = '4px';
+        row.style.borderLeftColor = team.color || '#ccc';
+        
+        row.innerHTML = `
+          <td class="p-2">${team.position}</td>
+          <td class="p-2 font-medium">${team.name}</td>
+          <td class="p-2 text-right">${team.points.toFixed(0)}</td>
+          <td class="p-2 text-right">${team.wins}</td>
+        `;
+        
+        tableBody.appendChild(row);
+      });
+      
+      // Update team distribution chart
+      if (F1Data.charts.teamDistribution) {
+        F1Data.charts.teamDistribution.destroy();
+      }
+      
+      const distributionCtx = document.getElementById('team-distribution-chart').getContext('2d');
+      
+      F1Data.charts.teamDistribution = new Chart(distributionCtx, {
+        type: 'pie',
+        data: {
+          labels: F1Data.constructorStandings.map(team => team.name),
+          datasets: [{
+            data: F1Data.constructorStandings.map(team => team.points),
+            backgroundColor: F1Data.constructorStandings.map(team => team.color || COLORS[0]),
+            borderColor: '#fff',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  const label = context.label || '';
+                  const value = context.raw || 0;
+                  const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                  const percentage = Math.round((value / total) * 100);
+                  return `${label}: ${value} points (${percentage}%)`;
+                }
+              }
+            }
+          }
+        }
+      });
+      
+      // Update team drivers grid
+      const teamDriversGrid = document.getElementById('team-drivers-grid');
+      teamDriversGrid.innerHTML = '';
+      
+      const teamsInSeason = F1Data.teams
+        .filter(team => F1Data.constructorStandings.some(c => c.constructor_ref === team.constructor_ref))
+        .sort((a, b) => {
+          const aStanding = F1Data.constructorStandings.find(c => c.constructor_ref === a.constructor_ref);
+          const bStanding = F1Data.constructorStandings.find(c => c.constructor_ref === b.constructor_ref);
+          return (aStanding?.position || 99) - (bStanding?.position || 99);
+        });
+      
+      teamsInSeason.forEach(team => {
+        const teamDrivers = F1Data.drivers.filter(driver => 
+          F1Data.driverTeamSeason.some(d => 
+            d.driver_ref === driver.driver_ref && 
+            d.constructor_ref === team.constructor_ref && 
+            d.season === F1Data.selectedSeason
+          )
+        );
+        
+        const teamElement = document.createElement('div');
+        teamElement.className = 'p-4 rounded-lg border';
+        teamElement.style.borderLeftWidth = '4px';
+        teamElement.style.borderLeftColor = team.team_color || '#ccc';
+        
+        let driversHtml = '';
+        teamDrivers.forEach(driver => {
+          driversHtml += `
+            <div class="py-1 cursor-pointer hover:text-red-600" data-driver="${driver.driver_ref}">
+              ${driver.full_name} (${driver.abbreviation})
+            </div>
+          `;
+        });
+        
+        teamElement.innerHTML = `
+          <h3 class="font-bold text-lg">${team.name}</h3>
+          <p class="text-sm text-gray-600">${team.nationality}</p>
+          <div class="mt-2">
+            ${driversHtml}
+          </div>
+        `;
+        
+        // Add event listeners to driver elements
+        teamElement.querySelectorAll('[data-driver]').forEach(element => {
+          element.addEventListener('click', () => {
+            F1Data.selectedDriver = element.dataset.driver;
+            setActiveTab('drivers');
+            updateDriversTab();
+          });
+        });
+        
+        teamDriversGrid.appendChild(teamElement);
+      });
+    }
+
+    // Update races tab
+    function updateRacesTab() {
+      // Update year in header
+      document.getElementById('races-year').textContent = F1Data.selectedSeason;
+      
+      // Update race selector
+      const raceSelector = document.getElementById('race-selector');
+      raceSelector.innerHTML = '';
+      
+      const races = getSeasonRaces(F1Data.selectedSeason);
+      
+      races.forEach(race => {
+        const raceElement = document.createElement('div');
+        raceElement.className = `p-3 rounded-lg border cursor-pointer ${F1Data.selectedCircuit === race.circuit_ref ? 'border-red-600 bg-red-50' : 'border-gray-200 hover:bg-gray-50'}`;
+        raceElement.innerHTML = `
+          <div class="font-bold">${race.event_name}</div>
+          <div class="text-sm text-gray-600">Round ${race.round} | ${race.event_date}</div>
+          <div class="text-sm">${race.circuit_name}</div>
+        `;
+        
+        raceElement.addEventListener('click', () => {
+          F1Data.selectedCircuit = race.circuit_ref;
+          updateRaceResults();
+          
+          // Highlight selected race
+          document.querySelectorAll('#race-selector > div').forEach(div => {
+            div.classList.remove('border-red-600', 'bg-red-50');
+            div.classList.add('border-gray-200');
+          });
+          raceElement.classList.remove('border-gray-200');
+          raceElement.classList.add('border-red-600', 'bg-red-50');
+        });
+        
+        raceSelector.appendChild(raceElement);
+      });
+      
+      // Update race results
+      updateRaceResults();
+    }
+
+    // Update race results
+    function updateRaceResults() {
+      const container = document.getElementById('race-results');
+      
+      if (!F1Data.selectedCircuit) {
+        container.innerHTML = `
+          <div class="flex items-center justify-center h-64">
+            <p class="text-lg text-gray-500">Select a race to view results</p>
+          </div>
+        `;
+        return;
+      }
+      
+      const race = F1Data.events.find(e => e.circuit_ref === F1Data.selectedCircuit && e.season === F1Data.selectedSeason);
+      const circuit = F1Data.circuits.find(c => c.CircuitId === F1Data.selectedCircuit);
+      const raceResults = getRaceResults(F1Data.selectedCircuit, F1Data.selectedSeason);
+      
+      if (!race || !circuit || raceResults.length === 0) {
+        container.innerHTML = `
+          <div class="flex items-center justify-center h-64">
+            <p class="text-lg text-gray-500">No race results available</p>
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = `
+        <div class="mb-4">
+          <h2 class="text-2xl font-bold">${race.event_name}</h2>
+          <div class="text-lg">${circuit.CircuitName} | ${circuit.Location}, ${circuit.Country}</div>
+          <div class="text-gray-600">Round ${race.round} | ${race.event_date}</div>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-2">Race Results</h3>
+        <div class="overflow-auto max-h-96">
+          <table class="min-w-full">
+            <thead>
+              <tr class="bg-gray-100">
+                <th class="p-2 text-left">Pos</th>
+                <th class="p-2 text-left">Driver</th>
+                <th class="p-2 text-left">Team</th>
+                <th class="p-2 text-center">Grid</th>
+                <th class="p-2 text-right">Points</th>
+              </tr>
+            </thead>
+            <tbody id="race-results-table"></tbody>
+          </table>
+        </div>
+      `;
+      
+      const resultsTable = document.getElementById('race-results-table');
+      
+      raceResults.forEach(result => {
+        const team = F1Data.teams.find(t => t.constructor_ref === result.constructor_ref);
+        const row = document.createElement('tr');
+        row.className = 'border-t hover:bg-gray-50 cursor-pointer';
+        row.style.borderLeftWidth = '4px';
+        row.style.borderLeftColor = getTeamColor(result.constructor_ref);
+        
+        row.innerHTML = `
+          <td class="p-2">${result.finishing_position}</td>
+          <td class="p-2 font-medium">${result.driver_name}</td>
+          <td class="p-2">${team ? team.name : result.constructor_ref}</td>
+          <td class="p-2 text-center">${result.grid_position}</td>
+          <td class="p-2 text-right">${result.points}</td>
+        `;
+        
+        row.addEventListener('click', () => {
+          F1Data.selectedDriver = result.driver_ref;
+          setActiveTab('drivers');
+          updateDriversTab();
+        });
+        
+        resultsTable.appendChild(row);
+      });
+    }
+
+    // Set active tab
+    function setActiveTab(tabName) {
+      F1Data.activeTab = tabName;
+      
+      // Show active tab content, hide others
+      document.querySelectorAll('[id^="tab-"]').forEach(element => {
+        if (element.id === `tab-${tabName}`) {
+          element.classList.remove('hidden');
+        } else {
+          element.classList.add('hidden');
+        }
+      });
+      
+      // Update tab navigation UI (for the custom tabs)
+      document.querySelectorAll('#custom-tab-navigation .nav-tab').forEach(tab => {
+        if (tab.getAttribute('data-tab') === tabName) {
+          tab.classList.add('active');
+        } else {
+          tab.classList.remove('active');
+        }
+      });
+      
+      // Update tab content based on active tab
+      switch (tabName) {
+        case 'drivers':
+          updateDriversTab();
+          break;
+        case 'teams':
+          updateTeamsTab();
+          break;
+        case 'races':
+          updateRacesTab();
+          break;
+        case 'overview':
+        default:
+          // Overview tab is already updated
+          break;
+      }
+      
+      console.log('Tab switched to:', tabName);
+    }
+
+    // Update season data when season is changed
+    function updateSeasonData() {
+      // Update year displays
+      document.getElementById('standings-year').textContent = F1Data.selectedSeason;
+      document.getElementById('constructor-year').textContent = F1Data.selectedSeason;
+      document.getElementById('calendar-year').textContent = F1Data.selectedSeason;
+      
+      // Calculate standings for selected season
+      F1Data.driverStandings = calculateDriverStandings(F1Data.selectedSeason);
+      F1Data.constructorStandings = calculateConstructorStandings(F1Data.selectedSeason);
+      
+      // Update overview tab
+      updateDriverStandingsTable();
+      updateConstructorStandingsChart();
+      updateRaceCalendar();
+      
+      // Update active tab
+      setActiveTab(F1Data.activeTab);
+    }
+
+    // Initialize dashboard
+    function initialize() {
+      // Set up season selector
+      document.getElementById('season-selector').addEventListener('click', event => {
+        if (event.target.tagName === 'BUTTON') {
+          // Get season from button data attribute
+          const season = parseInt(event.target.getAttribute('data-season'));
+          
+          // Update selected season buttons
+          document.querySelectorAll('#season-selector button').forEach(button => {
+            if (parseInt(button.getAttribute('data-season')) === season) {
+              button.classList.add('bg-red-600', 'text-white');
+              button.classList.remove('bg-gray-200');
+            } else {
+              button.classList.remove('bg-red-600', 'text-white');
+              button.classList.add('bg-gray-200');
+            }
+          });
+          
+          // Set selected season and update data
+          F1Data.selectedSeason = season;
+          updateSeasonData();
+        }
+      });
+      
+      // Set up custom tab navigation
+      document.getElementById('custom-tab-navigation').addEventListener('click', event => {
+        const tabElement = event.target.closest('.nav-tab');
+        if (tabElement) {
+          const tabName = tabElement.getAttribute('data-tab');
+          setActiveTab(tabName);
+        }
+      });
+      
+      // Initialize with data for selected season
+      updateSeasonData();
+      
+      console.log('Tab navigation should be visible now');
+    }
+
+    // Start loading data when page loads
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
 </body>
 </html>

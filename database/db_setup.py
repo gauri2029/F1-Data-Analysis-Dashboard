@@ -1,5 +1,7 @@
 import sqlite3
 import os
+import traceback
+import sys
 
 def get_db_path():
     """Returns the path to the SQLite database file"""
@@ -14,31 +16,51 @@ def init_db():
     """Initialize the database by creating all tables"""
     db_path = get_db_path()
     
-    # Check if database already exists
-    db_exists = os.path.exists(db_path)
-    
-    # Create a connection to the database
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    
-    # Read and execute the schema.sql file
-    schema_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'schema.sql')
-    with open(schema_path, 'r') as f:
-        schema_sql = f.read()
+    try:
+        db_exists = os.path.exists(db_path)
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
         
-    cursor.executescript(schema_sql)
+        schema_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'schema.sql')
+        
+        print(f"Schema path: {schema_path}")
+        print(f"Schema exists: {os.path.exists(schema_path)}")
+        
+        if not os.path.exists(schema_path):
+            raise FileNotFoundError(f"Schema file not found at {schema_path}")
+        
+        with open(schema_path, 'r') as f:
+            schema_sql = f.read()
+            
+        try:
+            cursor.executescript(schema_sql)
+            print("Schema executed successfully")
+        except sqlite3.Error as e:
+            print(f"SQLite error executing schema: {e}")
+            traceback.print_exc()
+            raise
+        
+        conn.commit()
+        conn.close()
+        
+        print("Database initialization completed successfully")
+        return not db_exists
     
-    # Commit changes and close connection
-    conn.commit()
-    conn.close()
-    
-    return not db_exists  # Return True if a new database was created
+    except Exception as e:
+        print(f"Error initializing database: {e}")
+        traceback.print_exc()
+        return False
 
 def get_db_connection():
     """Get a connection to the SQLite database"""
-    conn = sqlite3.connect(get_db_path())
-    conn.row_factory = sqlite3.Row  # This enables column access by name
-    return conn
+    try:
+        conn = sqlite3.connect(get_db_path())
+        conn.row_factory = sqlite3.Row
+        return conn
+    except Exception as e:
+        print(f"Error connecting to database: {e}")
+        traceback.print_exc()
+        return None
 
 if __name__ == "__main__":
     # When run directly, initialize the database

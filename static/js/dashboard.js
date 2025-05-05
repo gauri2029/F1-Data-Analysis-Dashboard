@@ -1,245 +1,192 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // DOM elements
-    const seasonSelect = document.getElementById('seasonSelect');
-    const loadSeasonBtn = document.getElementById('loadSeasonBtn');
-    const raceSelect = document.getElementById('raceSelect');
-    const loadRaceBtn = document.getElementById('loadRaceBtn');
-    
-    // Initialize variables
-    let currentSeasonId = 1; // Default to 2023 (season_id = 1)
-    let currentEventId = null;
-    
-    // Event listeners
-    loadSeasonBtn.addEventListener('click', function() {
-        const selectedYear = seasonSelect.value;
-        loadSeasonData(selectedYear);
-        
-        // Update currentSeasonId based on the selected year
-        currentSeasonId = selectedYear === '2023' ? 1 : 2;
-        
-        // Reset race selection
-        raceSelect.innerHTML = '<option value="">Select a race...</option>';
-        currentEventId = null;
+// Dashboard.js (Full CSV-based visualizations with strict event_id matching fix)
+
+const loadCSV = (path) => {
+  return new Promise((resolve, reject) => {
+    Papa.parse(path, {
+      header: true,
+      download: true,
+      complete: (results) => resolve(results.data),
+      error: reject
     });
-    
-    loadRaceBtn.addEventListener('click', function() {
-        const selectedEventId = raceSelect.value;
-        if (selectedEventId) {
-            currentEventId = selectedEventId;
-            loadRaceData(currentEventId);
-        } else {
-            alert('Please select a race first.');
-        }
+  });
+};
+
+const normalize = str => str?.toLowerCase().trim();
+
+document.addEventListener('DOMContentLoaded', () => {
+  const seasonSelect = document.getElementById('seasonSelect');
+  const loadSeasonBtn = document.getElementById('loadSeasonBtn');
+  const raceSelect = document.getElementById('raceSelect');
+  const loadRaceBtn = document.getElementById('loadRaceBtn');
+
+  const lapTimesChart = document.getElementById('lapTimesChart');
+  const podiumsChart = document.getElementById('podiumsChart');
+  const tireAgeChart = document.getElementById('tireAgeChart');
+  const driverStandingsBody = document.getElementById('driverStandingsBody');
+
+  loadSeasonBtn.addEventListener('click', async () => {
+    const year = seasonSelect.value;
+    const events = await loadCSV(`/static/data/events.csv`);
+    const filteredEvents = events.filter(e => e.season === year);
+
+    raceSelect.innerHTML = '<option value="">Select a race...</option>';
+    filteredEvents.forEach(ev => {
+      const opt = document.createElement('option');
+      opt.value = ev.event_id;
+      opt.textContent = `Round ${ev.round}: ${ev.event_name}`;
+      raceSelect.appendChild(opt);
     });
-    
-    // Functions to fetch data from API
-    async function loadSeasonData(year) {
-        try {
-            // Fetch events for the selected season
-            const eventsResponse = await fetch(`/api/events/${year}`);
-            const events = await eventsResponse.json();
-            
-            // Populate race selection dropdown
-            raceSelect.innerHTML = '<option value="">Select a race...</option>';
-            events.forEach(event => {
-                const option = document.createElement('option');
-                option.value = event.event_id;
-                option.textContent = `Round ${event.round}: ${event.event_name}`;
-                raceSelect.appendChild(option);
-            });
-            
-            // Load podium finishes by team (season-level analysis)
-            loadPodiumFinishes(currentSeasonId);
-            
-            // Load qualifying positions (season-level analysis)
-            loadQualifyingPositions(currentSeasonId);
-            
-            // Show a message
-            alert(`Loaded ${events.length} races for the ${year} season.`);
-        } catch (error) {
-            console.error('Error loading season data:', error);
-            alert('Error loading season data. Check the console for details.');
-        }
-    }
-    
-    async function loadRaceData(eventId) {
-        try {
-            // Fetch sessions for the selected event
-            const sessionsResponse = await fetch(`/api/sessions/${eventId}`);
-            const sessions = await sessionsResponse.json();
-            
-            // Find the race session (code = 'R')
-            const raceSession = sessions.find(session => session.session_code === 'R');
-            
-            if (raceSession) {
-                // Load lap times comparison (race-level analysis)
-                loadLapTimesComparison(eventId);
-                
-                // Load tire age analysis (race-level analysis)
-                loadTireAgeAnalysis(eventId);
-                
-                // Show a message
-                alert(`Loaded data for race session on ${raceSession.start_time}.`);
-            } else {
-                alert('No race session found for this event.');
-            }
-        } catch (error) {
-            console.error('Error loading race data:', error);
-            alert('Error loading race data. Check the console for details.');
-        }
-    }
-    
-    // Functions to load analysis data and create charts
-    async function loadLapTimesComparison(eventId) {
-        try {
-            const response = await fetch(`/api/analysis/lap-times-comparison/${eventId}`);
-            const data = await response.json();
-            
-            // Group by driver name
-            const driverData = {};
-            data.forEach(item => {
-                if (!driverData[item.driver_name]) {
-                    driverData[item.driver_name] = {
-                        name: item.driver_name,
-                        abbreviation: item.abbreviation,
-                        team_name: item.team_name,
-                        team_color: item.team_color,
-                        compounds: {}
-                    };
-                }
-                driverData[item.driver_name].compounds[item.compound] = item.avg_lap_time;
-            });
-            
-            // Create data for the chart
-            const chartData = [];
-            Object.values(driverData).forEach(driver => {
-                const trace = {
-                    x: Object.keys(driver.compounds),
-                    y: Object.values(driver.compounds),
-                    type: 'bar',
-                    name: driver.abbreviation,
-                    marker: {
-                        color: driver.team_color || '#000000'
-                    }
-                };
-                chartData.push(trace);
-            });
-            
-            // Create the chart
-            Plotly.newPlot('lapTimesChart', chartData, {
-                title: 'Average Lap Times by Compound',
-                xaxis: { title: 'Tire Compound' },
-                yaxis: { title: 'Average Lap Time (seconds)' },
-                barmode: 'group'
-            });
-        } catch (error) {
-            console.error('Error loading lap times comparison:', error);
-        }
-    }
-    
-    async function loadPodiumFinishes(seasonId) {
-        try {
-            const response = await fetch(`/api/analysis/podium-finishes/${seasonId}`);
-            const data = await response.json();
-            
-            // Create data for the chart
-            const chartData = [{
-                x: data.map(item => item.team_name),
-                y: data.map(item => item.podium_count),
-                type: 'bar',
-                marker: {
-                    color: data.map(item => item.team_color || '#000000')
-                }
-            }];
-            
-            // Create the chart
-            Plotly.newPlot('podiumsChart', chartData, {
-                title: 'Podium Finishes by Team',
-                xaxis: { title: 'Team' },
-                yaxis: { title: 'Number of Podiums' }
-            });
-        } catch (error) {
-            console.error('Error loading podium finishes:', error);
-        }
-    }
-    
-    async function loadTireAgeAnalysis(eventId) {
-        try {
-            const response = await fetch(`/api/analysis/tire-age/${eventId}`);
-            const data = await response.json();
-            
-            // Group by compound
-            const compoundData = {};
-            data.forEach(item => {
-                if (!compoundData[item.compound]) {
-                    compoundData[item.compound] = {
-                        compound: item.compound,
-                        teams: [],
-                        stint_lengths: [],
-                        colors: []
-                    };
-                }
-                compoundData[item.compound].teams.push(item.team_name);
-                compoundData[item.compound].stint_lengths.push(item.avg_stint_length);
-                compoundData[item.compound].colors.push(item.team_color || '#000000');
-            });
-            
-            // Create data for the chart
-            const chartData = [];
-            Object.values(compoundData).forEach(compound => {
-                const trace = {
-                    x: compound.teams,
-                    y: compound.stint_lengths,
-                    type: 'bar',
-                    name: compound.compound,
-                    marker: {
-                        color: compound.colors
-                    }
-                };
-                chartData.push(trace);
-            });
-            
-            // Create the chart
-            Plotly.newPlot('tireAgeChart', chartData, {
-                title: 'Average Stint Length by Tire Compound',
-                xaxis: { title: 'Team' },
-                yaxis: { title: 'Average Stint Length (laps)' },
-                barmode: 'group'
-            });
-        } catch (error) {
-            console.error('Error loading tire age analysis:', error);
-        }
-    }
-    
-    async function loadQualifyingPositions(seasonId) {
-        try {
-            const response = await fetch(`/api/analysis/qualifying-positions/${seasonId}`);
-            const data = await response.json();
-            
-            // Sort data by average qualifying position
-            data.sort((a, b) => a.avg_grid_position - b.avg_grid_position);
-            
-            // Create data for the chart
-            const chartData = [{
-                x: data.map(item => item.abbreviation),
-                y: data.map(item => item.avg_grid_position),
-                type: 'bar',
-                marker: {
-                    color: data.map(item => item.team_color || '#000000')
-                }
-            }];
-            
-            // Create the chart
-            Plotly.newPlot('qualifyingChart', chartData, {
-                title: 'Average Qualifying Positions',
-                xaxis: { title: 'Driver' },
-                yaxis: { title: 'Average Grid Position' }
-            });
-        } catch (error) {
-            console.error('Error loading qualifying positions:', error);
-        }
-    }
-    
-    // Initialize with 2023 season data
-    loadSeasonData('2023');
+
+    await loadPodiumsChart(year);
+    await loadDriverStandings(year);
+  });
+
+  loadRaceBtn.addEventListener('click', async () => {
+    const eventId = raceSelect.value;
+    if (!eventId) return alert("Please select a race to view results.");
+    await loadLapTimesChart(eventId);
+    await loadTireAgeChart(eventId);
+  });
+
+  async function loadPodiumsChart(year) {
+    const results = await loadCSV('/static/data/results_raw.csv');
+    const teams = await loadCSV('/static/data/teams.csv');
+
+    const podiums = {};
+    results.filter(r => r.season === year && ['1', '2', '3'].includes(r.position)).forEach(r => {
+      const teamKey = normalize(r.team_name);
+      podiums[teamKey] = (podiums[teamKey] || 0) + 1;
+    });
+
+    const labels = Object.keys(podiums);
+    const values = Object.values(podiums);
+    const colors = labels.map(t => teams.find(team => normalize(team.team_name) === t)?.team_color || '#333');
+
+    Plotly.newPlot(podiumsChart, [{
+      x: labels,
+      y: values,
+      type: 'bar',
+      marker: { color: colors }
+    }], {
+      title: 'Podium Finishes by Team',
+      xaxis: { title: 'Team' },
+      yaxis: { title: 'Podium Count' }
+    });
+  }
+
+  async function loadLapTimesChart(eventId) {
+    const lapTimes = await loadCSV('/static/data/results_raw.csv');
+    const drivers = await loadCSV('/static/data/drivers.csv');
+
+    const filtered = lapTimes.filter(l => String(l.event_id) === String(eventId) && l.avg_lap_time);
+    const grouped = {};
+
+    filtered.forEach(r => {
+      const key = normalize(r.driver_name);
+      if (!grouped[key]) grouped[key] = [];
+      grouped[key].push(parseFloat(r.avg_lap_time));
+    });
+
+    const data = Object.keys(grouped).map(driver => {
+      const driverObj = drivers.find(d => normalize(d.driver_name) === driver);
+      return {
+        x: [driverObj?.abbreviation || driver],
+        y: [grouped[driver].reduce((a, b) => a + b, 0) / grouped[driver].length],
+        type: 'bar',
+        name: driverObj?.abbreviation || driver,
+        marker: { color: driverObj?.team_color || '#444' }
+      };
+    });
+
+    console.log('Lap Times Chart Data:', data);
+    Plotly.newPlot(lapTimesChart, data, {
+      title: 'Average Lap Times',
+      xaxis: { title: 'Driver' },
+      yaxis: { title: 'Avg Lap Time (s)' }
+    });
+  }
+
+  async function loadTireAgeChart(eventId) {
+    const data = await loadCSV('/static/data/results_raw.csv');
+    const teams = await loadCSV('/static/data/teams.csv');
+
+    const filtered = data.filter(r => String(r.event_id) === String(eventId) && r.compound && r.avg_stint_length);
+    const compoundMap = {};
+
+    filtered.forEach(row => {
+      const compound = row.compound;
+      const team = normalize(row.team_name);
+      if (!compoundMap[compound]) compoundMap[compound] = [];
+      compoundMap[compound].push({
+        x: row.team_name,
+        y: parseFloat(row.avg_stint_length),
+        color: teams.find(t => normalize(t.team_name) === team)?.team_color || '#666'
+      });
+    });
+
+    const chartData = Object.keys(compoundMap).map(compound => {
+      const values = compoundMap[compound];
+      return {
+        x: values.map(v => v.x),
+        y: values.map(v => v.y),
+        type: 'bar',
+        name: compound,
+        marker: { color: values.map(v => v.color) }
+      };
+    });
+
+    console.log('Tire Age Chart Data:', chartData);
+    Plotly.newPlot(tireAgeChart, chartData, {
+      title: 'Average Stint Length by Tire Compound and Team',
+      xaxis: { title: 'Team' },
+      yaxis: { title: 'Avg Stint Length (laps)' },
+      barmode: 'group'
+    });
+  }
+
+  async function loadDriverStandings(year) {
+    const results = await loadCSV('/static/data/results_raw.csv');
+    const drivers = await loadCSV('/static/data/drivers.csv');
+
+    const seasonResults = results.filter(r => r.season === year);
+    const driverMap = {};
+
+    seasonResults.forEach(r => {
+      const driverKey = normalize(r.driver_name);
+      if (!driverMap[driverKey]) {
+        driverMap[driverKey] = { points: 0, wins: 0, podiums: 0 };
+      }
+      const d = driverMap[driverKey];
+      d.points += parseFloat(r.points || 0);
+      if (r.position === '1') d.wins++;
+      if (['1', '2', '3'].includes(r.position)) d.podiums++;
+    });
+
+    const sorted = Object.entries(driverMap).map(([name, stats]) => {
+      const d = drivers.find(dr => normalize(dr.driver_name) === name);
+      return {
+        driver_name: d?.driver_name || name,
+        abbreviation: d?.abbreviation || name,
+        team_name: d?.team_name || 'Unknown',
+        team_color: d?.team_color || '#444',
+        wins: stats.wins,
+        podiums: stats.podiums,
+        total_points: stats.points
+      };
+    }).sort((a, b) => b.total_points - a.total_points);
+
+    driverStandingsBody.innerHTML = '';
+    sorted.forEach((driver, i) => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${i + 1}</td>
+        <td style="border-left: 4px solid ${driver.team_color}; padding-left: 5px;">${driver.driver_name}</td>
+        <td>${driver.team_name}</td>
+        <td>${driver.wins}</td>
+        <td>${driver.podiums}</td>
+        <td>${driver.total_points.toFixed(1)}</td>
+      `;
+      driverStandingsBody.appendChild(row);
+    });
+  }
 });
