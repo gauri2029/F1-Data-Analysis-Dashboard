@@ -35,7 +35,7 @@ The dashboard currently supports the **2023 and 2024 Formula 1 seasons**.
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1mzVdEZZwFLwwuQJYEcir7mBiYbF8HXCy/view?usp=sharing">
-    <img src="f1-dashboard-preview.png" alt="Watch the Formula 1 Dashboard demo" width="950" />
+    <img src="docs/assets/f1-dashboard-preview.png" alt="Watch the Formula 1 Dashboard demo" width="950" />
   </a>
 </p>
 
