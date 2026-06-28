@@ -1,150 +1,343 @@
-# Formula 1 Data Analysis Dashboard
+<div align="center">
 
-An interactive web-based dashboard for analyzing Formula 1 race data for the 2023 and 2024 seasons, featuring comprehensive data visualization and analysis tools.
+# 🏎️ Formula 1 Data Analysis Dashboard
 
-![F1 Dashboard Preview](https://i.imgur.com/example-preview.jpg)
+### Explore race pace, tire strategy, qualifying, weather, standings, and team performance across the 2023 and 2024 Formula 1 seasons.
 
-## Project Overview
+A full-stack analytics dashboard built with **Flask, FastF1, Plotly, SQLite, JavaScript, and Bootstrap**.
 
-This dashboard provides in-depth insights into Formula 1 driver performance, race outcomes, team statistics, and track conditions using data fetched from the FastF1 API. The application offers interactive visualizations for data analysis across multiple dimensions of F1 racing.
+[Demo](#-one-minute-demo) · [Features](#-features) · [Analytics](#-analytics) · [Quick Start](#-quick-start)
 
-## Features
+<br />
 
-### Data Analysis Capabilities
-- **Driver Lap Time Comparison**: Compare average lap times between different drivers for specific races
-- **Team Podium Analysis**: Visualize the number of podium finishes achieved by teams over a season
-- **Tire Strategy Analysis**: Examine lap times based on tire age and compound for different teams
-- **Qualifying Performance**: Track average qualifying positions of drivers across races
-- **Weather Impact Analysis**: Analyze lap time differences based on weather conditions
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Backend-000000?logo=flask&logoColor=white)
+![FastF1](https://img.shields.io/badge/FastF1-Race_Data-E10600)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-3F4F75?logo=plotly&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white)
 
-### Interactive Features
-- **Dynamic Visualizations**: Real-time, interactive charts and graphs using Plotly
-- **Personalized Analysis Saving**: Save custom analyses for future reference
-- **Responsive Design**: Optimized for both desktop and mobile devices
-- **Driver & Team Standings**: Up-to-date championship standings tables
+</div>
 
-## Technologies Used
+---
 
-- **Database**: SQLite for storing F1 data
-- **Backend**: Python (Flask) for server-side operations
-- **API Integration**: FastF1 library for accessing official Formula 1 data
-- **Frontend**: HTML, CSS, JavaScript with Plotly for visualization
-- **CSS Framework**: Bootstrap 5 for responsive design
+## 🏁 Overview
 
-## Installation and Setup
+The Formula 1 Data Analysis Dashboard transforms race data into interactive visual stories.
+
+Users can select a season and Grand Prix, compare driver pace, inspect tire degradation, study qualifying consistency, analyze weather impact, review team podium performance, and save custom analyses for later.
+
+The dashboard currently supports the **2023 and 2024 Formula 1 seasons**.
+
+---
+
+## 🎬 One-minute demo
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1mzVdEZZwFLwwuQJYEcir7mBiYbF8HXCy/view?usp=sharing">
+    <img src="f1-dashboard-preview.png" alt="Watch the Formula 1 Dashboard demo" width="950" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>▶ Click the preview to watch the one-minute demo</strong>
+</p>
+
+---
+
+## ✨ Features
+
+### Race analysis
+
+- Compare average lap times between drivers
+- Explore race-by-race pace differences
+- Analyze tire age and compound performance
+- Review changing track and weather conditions
+
+### Season analysis
+
+- Compare team podium totals
+- Track average qualifying positions
+- Review driver and constructor standings
+- Identify performance trends across the season
+
+### Interactive experience
+
+- Dynamic Plotly visualizations
+- Season and race filters
+- Driver and team selectors
+- Saved custom analyses
+- Responsive Bootstrap interface
+- FastF1-backed race data
+
+---
+
+## 📊 Analytics
+
+### Driver lap-time comparison
+
+Compare average lap times for selected drivers in a specific Grand Prix to identify pace differences and race-performance patterns.
+
+### Tire strategy analysis
+
+Explore how tire age and compound choice affect lap times, revealing degradation trends and team-specific strategy differences.
+
+### Team podium analysis
+
+Compare podium finishes across constructors to evaluate consistency throughout a season.
+
+### Qualifying performance
+
+Track average driver qualifying positions across races and identify changes in one-lap performance.
+
+### Weather impact analysis
+
+Study how track and weather conditions affect lap times and driver performance.
+
+### Championship standings
+
+Review driver and constructor standings directly within the dashboard.
+
+---
+
+## 🖼️ Dashboard preview
+
+### Race results and season navigation
+
+<p align="center">
+  <img src="docs/assets/race-view.png" alt="Formula 1 race results dashboard" width="1000" />
+</p>
+
+### Constructor standings and points distribution
+
+<p align="center">
+  <img src="docs/assets/team-analytics.png" alt="Formula 1 constructor standings and points distribution" width="1000" />
+</p>
+
+### Driver season performance
+
+<p align="center">
+  <img src="docs/assets/driver-performance.png" alt="Formula 1 driver qualifying and race performance chart" width="1000" />
+</p>
+
+---
+
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    User["User"] --> UI["HTML + CSS + JavaScript<br/>Bootstrap Dashboard"]
+
+    UI --> Flask["Flask Application"]
+
+    Flask --> Query["Query Service"]
+    Flask --> F1["FastF1 Data Service"]
+
+    F1 --> FastF1["FastF1 API / Cache"]
+    F1 --> Loader["Data Loader"]
+
+    Loader --> SQLite[("SQLite Database")]
+    Query --> SQLite
+
+    Query --> Analytics["Analytics Layer"]
+    Analytics --> Plotly["Plotly Visualizations"]
+    Plotly --> UI
+
+    UI --> Saved["Saved Analyses"]
+    Saved --> SQLite
+```
+
+### Data flow
+
+```text
+FastF1 data
+   → clean and normalize
+   → store in SQLite
+   → query by season, race, driver, or team
+   → calculate analytics
+   → render interactive Plotly charts
+   → display results in the dashboard
+```
+
+---
+
+## 🛠️ Tech stack
+
+| Layer | Technology | Responsibility |
+|---|---|---|
+| Backend | Python, Flask | Routing, data processing, dashboard APIs |
+| Data source | FastF1 | Formula 1 sessions, laps, standings, weather, and telemetry data |
+| Database | SQLite | Locally stored race data and saved analyses |
+| Frontend | HTML, CSS, JavaScript | Dashboard interface and interactions |
+| Visualization | Plotly | Interactive charts and comparisons |
+| UI framework | Bootstrap 5 | Responsive layouts and components |
+
+---
+
+## ⚡ Quick start
 
 ### Prerequisites
-- Python 3.8 or higher
+
+- Python 3.8 or newer
 - Git
 
-### Setup Instructions
+### 1. Clone the repository
 
-1. **Clone the repository**:
-   ```
-   git clone https://github.com/yourusername/F1-Data-Analysis-Dashboard.git
-   cd F1-Data-Analysis-Dashboard
-   ```
-
-2. **Create and activate a virtual environment**:
-   ```
-   # On Windows
-   python -m venv venv
-   venv\Scripts\activate
-
-   # On macOS/Linux
-   python -m venv venv
-   source venv/bin/activate
-   ```
-
-3. **Install the required dependencies**:
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. **Initialize the database and load F1 data**:
-   ```
-   python -m database.data_loader
-   ```
-   > **Note**: This process may take some time as it downloads and processes F1 data for the 2023 and 2024 seasons.
-
-5. **Start the Flask application**:
-   ```
-   python app.py
-   ```
-
-6. **Access the dashboard**:
-   Open your browser and navigate to `http://localhost:5000`
-
-## Using the Dashboard
-
-1. **Select a Season**: Choose between 2023 and 2024 F1 seasons
-2. **Select a Race**: Choose a specific Grand Prix event
-3. **Explore Data**: Navigate through the tabs to view different analyses:
-   - Race Analysis (lap times, tire strategies)
-   - Season Statistics (podiums, qualifying performance)
-   - Driver and Team Standings
-4. **Save Analyses**: Save your current view for future reference
-
-## Data Analysis Features in Detail
-
-### Lap Time Comparison
-Visualizes and compares average lap times between different drivers for a specific race, helping to identify performance patterns across different drivers and teams.
-
-### Podium Finishes Analysis
-Analyzes the number of podium finishes achieved by different teams over a season, providing insights into team performance consistency.
-
-### Tire Age Analysis
-Examines how tire age affects lap times for different teams, helping to understand tire degradation patterns and team-specific tire management strategies.
-
-### Qualifying Performance
-Tracks average qualifying positions of drivers across races, showcasing driver performance in qualifying sessions throughout the season.
-
-### Weather Condition Analysis
-Analyzes how different weather conditions impact lap times for different drivers, highlighting driver skills in varying track conditions.
-
-## Project Structure
-
+```bash
+git clone https://github.com/gauri2029/F1-Data-Analysis-Dashboard.git
+cd F1-Data-Analysis-Dashboard
 ```
+
+### 2. Create a virtual environment
+
+#### macOS or Linux
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Initialize the database
+
+```bash
+python -m database.data_loader
+```
+
+> The first load may take several minutes because FastF1 downloads and processes race data for the supported seasons.
+
+### 5. Start the application
+
+```bash
+python app.py
+```
+
+Open:
+
+```text
+http://localhost:5000
+```
+
+---
+
+## 🧭 Using the dashboard
+
+1. Select a Formula 1 season
+2. Choose a Grand Prix
+3. Open the desired analysis view
+4. Select drivers, teams, or conditions
+5. Interact with the generated Plotly chart
+6. Save the analysis for future reference
+
+---
+
+## 📁 Project structure
+
+```text
 F1-Data-Analysis-Dashboard/
-├── app.py                    # Main Flask application entry point
-├── requirements.txt          # Project dependencies
+├── app.py
+├── requirements.txt
 ├── database/
-│   ├── __init__.py           
-│   ├── db_setup.py           # Database initialization
-│   ├── schema.sql            # SQL schema
-│   └── data_loader.py        # Data loading utility
+│   ├── db_setup.py
+│   ├── schema.sql
+│   └── data_loader.py
 ├── services/
-│   ├── __init__.py           
-│   ├── f1_data_service.py    # FastF1 data fetching service
-│   └── query_service.py      # Database queries for dashboard
-├── static/                   
+│   ├── f1_data_service.py
+│   └── query_service.py
+├── static/
 │   ├── css/
-│   │   └── style.css         # Custom styling
+│   │   └── style.css
 │   └── js/
-│       └── dashboard.js      # Dashboard interactivity
-├── templates/                
-│   └── index.html            # Main dashboard template
-└── cache/                    # FastF1 cache directory
+│       └── dashboard.js
+├── templates/
+│   └── index.html
+├── cache/
+└── docs/
+    └── assets/
+        ├── f1-dashboard-demo.mp4
+        ├── f1-dashboard-preview.png
+        ├── dashboard-overview.png
+        ├── lap-comparison.png
+        └── tire-strategy.png
 ```
 
-## Troubleshooting
+---
 
-- **Database Initialization Issues**: If you encounter database errors, try removing the database file (`database/f1_database.db`) and running the data loader again.
-- **FastF1 API Errors**: FastF1 occasionally has rate limits. If you encounter API errors, wait a few minutes and try again.
-- **Chart Display Issues**: If charts don't display properly, try clearing your browser cache or using another browser.
+## 🧠 Design decisions
 
-## Contributors
+| Decision | Reason |
+|---|---|
+| FastF1 | Provides structured access to Formula 1 timing, lap, weather, and session data |
+| SQLite | Lightweight local persistence without requiring an external database |
+| Flask | Simple backend architecture for data queries and dashboard routes |
+| Plotly | Interactive charts with hover, zoom, filtering, and responsive rendering |
+| Cached race data | Reduces repeated API calls and improves local dashboard performance |
+| Saved analyses | Lets users preserve useful race and season comparisons |
 
-- Gauri Markandey - gsmarkan
-- Krisha Elle - kelle
-- Suraj Iyer - suraiyer
+---
 
-## License
+## 🔧 Troubleshooting
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Database errors
 
-## Acknowledgments
+Delete the generated database and reload the data:
 
-- [FastF1](https://github.com/theOehrly/Fast-F1) library for providing access to F1 data
-- Formula 1 for the race data
-- [Plotly](https://plotly.com/) for the visualization library
+```bash
+rm database/f1_database.db
+python -m database.data_loader
+```
+
+### FastF1 download issues
+
+FastF1 requests may occasionally fail or take longer than expected. Wait briefly and rerun the loader.
+
+### Charts do not display
+
+- Check the browser console for JavaScript errors
+- Confirm that the Flask server is running
+- Clear the browser cache
+- Try another supported browser
+
+---
+
+## 👥 Contributors
+
+This project was developed as a team coursework project.
+
+- **Gauri Markandey**
+- **Krisha Elle**
+- **Suraj Iyer**
+
+---
+
+## 🙌 Acknowledgments
+
+- [FastF1](https://github.com/theOehrly/Fast-F1) for Formula 1 timing and session data
+- [Plotly](https://plotly.com/) for interactive visualization
+- Formula 1 for the underlying race data
+
+---
+
+## 📄 License
+
+This project is available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+### Lights out — and away we analyze. 🏁
+
+</div>
